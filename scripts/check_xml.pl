@@ -56,7 +56,9 @@ pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
 
 
 our $config = {
-    'gtdir'      => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    #'gtdir'      => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/',
+    'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
     #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
     'page_train' => 'TrainingSet_ONB_Newseye_GT_M1+',
     'page_eval'  => 'ValidationSet_ONB_Newseye_GT_M1+',
@@ -79,7 +81,7 @@ my $file_limit = 0;
 
 for my $dir (qw(page_train page_eval)) {
   $current_dir = $dir;
-  my $dir_name = $config->{'gtdir'} . $config->{$dir};
+  my $dir_name = $config->{'page_dir'} . $config->{$dir};
   opendir(my $dir_dh, "$dir_name") || die "Can't opendir $dir_name: $!";
   my @files = grep { /^[^._]/ && /\.xml$/i && -f "$dir_name/$_" } readdir($dir_dh);
   closedir $dir_dh;
@@ -245,7 +247,7 @@ sub page2line_name {
 
   my $sub_dir   = $current_dir;
   $sub_dir      =~ s/page/line/; # page_(eval|train)
-  my $dir       = $config->{'gtdir'} . $config->{$sub_dir} . '/' . $page_name . '/';
+  my $dir       = $config->{'line_dir'} . $config->{$sub_dir} . '/' . $page_name . '/';
   my $line_file = $dir . $Page_imageFilename . '_' . $TL_id . '.gt.txt';
 
   return $line_file;
