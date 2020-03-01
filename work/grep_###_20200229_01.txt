@@ -1,0 +1,239 @@
+helmut@Helmuts-MacBook-Pro:~$ grep -Ri '###' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train/ | grep '.txt'
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_177.gt.txt:###ür alle Geſchlechtskrankheiten
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_287.gt.txt:Aenderung der Lebensweiſe, prompte Gewichtsabnah###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_23.gt.txt:###uch Kleider ⸗ Leihanſtalt.
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_221.gt.txt:XX., Wallensteinstrasse 2###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_242.gt.txt:werden, da meine ###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_217.gt.txt:VIII., Josefstädterstr. 73###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_186.gt.txt:###., Mariahilferstrasse Nr. 43
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_285.gt.txt:Tee von ſicherer Wirkung, angenehmem Geſchmack, v###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_99.gt.txt:abgelegte 374###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_182.gt.txt:###nd von 7—8 Uhr abends
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_244.gt.txt:###ir bitten, ſich bei Anfragen und Käufen immer
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_8.gt.txt:###lide, billige Preiſe, auf jedem
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_225.gt.txt:Preisoourante kran###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_246.gt.txt:### zu werden, von K4.—
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_180.gt.txt:###ll., Joselstädterstrasse 34.
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_216.gt.txt:VII. , Lerchenfelderstr. ###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_220.gt.txt:XVIII., Währingerstr. 1###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_286.gt.txt:tündig unſchädlich, ſtellt ſchlanke, graziöſe Figur her, o###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_288.gt.txt:1 Paket, für längere Zeit ausreichend, K 4.20 ohne Po###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_222.gt.txt:Spezial-Niederlagen für die Provinz werd###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_241.gt.txt:ähnlichen Sorten ver###
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_226.gt.txt:### Munde festsitzend, brau⸗
+train/ONB_krz_19110701_016/ONB_krz_19110701_016.jpg_tl_181.gt.txt:###rd. von 2—5 Uhr nachm
+train/ONB_nfp_19110701_007/ONB_nfp_19110701_007.tif_tl_159.gt.txt:leſung gelangten. — Im „Palace⸗Kurhotel“ in Portoro###e ſind
+train/ONB_nfp_19110701_007/ONB_nfp_19110701_007.tif_tl_270.gt.txt:folgten### Beſuche der bosniſchen Handelskammer hatte er
+train/ONB_nfp_19110701_007/ONB_nfp_19110701_007.tif_tl_96.gt.txt:Schürzen aus Creton, Lüster, Klot### in
+train/ONB_nfp_19110701_038/ONB_nfp_19110701_038.tif_tl_99.gt.txt:Wien, II., Kaiſer Joſefſtraße 11, und Zwit###u.
+train/ONB_nfp_19110701_038/ONB_nfp_19110701_038.tif_tl_101.gt.txt:Ludwig Deutſch, Alfred Deutſch, Ingenieur Ern###.
+train/ONB_nfp_19110701_038/ONB_nfp_19110701_038.tif_tl_71.gt.txt:„Quisisana“ Pension ###. Ranges.
+train/ONB_nfp_19110701_009/ONB_nfp_19110701_009.tif_tl_349.gt.txt:gebirge. Aus 500 bis ###00 Metern Höhe konnten wir
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_257.gt.txt:funden hatte. Der Präſident, Gemeinderath Umlauft, e###öffne###e
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_267.gt.txt:nung geſchritten. Ruch einem Vortrage des Schuldirectors Ernſ###
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_265.gt.txt:seien, enthielt das Protocoll für uns nichts Interesſantes. ###
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_260.gt.txt:sache, daß Herr Umlauft in dieſer Sitzung vor dem conser### tiven
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_258.gt.txt:die Verſammlung um 9 Uhr und ließ ganz ordnungsmäß ig d###
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_201.gt.txt:10.### Vercent des Abganges. In der abgelaufenen Woche sind in
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_266.gt.txt:wurde nach der Genehmigung des Protocolles zur Tagesor###
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_264.gt.txt:und die „Demokraten“ auf die Börſenkriſe geſetzt, vernichtet wor###en
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_215.gt.txt:in auswärtigen Blättern tendenziös verbreiteten, allarmire###den
+train/ONB_nfp_18730705_013/ONB_nfp_18730705_013.tif_tl_132.gt.txt:auch hinter den Couliſſen###theils perſönlich, theils durch das
+train/ONB_nfp_19110701_031/ONB_nfp_19110701_031.tif_tl_505.gt.txt:###eteilt zu vermieten. Anfragen;
+train/ONB_nfp_18730705_014/ONB_nfp_18730705_014.tif_tl_243.gt.txt:ſchaft### er gerathen ſei, und legte ſofort am nächſten Tage ſeine Stelle
+train/ONB_nfp_18730705_014/ONB_nfp_18730705_014.tif_tl_382.gt.txt:dem Baron v. Nahden, decretirt. Frau Lucca hält ſich gegen###
+train/ONB_nfp_18730705_014/ONB_nfp_18730705_014.tif_tl_285.gt.txt:Waiſenanſtalt zu Judena### wegen des Vorkommens der egyptiſchen
+train/ONB_nfp_18730705_014/ONB_nfp_18730705_014.tif_tl_231.gt.txt:Präſ.: Was war die Urſache des Verkaufs der Dornbache###
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_421.gt.txt:des- und Bahnna###e per Juli komplett
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_562.gt.txt:Fa###holdgaſſe, erbeten. 62366—14
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_570.gt.txt:zu mätzigen Preisen. 815###—4
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_274.gt.txt:ſchwäche, Ha###s-, Mund-, Blaſen-
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_374.gt.txt:fron###g, auch für große Bureaux 2c.
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_441.gt.txt:Wien. I., Spiegelgasse 13. ###. 20/II
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_133.gt.txt:eines Pensionats###ters kommen nur solche Bewerber in
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_449.gt.txt:leiden und ### Syphilis
+train/ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_232.gt.txt:leiden u. vorze###. Nervenschwache
+train/ONB_nfp_19110701_037/ONB_nfp_19110701_037.tif_tl_352.gt.txt:2 U. ###ch.
+train/ONB_nfp_19110701_037/ONB_nfp_19110701_037.tif_tl_410.gt.txt:Stadttheater in Baden: „Der unſterbliche Lum###.“
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_234.gt.txt:###gram.
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_480.gt.txt:nöthigen Costume, Requiſiten, P###erde und Equipagen neu.
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_388.gt.txt:Marie ###nart, Königin von
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_230.gt.txt:S###licht:
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_62.gt.txt:war zum letzteren Preiſe erlaſſen, erreichte jedoch nur das Ge###ot
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_35.gt.txt:mung, da Englands Notirungen neu###dings einen Rückgang auf⸗
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_232.gt.txt:###ncona
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_216.gt.txt:###b⸗
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_436.gt.txt:G. v. Zay##.
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_482.gt.txt:— Die Fahrschule gerilte### von Frau Hager⸗Renz mit den Schulpferden Mohr und
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_478.gt.txt:Tanz⸗Einlage: Edelstein-Tanz, getanzt von den Damen Frl. Hü###el, Frl. Heger
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_248.gt.txt:+ 1·###
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_20.gt.txt:###essionen wünſcht, als ihm ſeitens der Fabrikanten gewährt werden
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_497.gt.txt:Stranss. 4 Musilcor###, Blondin, Thea⸗
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_435.gt.txt:man ###ngs“ von J. ###. Pariſch. Muſik von
+train/ONB_nfp_18730705_012/ONB_nfp_18730705_012.tif_tl_456.gt.txt:A. Verla. M### vom Capellmeiſter Karl
+train/ONB_nfp_19110701_008/ONB_nfp_19110701_008.tif_tl_369.gt.txt:Erinnern und gewiß denselben Standpunkt einnehmen wi###
+train/ONB_nfp_19110701_008/ONB_nfp_19110701_008.tif_tl_59.gt.txt:fehr###e nach Le Véſinet zurück und erfuhr dort, ſein Herr ſei
+train/ONB_nfp_19110701_008/ONB_nfp_19110701_008.tif_tl_221.gt.txt:Lu###schaun in Sieiermark an. Dieſen folgen mit Beginn der Ferien
+train/ONB_nfp_19110701_008/ONB_nfp_19110701_008.tif_tl_342.gt.txt:Nach Schluß der Proteſtversammlung, über deren Verlau###
+train/ONB_nfp_19110701_008/ONB_nfp_19110701_008.tif_tl_167.gt.txt:Baron Heinold, des Landeshauptmannes Graſen S###e⸗
+train/ONB_nfp_19110701_006/ONB_nfp_19110701_006.tif_tl_14.gt.txt:komitees ſetzt ſie ſich für das politiſche Vereinsrecht der Fra###
+train/ONB_ibn_19110701_031/ONB_ibn_19110701_031.tif_tl_120.gt.txt:### es ſich ſo?“
+train/ONB_ibn_19110701_007/ONB_ibn_19110701_007.tif_tl_293.gt.txt:wird das Waſſerſtra###geſetz, das unter
+train/ONB_ibn_19110701_007/ONB_ibn_19110701_007.tif_tl_294.gt.txt:Bienerth ausgearbeitet ###urde, dem Reichsrate
+train/ONB_ibn_19110701_007/ONB_ibn_19110701_007.tif_tl_292.gt.txt:Miniſterpräſidenten ver### it wurde. Gautſch
+train/ONB_ibn_19110701_030/ONB_ibn_19110701_030.tif_tl_180.gt.txt:Man###faktur-, Kurz-,
+train/ONB_ibn_19110701_030/ONB_ibn_19110701_030.tif_tl_60.gt.txt:Jo###. Köchler, Innſtraße 2, Tel. 2063,
+train/ONB_ibn_19110701_022/ONB_ibn_19110701_022.tif_tl_148.gt.txt:1. Für ſämtliche Harn⸗, Blaſen⸗, Geſchlecht###,
+train/ONB_ibn_19110701_022/ONB_ibn_19110701_022.tif_tl_160.gt.txt:(auch brieflich) Ordination während des Sommers nur ###an
+train/ONB_ibn_19110701_022/ONB_ibn_19110701_022.tif_tl_134.gt.txt:Budapeſt V., Nad### 20. Prospekte franko. 56ſ0-21
+train/ONB_ibn_19110701_022/ONB_ibn_19110701_022.tif_tl_114.gt.txt:lungen. ###62-12s11
+train/ONB_ibn_19110701_025/ONB_ibn_19110701_025.tif_tl_107.gt.txt:Räh#### Dr. Dureg###, Leopoldstraße ###. ###
+train/ONB_ibn_19110701_014/ONB_ibn_19110701_014.tif_tl_154.gt.txt:auf gutem Zukunftspoſten ###t ſofort verhält⸗
+train/ONB_nfp_18730705_001/ONB_nfp_18730705_001.tif_tl_145.gt.txt:ſchränken, nur noch Eines hervorzuh###n. Gewiß ſind die
+train/ONB_nfp_18730705_001/ONB_nfp_18730705_001.tif_tl_6.gt.txt:22 and 24 Frankfort Street in Newyork, 12 Doll. 1 Cent###.
+train/ONB_nfp_19110701_024/ONB_nfp_19110701_024.tif_tl_96.gt.txt:bestätigen die Heilkuns###
+train/ONB_nfp_19110701_024/ONB_nfp_19110701_024.tif_tl_56.gt.txt:Priv. ausgezoiehp###te
+train/ONB_nfp_19110701_015/ONB_nfp_19110701_015.tif_tl_178.gt.txt:Rechnungsabſchlüſſe , bie###en einige ſehr intereſſante Ziffern,
+train/ONB_nfp_19110701_015/ONB_nfp_19110701_015.tif_tl_77.gt.txt:werbung dieſes Bahnunternehmens im We###e eines freihändi⸗
+train/ONB_nfp_19110701_015/ONB_nfp_19110701_015.tif_tl_75.gt.txt:für die Staatsverwaltung unvorteilhaft wäre. Hina###en ſei
+train/ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_379.gt.txt:in der ſie ſich wegen des kurz zuvor niedergegangenen Hagelwette###
+train/ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_204.gt.txt:desſelben Stifte###s Dr. Robert Stark.
+train/ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_291.gt.txt:zugeben, und er erhielt zur Beſtreitung der Vor##auslagen Pauſchal⸗
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_243.gt.txt:ſehr niedrigen Sätzen werden v###wenden können. Wir erhalten
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_245.gt.txt:Berlin, 30. Juni. In der heutig### Sitzung des
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_247.gt.txt:Glaſenapp, der an Stelle des noch nicht wiederherst### estellten
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_242.gt.txt:übrig behalten werden, die sie als Geld. vorau### nur zu
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_83.gt.txt:welche Verſuchländer###en anzugliedern wären. Auch
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_262.gt.txt:38) Millionen Mark vermindert. Die Anlag###n haben um
+train/ONB_nfp_19110701_014/ONB_nfp_19110701_014.tif_tl_246.gt.txt:Zentralausſchuſſes der Reichsbank führte Vizep###sident von
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_245.gt.txt:Grd. Hotel Wiesler, 1. R. Zentr. d. Stadt ###. d.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_27.gt.txt:###na
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_390.gt.txt:###ew. Universitäts-Aſſiſtent.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_103.gt.txt:Spezialität: Vollkommen g###reies
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_76.gt.txt:Rudolf ###atmann.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_89.gt.txt:Anfang 1/### Uhr.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_97.gt.txt:Telephon 2390###.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_90.gt.txt:### nach 10 Uhr,
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_102.gt.txt:erkennungs-Diplomen###täntüerl
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_362.gt.txt:Telephon 17571. Prospekte. Telephon 175###1.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_38.gt.txt:Frl. He###burg.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_141.gt.txt:Preis einer Blechbüchse ###
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_130.gt.txt:nur echt in Flaſchen à. ### H. und
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_69.gt.txt:kon###entierendes das Geld retour. Preiskatalog gratis und franko.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_331.gt.txt:zelterstände, Bänkelsänger, Ringer, Hakeizie###er, Jux über Jux etc.
+train/ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_tl_143.gt.txt:träge unter K. ### werden nicht
+train/ONB_nfp_19110701_025/ONB_nfp_19110701_025.tif_tl_122.gt.txt:Rübenſamenernte ſind als individu###lle Anlage und
+train/ONB_krz_19110701_015/ONB_krz_19110701_015.jpg_tl_134.gt.txt:###% Bodenkredit E. 1880
+train/ONB_krz_19110701_015/ONB_krz_19110701_015.jpg_tl_128.gt.txt:###denkredit, allg. öſt. 4%
+train/ONB_krz_19110701_015/ONB_krz_19110701_015.jpg_tl_100.gt.txt:###f die „Illuſtrierte Kronen⸗Zeitung“ zu beziehen.
+train/ONB_krz_19110701_015/ONB_krz_19110701_015.jpg_tl_343.gt.txt:2.54.###
+train/ONB_krz_19110701_015/ONB_krz_19110701_015.jpg_tl_99.gt.txt:###r bitten, ſich bei Anfragen und Käufen immer
+train/ONB_nfp_19110701_034/ONB_nfp_19110701_034.tif_tl_70.gt.txt:Mitteilungen die ###fmerksamkeit des Leiters der aus⸗
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_251.gt.txt:Como-Rent###uscheine
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_316.gt.txt:Ostrau-Friedl###nder Eisenbahn 200 fl.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_279.gt.txt:Alb###echtbahn200fl. Oe. W.Silber per St.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_762.gt.txt:6% (S.) Dpfsch.-Ges.,r. u. 100###. 200fl.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_818.gt.txt:5% (S.) Siebenbürger ### 200 fl. Oe. W.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_906.gt.txt:Vereinstha###er
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_683.gt.txt:„ Cre###-### 200 fl.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_210.gt.txt:Einheitl.Staat###ch. in Noten verzin###l.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_245.gt.txt:###attom. Schatzbons 1876—1878r.voll.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_432.gt.txt:Gas-Gesellsch., allg. öst., ### fl. 200 Oe. W.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_247.gt.txt:1864er Staatal###
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_567.gt.txt:Sodawa###ern.m.Getrinke 200fl. 70% E.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_847.gt.txt:5½% detto 40 Jahrev### mit 20% Pr.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_673.gt.txt:Frankf. Bank###rn. (100 Th. P.-C.)
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_333.gt.txt:Vor###lberger Eisenbahn 200 fl.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_659.gt.txt:###compte-Anstalt, allgem. 200 fl.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_303.gt.txt:Fünfk.-B###rcser 200 fl. Oe. W. S.
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_903.gt.txt:Russische Imperisl###
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_872.gt.txt:###½% Ungar. Boden-Credit-Anstalt
+train/ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_614.gt.txt:Berl. Wechslerb. à 200T###. 300fl. S.
+train/ONB_nfp_19110701_033/ONB_nfp_19110701_033.tif_tl_3.gt.txt:Kolowratring, Fichteg###e Nr. 11.
+train/ONB_ibn_19110701_032/ONB_ibn_19110701_032.tif_tl_101.gt.txt:L###ahl ſagen.“
+train/ONB_ibn_19110701_035/ONB_ibn_19110701_035.tif_tl_39.gt.txt:###X. Baugrund von 6 a 62 m2 = 184·0 □Klft.
+train/ONB_ibn_19110701_035/ONB_ibn_19110701_035.tif_tl_207.gt.txt:druck, Bürgerſtraße. 13254-###1
+train/ONB_ibn_19110701_035/ONB_ibn_19110701_035.tif_tl_204.gt.txt:Ia neue Kartoffel, ſchöne, vorzügl. ###
+train/ONB_ibn_19110701_035/ONB_ibn_19110701_035.tif_tl_208.gt.txt:###utsch-ital. Gast⸗ u. Gemüse⸗Gxport⸗Gesellschaft ###
+train/ONB_ibn_19110701_035/ONB_ibn_19110701_035.tif_tl_206.gt.txt:100 Kilo, das billigſte Engros-Geſchäft in ###⸗
+train/ONB_ibn_19110701_035/ONB_ibn_19110701_035.tif_tl_174.gt.txt:Kufſtein (Tirol) iſt mit 1. September ###s. ###s.
+train/ONB_ibn_19110701_003/ONB_ibn_19110701_003.tif_tl_233.gt.txt:Präſident Fallieres genehmigte das miniſterü###
+train/ONB_ibn_19110701_003/ONB_ibn_19110701_003.tif_tl_2.gt.txt:Nr. 148. Seite ###.
+train/ONB_ibn_19110701_004/ONB_ibn_19110701_004.tif_tl_95.gt.txt:###ud soll an der Spitze einer Mehalle ſtehen,
+train/ONB_ibn_19110701_004/ONB_ibn_19110701_004.tif_tl_99.gt.txt:2000 Mann nach Mar###o und beſchloß, die
+train/ONB_ibn_19110701_004/ONB_ibn_19110701_004.tif_tl_101.gt.txt:zu beachten. Die Alg###iras⸗Mächte haben, wie
+train/ONB_ibn_19110701_004/ONB_ibn_19110701_004.tif_tl_98.gt.txt:###s Madrid: Die Regierung entſandte weitere
+train/ONB_ibn_19110701_002/ONB_ibn_19110701_002.tif_tl_132.gt.txt:lungen zwiſchen den ###rern der Aufſtändiſchen
+train/ONB_ibn_19110701_002/ONB_ibn_19110701_002.tif_tl_130.gt.txt:chen und den Albaneſen ### zum Frieden
+train/ONB_ibn_19110701_002/ONB_ibn_19110701_002.tif_tl_69.gt.txt:die Bedingungen für die angeſtrebte ###
+train/ONB_ibn_19110701_002/ONB_ibn_19110701_002.tif_tl_71.gt.txt:### aber eine deutsch⸗tſchechiſche Koalition im
+train/ONB_ibn_19110701_002/ONB_ibn_19110701_002.tif_tl_72.gt.txt:###dnetenhause denkbar, ohne vorherige Ord⸗
+train/ONB_ibn_19110701_002/ONB_ibn_19110701_002.tif_tl_70.gt.txt:###rische Mehrheit zu ſchaffen.
+train/ONB_ibn_19110701_034/ONB_ibn_19110701_034.tif_tl_74.gt.txt:berne Uhr mit oxidierter Silberkette. D ###
+train/ONB_ibn_19110701_034/ONB_ibn_19110701_034.tif_tl_73.gt.txt:wurde auf dem Wege nach Peterbründl eine ###
+train/ONB_ibn_19110701_034/ONB_ibn_19110701_034.tif_tl_75.gt.txt:redliche Finder wird gebeten, ſelbe gegen Finderlo###
+train/ONB_ibn_19110701_033/ONB_ibn_19110701_033.tif_tl_270.gt.txt:wendung gezogen wird, neue bleibende Freunde. 4###
+train/ONB_ibn_19110701_033/ONB_ibn_19110701_033.tif_tl_29.gt.txt:###er, Kaufmann, und Johann Kolb, Bäckermeiſter,
+train/ONB_ibn_19110701_033/ONB_ibn_19110701_033.tif_tl_113.gt.txt:Longo in der Agreiter'ſchen Apotheke in Predazz###
+train/ONB_ibn_19110701_020/ONB_ibn_19110701_020.tif_tl_148.gt.txt:Balatenfökajar, Ung###. 18-0s8
+train/ONB_ibn_19110701_020/ONB_ibn_19110701_020.tif_tl_145.gt.txt:gegen Nachnahme von 8 K. Für Wiede###ckäufer
+train/ONB_ibn_19110701_020/ONB_ibn_19110701_020.tif_tl_159.gt.txt:Kur- und Verschöner###everein.
+train/ONB_ibn_19110701_020/ONB_ibn_19110701_020.tif_tl_147.gt.txt:Erſter ungariſcher Bienen###ig ⸗ Export
+train/ONB_ibn_19110701_027/ONB_ibn_19110701_027.tif_tl_140.gt.txt:8—10 Mann, auf ſofort bei daueruder Beſch###⸗
+train/ONB_ibn_19110701_027/ONB_ibn_19110701_027.tif_tl_110.gt.txt:hilfskellnerinnen, Bahnhofreſtaurantköchin, Kon###⸗
+train/ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_6.gt.txt:###wertet. Das geringſte Gebot beträgt 10.020 Kronen.
+train/ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_63.gt.txt:b###chten Utenſilien, über welche die öffentliche Ver⸗
+train/ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_69.gt.txt:lo###e der k. k. Forſt⸗ und Domänen ⸗ Direktion in
+train/ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_98.gt.txt:###war der Hausanteil auf 5538 Kronen und der Anteil
+train/ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_64.gt.txt:###ßerung ausgeſchrieben wird. Offerte bis 4. Juli.
+train/ONB_ibn_19110701_026/ONB_ibn_19110701_026.tif_tl_57.gt.txt:a###e 26 | (früher Hernalſergürtel 2).
+train/ONB_ibn_19110701_019/ONB_ibn_19110701_019.tif_tl_30.gt.txt:ist die einzige ###lüseigkeit, welche, ohne
+train/ONB_ibn_19110701_019/ONB_ibn_19110701_019.tif_tl_43.gt.txt:vinzaufträge unter K 2•— werden nicht effekt###iert. En
+train/ONB_ibn_19110701_019/ONB_ibn_19110701_019.tif_tl_17.gt.txt:bei Berufung auf dieses Blatt k###nfrei
+train/ONB_ibn_19110701_019/ONB_ibn_19110701_019.tif_tl_123.gt.txt:Elektrische Massage, Schlamm-, Kohlensäure- u. S###nenbäder.
+train/ONB_ibn_19110701_019/ONB_ibn_19110701_019.tif_tl_115.gt.txt:(Kro###tien)
+train/ONB_nfp_18730705_005/ONB_nfp_18730705_005.tif_tl_278.gt.txt:boten, wenn die nichtsnutzigen Umtriebe gegen ###nicht ihrer
+train/ONB_nfp_19110701_020/ONB_nfp_19110701_020.tif_tl_273.gt.txt:V###., Mariahilferstrasse 11.
+train/ONB_nfp_19110701_020/ONB_nfp_19110701_020.tif_tl_148.gt.txt:nicht bekannt ſein. Die Albrechtshöhe, welche im Volksmun###
+train/ONB_nfp_19110701_020/ONB_nfp_19110701_020.tif_tl_20.gt.txt:die Logements und Ve###flegung für zwei Tage im „Hotel
+train/ONB_nfp_19110701_027/ONB_nfp_19110701_027.tif_tl_96.gt.txt:### aber behoben werden konnten. Auch mit der erzielten
+train/ONB_nfp_19110701_027/ONB_nfp_19110701_027.tif_tl_26.gt.txt:Dresden-A. 16 (für Deutschland) Bodenbach 1 ###. B.(für Oesterreich)
+train/ONB_nfp_19110701_027/ONB_nfp_19110701_027.tif_tl_122.gt.txt:Scheidung. Die Schnitzel verſetzt man ###eiter mit ſo viel
+train/ONB_nfp_19110701_027/ONB_nfp_19110701_027.tif_tl_12.gt.txt:Schub### m.b.H., Berlin.
+train/ONB_nfp_18950706_018/ONB_nfp_18950706_018.tif_tl_37.gt.txt:Em### Kralik, Dr. Oſtas Diamant, Ludwig Auguſt Brett⸗
+train/ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_220.gt.txt:abgehaltenen Generalver###ammlung des Verbandes der öster⸗
+train/ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_226.gt.txt:bericht ſind die erfolgreiche Tätigkeit des Verbandes und das ei###rige
+train/ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_221.gt.txt:reichischen Bahnho###reſtaurateure nahmen unter anderen Berbands⸗
+train/ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_254.gt.txt:###urs, Hygiene-Unterricht, Hauswirtſchaft und Gartenbau ſich an⸗
+train/ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_134.gt.txt:###anze Gemeindegebiet aus markt. beziehungsweise
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_409.gt.txt:### Direkte Wagen I., II. KL — X Ueber Wildenschwert mit direkten Wagen I., II„ III. Kl. — □ Schlaf⸗
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_595.gt.txt:Wien (1), ###iemergaſſe 2, Kaiſerl. königl. privile⸗
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_303.gt.txt:Haag. (### Vom 1. Juli bis 3. September Scheveningen Kurhaus,) — X Direkte Wagen I., II., III. Kl. Wien-
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_493.gt.txt:mann. F.-Z.: Unter###rtigung des vorgeſchriebenen oder vorge⸗
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_268.gt.txt:### Direkte Wagen I., II. and III, Kl. und Schlafwagen Wien-Podwoloczyska. Speisewagen Krakau-Podwoloczyska.
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_305.gt.txt:Berlin. — ### Ueber Falkenberg.— + Ueber Berlin, — ± Ueber Uelzen.
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_634.gt.txt:10. Mai 1909 die Erhöhung des Aktienkapitals durch b###
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_302.gt.txt:### Direkte Wagen I., II. Kl. Wien-Hannover (Vlissingen). — O Direkte Wagen I., II. Kl. Wien-Hannover-
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_484.gt.txt:miſchtwarenh###del. Ausgetreten der G. Benjamin Haimovitz.
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_269.gt.txt:± Direkte Wagen I. und II. Klasse Podwoloe###ka — Wien
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_538.gt.txt:Wien (1), Renngaſſe 9, Allgemeine ###Kreditvereins⸗
+train/ONB_nfp_19110701_029/ONB_nfp_19110701_029.tif_tl_304.gt.txt:Leipzig. — ### Schlafwagen Wien-Karlsbad, — □ Schlafwagen Wien-Leipzig. — ∆ Speisewagen Wien-Dresden-
+train/ONB_nfp_18950706_020/ONB_nfp_18950706_020.tif_tl_299.gt.txt:Zauberin, geben. Im „Machandelboom“ werden die neun Monat###
+train/ONB_nfp_19110701_028/ONB_nfp_19110701_028.tif_tl_505.gt.txt:lautet, ſoll an St###le des kürzlich in den Ruheſtand getretenen
+train/ONB_nfp_19110701_028/ONB_nfp_19110701_028.tif_tl_579.gt.txt:wiſſenſchaftlichen Vereine", Wien, 1911. L. W. Seidel ###
+train/ONB_nfp_19110701_019/ONB_nfp_19110701_019.tif_tl_2.gt.txt:Nr. 16###80
+train/ONB_nfp_19110701_026/ONB_nfp_19110701_026.tif_tl_280.gt.txt:um bei der Rübe das Mend###lſche Geſetz, das ſicherlich auch
+train/ONB_nfp_19110701_026/ONB_nfp_19110701_026.tif_tl_331.gt.txt:Strakoſch### — über die ungleiche Leiſtungsfähigkeit der
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_18.gt.txt:Anfang 1/###8 Uhr
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_82.gt.txt:garnierte und ###lerte Damenhüte zu Gelegenheitspreisen. Postbestellung mit Kopfmassgabe prompt
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_103.gt.txt:g###ot, sonnen- und regenecht,
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_28.gt.txt:###e 10 Uhr.
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_9.gt.txt:Gaſtſpiel von Exl### Tiroler-Bühne:
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_38.gt.txt:3 Uhr: „### Lene###l von Oberammer⸗
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_19.gt.txt:###de ### 10 Uhr.
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_15.gt.txt:V###'n S###n essen.
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_35.gt.txt:###ang 1/###8 Uhr.
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_27.gt.txt:A###ang 1/###8 Uhr
+train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_4.gt.txt:1. Juli 191###
+train/ONB_nfp_18950706_017/ONB_nfp_18950706_017.tif_tl_371.gt.txt:Favoriten, Rothehofgaſſe Nr. 19, verhaft###
+eval/ONB_ibn_19110701_006/ONB_ibn_19110701_006.tif_tl_205.gt.txt:willigen Feuerwehr S###eins, Lorenz Hoſp,

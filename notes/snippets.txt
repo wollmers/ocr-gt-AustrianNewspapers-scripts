@@ -1,0 +1,8 @@
+grep -Ri --exclude *.png '###' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train/ > grep_###_20200229_02.txt
+
+sort -o sorted.txt grep_###_20200229_02.txt
+
+
+
+
+

@@ -1,0 +1,10 @@
+~/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/scripts$ time perl check_xml.pl 
+ERROR $TextEquiv not defined: ONB_ibn_19110701_008.tif TextRegion_id=region_1547026084602_43
+Pages total: 161
+Pages different: 160
+Lines total: 57642
+Lines different: 28895
+
+real	0m31.588s
+user	0m19.423s
+sys	0m4.824s
