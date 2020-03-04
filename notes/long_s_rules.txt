@@ -1,0 +1,45 @@
+# long_s rules heuristic for lang=deu
+# Dokumentation_de_antiqua.pdf 
+
+Das lange s im Deutschen – Regeln, Teil 1
+1) ſ steht am Anfang sinntragender Einheiten. Dies gilt auch, falls eines von zwei s an einer Morphemgrenze entfallen ist.
+
+ſieben, ſtill, ſpät, kreiſte, ſchwarz, ſkandalös, ſlawisch, ſzenisch, wieſo, 
+Wildſau, Anſatz, Schickſal, Botſchaft, Neckarſulm, Weilerſwiſt,
+Aſbeſt (von ἀ-σβεστος), Aſphalt (von α-σφαλης), tranſzendent
+(von tran(s)-scandere), Diſtrikt (von di(s)-strictus), Jablonſki, Skłodowſka
+
+2) s steht im Silbenanlaut.
+ro􏲑g, Lesung, Raserei, Tran􏲑t, Prosodie, Psy􏰈e, T􏲑ngtau, Csárdás
+3) s steht in Buchstaben􏰗ruppen, die eine 􏰗esonderte Aussprache kenn􏰡eichnen, wie sch oder ss (Di􏰗raph, Tri􏰗raph, ...), es sei denn, es ist der le􏰘te Buchstabe der Gruppe und der sinntra􏰗enden Einheit.
+Fis􏰈, lassen, assoziieren, Dissertation, Squa􏲞, Krzysztof, Csárdás aber: dass, hässli (nach Heyse); Is􏰈ias (kein sch-Laut)
+      
+
+
+
+
+nach          [act]  [eiouyäöüp] [kr] [bdfghjlmnqvwxzß.’] [sſ] [\w]
+vor 
+[g],            ſ       s         s         s               s    s
+[eioyäöü],      ſ       ſ         s         s               ſ    s
+[bdfhklrſtu],   ſ       ſ         s         s               s    s
+[cjmnpqvw],     ſ       ſ         ſ         s               s    s
+[\w]            ſ       ſ         ſ         ſ               ſ    s
+
+s/^[s]/ſ/
+s/([act])[s]([g]|[eioyäöü]|[bdfhklrſtu]|[cjmnpqvw]|[\w])/\1ſ\2/
+
+s/([eiouyäöüp])[ſ]([g])/\1s\2/
+s/([eiouyäöüp])[s]([eioyäöü]|[bdfhklrſtu]|[cjmnpqvw]|[\w])/\1ſ\2/
+
+s/([kr])[ſ]([g]|[eioyäöü]|[bdfhklrſtu])/\1s\2/
+s/([kr])[s]([cjmnpqvw]|[\w])/\1ſ\2/
+
+s/([bdfghjlmnqvwxzß.’])[ſ]([g]|[eioyäöü]|[bdfhklrſtu]|[cjmnpqvw])/\1s\2/
+s/([bdfghjlmnqvwxzß.’])[s]([\w])/\1ſ\2/
+
+s/([sſ])[ſ]([g]|[bdfhklrſtu]|[cjmnpqvw])/\1s\2/
+s/([sſ])[s]([eioyäöü]|[\w])/\1ſ\2/
+
+s/([\w])[ſ]([g]|[eioyäöü]|[bdfhklrſtu]|[cjmnpqvw]|[\w])/\1s\2/
+

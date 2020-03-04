@@ -2,7 +2,160 @@ grep -Ri --exclude *.png '###' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt
 
 sort -o sorted.txt grep_###_20200229_02.txt
 
+grep -Ri --exclude *.png ' 2c. ' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train/
 
+grep -Ri --exclude *.png ' 2c. '  /Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/gt/
+
+grep -Ri --exclude *.png '2c. ' ./gt
+
+find *.txt -exec awk 'END {print $0 "," FILENAME}' {} \;
+
+
+find ./*.txt -exec perl -CD -e 'print <>,"\n";' {} \; # print file name 
+find ./*.txt -exec perl -CD -e 'while (<>){if (m/⸗/) {print <>,"\n";} }' {} \; # no match
+$ find ./*.txt -exec perl -CD -e 'use utf8;while (<>){if (m/(⸗)/) {print $1,"\n";} }' {} \;
+Wide character in print at -e line 1, <> line 1.
+⸗
+
+find ./*.txt -exec perl  -e 'while (<>){if (m/(⸗)/) {print $1,"\n";} }' {} \; # works?
+
+$ perl -pi'*.bak' -e 's/bar/baz/' fileA  # backup to *.bak
+
+# change to rotunda
+find ./gt -name "*.gt.txt" -exec perl -pi'*.bak' -CD -e 'use utf8;s/ 2c. / ꝛc. /' {} \;
+
+###### gasse ##########
+grep -R --exclude *.png --exclude *.bak 'gaſse' ./gt
+grep -R --exclude *.png --exclude *.bak 'gasſe' ./gt
+
+find ./gt -name "*.gt.txt" -exec perl -pi'*.bak' -CD -e 'use utf8;s/ga(ſs|sſ)e/gaſſe/g' {} \;
+
+#######################
+
+# reset git and changed files to last commit
+$ git reset --hard
+
+
+perl -C6 
+
+
+  #!/usr/bin/perl
+    $extension = '.orig';
+    LINE: while (<>) {
+	if ($ARGV ne $oldargv) {
+	    if ($extension !~ /\*/) {
+		$backup = $ARGV . $extension;
+	    }
+	    else {
+		($backup = $extension) =~ s/\*/$ARGV/g;
+	    }
+	    rename($ARGV, $backup);
+	    open(ARGVOUT, ">$ARGV");
+	    select(ARGVOUT);
+	    $oldargv = $ARGV;
+	}
+	s/foo/bar/;
+    }
+    continue {
+	print;	# this prints to original filename
+    }
+    select(STDOUT);
+    
+#####################
+
+### special characters
+
+# special letters without German alphabet
+
+  81  'é'         283  0.00014  0.99829   U+00E9 LATIN SMALL LETTER E WITH ACUTE
+  90  'à'         147  0.00007  0.99924   U+00E0 LATIN SMALL LETTER A WITH GRAVE
+ 104  'ô'          36  0.00002  0.99980   U+00F4 LATIN SMALL LETTER O WITH CIRCUMFLEX
+ 108  'è'          31  0.00001  0.99986   U+00E8 LATIN SMALL LETTER E WITH GRAVE
+ 113  'ç'          23  0.00001  0.99992   U+00E7 LATIN SMALL LETTER C WITH CEDILLA
+ 115  'á'          13  0.00001  0.99994   U+00E1 LATIN SMALL LETTER A WITH ACUTE
+ 117  'ê'          13  0.00001  0.99995   U+00EA LATIN SMALL LETTER E WITH CIRCUMFLEX
+ 122  'ó'           6  0.00000  0.99997   U+00F3 LATIN SMALL LETTER O WITH ACUTE 
+ 126  'â'           3  0.00000  0.99998   U+00E2 LATIN SMALL LETTER A WITH CIRCUMFLEX
+ 128  'ř'           3  0.00000  0.99998   U+0159 LATIN SMALL LETTER R WITH CARON
+ 129  'ë'           3  0.00000  0.99998   U+00EB LATIN SMALL LETTER E WITH DIAERESIS
+ 130  'ï'           2  0.00000  0.99998   U+00EF LATIN SMALL LETTER I WITH DIAERESIS
+ 134  'ò'           2  0.00000  0.99999   U+00F2 LATIN SMALL LETTER O WITH GRAVE 
+ 139  'ñ'           2  0.00000  0.99999   U+00F1 LATIN SMALL LETTER N WITH TILDE
+ 140  'Ž'           1  0.00000  0.99999   U+017D LATIN CAPITAL LETTER Z WITH CARON
+ 148  'æ'           1  0.00000  1.00000   U+00E6 LATIN SMALL LETTER AE 
+
+ 143  'ž'           1  0.00000  0.99999   U+017E LATIN SMALL LETTER Z WITH CARON
+ 146  'ɔ'           1  0.00000  0.99999   U+0254 LATIN SMALL LETTER OPEN O
+ 147  'ʞ'           1  0.00000  0.99999   U+029E LATIN SMALL LETTER TURNED K
+ 
+# hyphen like
+
+ 109  '='          27  0.00001  0.99988   U+003D EQUALS SIGN
+
+# dashes
+
+    
+# quotation like
+
+  68  '„'        1911  0.00092  0.99221   U+201E DOUBLE LOW-9 QUOTATION MARK
+  72  '“'        1576  0.00076  0.99556   U+201C LEFT DOUBLE QUOTATION MARK
+  78  '''         453  0.00022  0.99773   U+0027 APOSTROPHE
+  91  '"'         118  0.00006  0.99930   U+0022 QUOTATION MARK
+  99  '’'          88  0.00004  0.99968   U+2019 RIGHT SINGLE QUOTATION MARK
+ 119  '«'           9  0.00000  0.99996   U+00AB LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+ 120  '‘'           7  0.00000  0.99996   U+2018 LEFT SINGLE QUOTATION MARK
+ 150  '”'           1  0.00000  1.00000   U+201D RIGHT DOUBLE QUOTATION MARK
+ 125  '»'           4  0.00000  0.99998   U+00BB RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK 
+     
+# dot like
+
+  92  '•'         113  0.00005  0.99935   U+2022 BULLET
+  93  '·'         113  0.00005  0.99941   U+00B7 MIDDLE DOT
+  95  '*'          99  0.00005  0.99951   U+002A ASTERISK
+  98  '°'          90  0.00004  0.99964   U+00B0 DEGREE SIGN
+ 118  '˙'           9  0.00000  0.99995   U+02D9 DOT ABOVE
+ 142  '●'           1  0.00000  0.99999   U+25CF BLACK CIRCLE
+ 141  '·'           1  0.00000  0.99999   U+0387 GREEK ANO TELEIA
+
+  77  '#'         520  0.00025  0.99751   U+0023 NUMBER SIGN
+
+
+  85  '/'         246  0.00012  0.99879   U+002F SOLIDUS
+
+  88  '&'         182  0.00009  0.99910   U+0026 AMPERSAND
+
+ 102  '|'          47  0.00002  0.99976   U+007C VERTICAL LINE
+
+ 105  '□'          36  0.00002  0.99982   U+25A1 WHITE SQUARE
+
+
+
+
+ 121  '–'           7  0.00000  0.99997   U+2013 EN DASH
+
+ 123  '‚'           6  0.00000  0.99997   U+201A SINGLE LOW-9 QUOTATION MARK
+ 124  '∆'           5  0.00000  0.99997   U+2206 INCREMENT
+
+
+ 127  '═'           3  0.00000  0.99998   U+2550 BOX DRAWINGS DOUBLE HORIZONTAL
+
+ 131  '±'           2  0.00000  0.99998   U+00B1 PLUS-MINUS SIGN
+
+ 133  '†'           2  0.00000  0.99999   U+2020 DAGGER
+
+ 135  '_'           2  0.00000  0.99999   U+005F LOW LINE
+
+ 137  '´'           2  0.00000  0.99999   U+00B4 ACUTE ACCENT
+ 138  '~'           2  0.00000  0.99999   U+007E TILDE
+
+
+
+
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers$ grep -R --exclude *.png --exclude *.bak '\d[•].* Kronen' ./gt
+./gt/eval/ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_130.gt.txt:Einnahmen 218•34 Millionen Kronen. Für die Actionäre entfiel wie
+./gt/eval/ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_143.gt.txt:81•21 Millionen Kronen, welcher zur Vermehrung der Reſerve und
+./gt/eval/ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_147.gt.txt:betrug 36•26 Millionen Kronen oder 20 Percent der Prämien. Das
+./gt/eval/ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_129.gt.txt:Millionen Kronen, die Zinſen 38•15 Millionen Kronen, die Geſammt⸗
 
 
 
