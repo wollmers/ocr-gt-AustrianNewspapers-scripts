@@ -31,11 +31,46 @@ grep -R --exclude *.png --exclude *.bak 'gasſe' ./gt
 find ./gt -name "*.gt.txt" -exec perl -pi'*.bak' -CD -e 'use utf8;s/ga(ſs|sſ)e/gaſſe/g' {} \;
 
 #######################
+AustrianNewspapers$ grep -R --exclude *.png --exclude *.bak \
+      --exclude *.tif --exclude *.jpg --exclude *.txt \
+      '<TextLine id="[^t]' ./ | wc -l
+   11761
+AustrianNewspapers$ grep -R --exclude *.png --exclude *.bak \
+      --exclude *.tif --exclude *.jpg --exclude *.txt \
+      '<TextLine id="' ./ | wc -l
+   58796
+   
+AustrianNewspapers$ grep -R --exclude *.png --exclude *.bak  '.' ./gt | wc -l
+   46969
+
+
+.txt      46969
+id="[^t]  11761 missing
+---------------
+Sum       58730
+XML       58796
+---------------
+Diff         66 explain? maybe 
+                         
+
+#######################
 
 # reset git and changed files to last commit
 $ git reset --hard
 
+# merge/rebase
+Step 1: From your project repository, check out a new branch and test the changes.
 
+git checkout -b UB-Mannheim-master master
+git pull https://github.com/UB-Mannheim/AustrianNewspapers.git master
+
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff UB-Mannheim-master
+git push origin master
+
+##############
 perl -C6 
 
 
@@ -82,11 +117,10 @@ perl -C6
  134  'ò'           2  0.00000  0.99999   U+00F2 LATIN SMALL LETTER O WITH GRAVE 
  139  'ñ'           2  0.00000  0.99999   U+00F1 LATIN SMALL LETTER N WITH TILDE
  140  'Ž'           1  0.00000  0.99999   U+017D LATIN CAPITAL LETTER Z WITH CARON
- 148  'æ'           1  0.00000  1.00000   U+00E6 LATIN SMALL LETTER AE 
-
  143  'ž'           1  0.00000  0.99999   U+017E LATIN SMALL LETTER Z WITH CARON
  146  'ɔ'           1  0.00000  0.99999   U+0254 LATIN SMALL LETTER OPEN O
  147  'ʞ'           1  0.00000  0.99999   U+029E LATIN SMALL LETTER TURNED K
+ 148  'æ'           1  0.00000  1.00000   U+00E6 LATIN SMALL LETTER AE 
  
 # hyphen like
 
@@ -117,13 +151,11 @@ perl -C6
  142  '●'           1  0.00000  0.99999   U+25CF BLACK CIRCLE
  141  '·'           1  0.00000  0.99999   U+0387 GREEK ANO TELEIA
 
+# other symbols
+
   77  '#'         520  0.00025  0.99751   U+0023 NUMBER SIGN
-
-
   85  '/'         246  0.00012  0.99879   U+002F SOLIDUS
-
   88  '&'         182  0.00009  0.99910   U+0026 AMPERSAND
-
  102  '|'          47  0.00002  0.99976   U+007C VERTICAL LINE
 
  105  '□'          36  0.00002  0.99982   U+25A1 WHITE SQUARE

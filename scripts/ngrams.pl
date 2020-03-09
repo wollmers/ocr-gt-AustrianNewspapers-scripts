@@ -15,6 +15,7 @@ use Pod::Usage;
 #use XML::Twig;
 #use JSON::MaybeXS qw(JSON);
 
+use Unicode::Normalize;
 use charnames ':full';
 
 use Data::Dumper;
@@ -85,12 +86,16 @@ my $file_limit = 0;
 
 ### collect stats
 
-my $line_count    = 0;
-my $word_count    = 0;
-my $char_count    = 0;
-my $bigram_count  = 0;
-my $trigram_count = 0;
+my $page_count     = 0;
+my $grapheme_count = 0;
+my $line_count     = 0;
+my $word_count     = 0;
+my $char_count     = 0;
+my $bigram_count   = 0;
+my $trigram_count  = 0;
 
+my $documents              = {};
+my $grapheme_frequency     = {};
 my $word_frequency         = {};
 my $char_frequency         = {};
 my $length_frequency       = {};
@@ -106,7 +111,12 @@ for my $dir (qw(line_train line_eval)) {
     my @subdirs = grep { /^[^._]/ && -d "$dir_name/$_" } readdir($dir_dh);
     closedir $dir_dh;
 
+    # ONB_aze_18950706_4
     for my $subdir (@subdirs) {
+        my $document = $subdir;
+        $document =~ s/_\d+$//; # remove page number
+        $documents->{$document}++;
+        $page_count++;
         my $subdir_name = $config->{'line_dir'} . $config->{$dir} . '/' . $subdir;
         opendir(my $subdir_dh, "$subdir_name") || die "Can't opendir $subdir_name: $!";
         my @files = grep { /^[^._]/ && /\.txt$/i && -f "$subdir_name/$_" } readdir($subdir_dh);
@@ -149,8 +159,9 @@ open(my $trigrams_fh, ">:encoding(UTF-8)", $trigrams_file)
     or die "Can't open  $trigrams_file: $!";
 
 #################
-my $bigrams_unique  = scalar keys %{$char_bigram_frequency};
-my $trigrams_unique = scalar keys %{$char_trigram_frequency};
+my $bigrams_unique   = scalar keys %{$char_bigram_frequency};
+my $trigrams_unique  = scalar keys %{$char_trigram_frequency};
+my $documents_unique = scalar keys %{$documents};
 
 ##### print stats
 print $stats_fh $0,' Version ',$VERSION,"\n";
@@ -161,9 +172,12 @@ print $stats_fh '  ','dict',' ',$dict,"\n";
 #}
 print $stats_fh "\n";
 
+print $stats_fh 'documents:       ',sprintf('%15s',$documents_unique),"\n";
+print $stats_fh 'pages:           ',sprintf('%15s',$page_count),"\n";
 print $stats_fh 'lines:           ',sprintf('%15s',$line_count),"\n";
 print $stats_fh 'words:           ',sprintf('%15s',$word_count),"\n";
 print $stats_fh 'chars:           ',sprintf('%15s',$char_count),"\n";
+print $stats_fh 'graphemes:       ',sprintf('%15s',$grapheme_count),"\n";
 print $stats_fh 'bigrams:         ',sprintf('%15s',$bigram_count),"\n";
 print $stats_fh 'bigrams unique:  ',sprintf('%15s',$bigrams_unique),"\n";
 print $stats_fh 'trigrams:        ',sprintf('%15s',$trigram_count),"\n";
@@ -200,6 +214,35 @@ for my $char (sort {$char_frequency->{$b} <=> $char_frequency->{$a}} keys %{$cha
     "\n";
 
   print $chars_fh $char,"\t",$char_frequency->{$char},"\n";
+}
+
+print $stats_fh "\n";
+print $stats_fh '**************************',"\n";
+print $stats_fh '*** grapheme frequency ***',"\n";
+print $stats_fh '**************************',"\n";
+
+my $grapheme_rank = 0;
+$cumulated = 0;
+print $stats_fh
+  sprintf('%4s','rank'),sprintf('%5s','grph'),sprintf('%12s','count'),sprintf('%9s','%'),sprintf('%9s','cum. %'),"\n";
+print $stats_fh
+  sprintf('%4s','----'),sprintf('%5s','----'),sprintf('%12s','-----'),sprintf('%9s','-------'),sprintf('%9s','-------'),"\n";
+for my $grapheme (sort {$grapheme_frequency->{$b} <=> $grapheme_frequency->{$a}} keys %{$grapheme_frequency}) {
+  $grapheme_rank++;
+  my $percent = $grapheme_frequency->{$grapheme} / $grapheme_count;
+  $cumulated += $percent;
+
+  my @chars      = split(//,$grapheme);
+  my @charnames  = map { charnames::viacode(ord($_)) } @chars;
+  my @char_codes = map { sprintf('U+%04X',ord($_))   } @chars; # %04X or %04x
+
+  print $stats_fh
+    sprintf('%4s',$grapheme_rank),sprintf('%5s',"'".$grapheme."'"),sprintf('%12s',$grapheme_frequency->{$grapheme}),
+    sprintf('%9s',sprintf('%0.5f',$percent)),sprintf('%9s',sprintf('%0.5f',$cumulated)),
+    '   ',join(' ',@char_codes),
+    ' ',join("\n",@charnames),
+    "\n";
+
 }
 
 for my $word (sort {$word_frequency->{$b} <=> $word_frequency->{$a}} keys %{$word_frequency}) {
@@ -275,6 +318,14 @@ sub parse_line {
       $line_count++;
       #my @pieces = split(m/\s+/,$line);
       #$pieces_count += scalar @pieces;
+
+      my $NFC_line = NFC($line);
+
+      my @graphemes = $NFC_line =~ m/(\X)/g;
+      for my $grapheme ( @graphemes) {
+          $grapheme_frequency->{$grapheme}++;
+          $grapheme_count++;
+      }
 
       for my $char ( split(//,$line) ) {
           $char_frequency->{$char}++;

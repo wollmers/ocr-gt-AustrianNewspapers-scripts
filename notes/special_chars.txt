@@ -55,3 +55,49 @@ $ uni s fraction | grep -i vulgar
 'ő'  U+0151  337    c5 91       &odblac;   LATIN SMALL LETTER O WITH DOUBLE ACUTE (Lowercase_Letter)
 'Ꝛ'  U+A75A  42842  ea 9d 9a    &#xa75a;   LATIN CAPITAL LETTER R ROTUNDA (Uppercase_Letter)
 'ꝛ'  U+A75B  42843  ea 9d 9b    &#xa75b;   LATIN SMALL LETTER R ROTUNDA (Lowercase_Letter)
+
+###############
+dots
+
+MIDDLE DOT
+= midpoint (in typography)
+= Georgian comma
+= Greek middle dot (ano teleia)
+• also used as a raised decimal point or to denote
+multiplication; for multiplication  ⋅ is
+preferred
+→  · greek ano teleia
+→  ᛫ runic single punctuation →  • bullet
+→  . one dot leader
+→  ‧ hyphenation point
+→  ∙ bullet operator
+→  ⋅ dot operator
+→  ⸱ word separator middle dot →  ⸳ raised dot
+→  ・ katakana middle dot
+→  ꞏ latin letter sinological dot
+
+     cpoint  name
+'⋅'  U+22C5  8901   e2 8b 85    &sdot;     DOT OPERATOR (Math_Symbol)
+'·'  U+00B7  183    c2 b7       &middot;   MIDDLE DOT (Other_Punctuation)
+'᛫'  U+16EB  5867   e1 9b ab    &#x16eb;   RUNIC SINGLE PUNCTUATION (Other_Punctuation)
+'.'  U+002E  46     2e          &period;   FULL STOP (Other_Punctuation)
+'‧'  U+2027  8231   e2 80 a7    &#x2027;   HYPHENATION POINT (Other_Punctuation)
+'∙'  U+2219  8729   e2 88 99    &#x2219;   BULLET OPERATOR (Math_Symbol)
+'⋅'  U+22C5  8901   e2 8b 85    &sdot;     DOT OPERATOR (Math_Symbol)
+'⸱'  U+2E31  11825  e2 b8 b1    &#x2e31;   WORD SEPARATOR MIDDLE DOT (Other_Punctuation)
+'・' U+30FB  12539  e3 83 bb    &#x30fb;   KATAKANA MIDDLE DOT (Other_Punctuation)
+'˙'  U+02D9  729    cb 99       &dot;      DOT ABOVE (Modifier_Symbol)
+
+     cpoint  name
+'.'  U+002E  FULL STOP (Other_Punctuation)
+'·'  U+00B7  MIDDLE DOT (Other_Punctuation)
+
+'˙'  U+02D9  DOT ABOVE (Modifier_Symbol)
+'·'  U+0387  GREEK ANO TELEIA (Other_Punctuation)
+'᛫'  U+16EB  RUNIC SINGLE PUNCTUATION (Other_Punctuation)
+'‧'  U+2027  HYPHENATION POINT (Other_Punctuation)
+'∙'  U+2219  BULLET OPERATOR (Math_Symbol)
+'⋅'  U+22C5  DOT OPERATOR (Math_Symbol)
+'⸱'  U+2E31  WORD SEPARATOR MIDDLE DOT (Other_Punctuation)
+'・' U+30FB  KATAKANA MIDDLE DOT (Other_Punctuation)
+'ꞏ'  U+A78F  LATIN LETTER SINOLOGICAL DOT (Other_Letter)
