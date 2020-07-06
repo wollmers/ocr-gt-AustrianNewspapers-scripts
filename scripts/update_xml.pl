@@ -31,7 +31,7 @@ our $options = {
   'help'        => 0,
   'man'         => 0,
   'quiet'       => 0,
-  'verbose'     => 1, # TODO
+  'verbose'     => 0, # TODO
 };
 
 GetOptions(
@@ -57,15 +57,17 @@ pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
 
 
 our $config = {
+    #'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/',
+
     ### dir of github/[wollmers|UB-Mannheim]/AustrianNewspapers
     #'gtdir'      => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    #'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/',
-    #'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'page_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
 
     ### dir for tests
     #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
-    'page_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
-    'line_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+    #'page_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+    #'line_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
 
     ### subdirs
     'page_train' => 'TrainingSet_ONB_Newseye_GT_M1+',
@@ -85,7 +87,7 @@ our $current_file = '';
 our $current_dir  = '';
 #our @files;
 my $file_count = 0;
-my $file_limit = 1;
+my $file_limit = 0;
 
 for my $dir (qw(page_train page_eval)) {
   $current_dir = $dir;
