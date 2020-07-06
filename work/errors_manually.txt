@@ -1,0 +1,9 @@
+http://127.0.0.1:3000/line/ONB_aze_18950706_1.jpg_tl_52.gt.txt
+
+Quotes and apostrophes in Fraktur
+'„'  U+201E  8222   e2 80 9e    &bdquo;    DOUBLE LOW-9 QUOTATION MARK (Open_Punctuation)
+'“'  U+201C  8220   e2 80 9c    &ldquo;    LEFT DOUBLE QUOTATION MARK (Initial_Punctuation)
+'’'  U+2019  8217   e2 80 99    &rsquo;    RIGHT SINGLE QUOTATION MARK (Final_Punctuation)
+
+Line: ONB_aze_18950706_2.jpg_tl_117.gt.txt keep: eine billige Regieruug.
+Line: ONB_aze_18950706_2.jpg_tl_125.gt.txt keep: demokratiſche. Perſönliſche Anſtändigkeit, Rechtſsinn

@@ -1,0 +1,34 @@
+https://stackoverflow.com/questions/6743514/how-can-i-fetch-an-unmerged-pull-request-for-a-branch-i-dont-own#32443551
+
+cd cordova-plugin-media
+wget https://github.com/apache/cordova-plugin-media/pull/120.patch
+patch -p1 < 120.patch
+
+
+cd ~/github/ocr-gt/AustrianNewspapers
+wget https://github.com/UB-Mannheim/AustrianNewspapers/pull/10.patch
+patch -p1 < 10.patch
+
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_128.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_146.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_153.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_171.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_174.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_176.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_193.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_210.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_215.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_227.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_239.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_273.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_274.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_287.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_290.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_293.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_306.gt.txt
+patching file gt/train/ONB_aze_18950706_1/ONB_aze_18950706_1.jpg_tl_75.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_207.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_241.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_258.gt.txt
+patching file gt/train/ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_tl_298.gt.txt
+

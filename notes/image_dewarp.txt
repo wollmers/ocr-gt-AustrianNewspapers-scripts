@@ -1,0 +1,11 @@
+Trim images with polygon and combine
+https://www.imagemagick.org/discourse-server/viewtopic.php?t=33352
+
+Resize, rotate, shear and rotate an image based on Adobe InDesign coordinates
+https://imagemagick.org/discourse-server/viewtopic.php?t=35977
+
+ImageMagick v6 Examples --
+ Warping Images
+http://www.imagemagick.org/Usage/warping/
+http://www.imagemagick.org/Usage/warping/#shear
+

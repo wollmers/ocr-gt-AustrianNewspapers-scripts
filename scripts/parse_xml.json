@@ -1,0 +1,1910 @@
+{
+   "Page" : {
+      "ReadingOrder" : [
+         {
+            "regionRef" : "r_1_1",
+            "index" : "0"
+         },
+         {
+            "index" : "1",
+            "regionRef" : "r_2_1"
+         },
+         {
+            "index" : "2",
+            "regionRef" : "r_3_1"
+         },
+         {
+            "regionRef" : "r_4_1",
+            "index" : "3"
+         },
+         {
+            "regionRef" : "r_5_1",
+            "index" : "4"
+         },
+         {
+            "index" : "5",
+            "regionRef" : "r_6_1"
+         },
+         {
+            "regionRef" : "r_7_1",
+            "index" : "6"
+         },
+         {
+            "index" : "7",
+            "regionRef" : "r_7_2"
+         },
+         {
+            "regionRef" : "r_7_3",
+            "index" : "8"
+         },
+         {
+            "regionRef" : "r_7_4",
+            "index" : "9"
+         },
+         {
+            "regionRef" : "r_8_1",
+            "index" : "10"
+         },
+         {
+            "regionRef" : "r_9_1",
+            "index" : "11"
+         },
+         {
+            "regionRef" : "TextRegion_1545181572719_2",
+            "index" : "12"
+         },
+         {
+            "regionRef" : "r_10_2",
+            "index" : "13"
+         },
+         {
+            "regionRef" : "r_10_3",
+            "index" : "14"
+         },
+         {
+            "index" : "15",
+            "regionRef" : "r_11_1"
+         },
+         {
+            "regionRef" : "r_11_2",
+            "index" : "16"
+         },
+         {
+            "regionRef" : "r_11_3",
+            "index" : "17"
+         },
+         {
+            "regionRef" : "r_11_4",
+            "index" : "18"
+         },
+         {
+            "index" : "19",
+            "regionRef" : "r_11_5"
+         },
+         {
+            "regionRef" : "r_11_6",
+            "index" : "20"
+         },
+         {
+            "regionRef" : "TextRegion_1545195007398_20",
+            "index" : "21"
+         },
+         {
+            "regionRef" : "TextRegion_1545199768031_21",
+            "index" : "22"
+         },
+         {
+            "index" : "23",
+            "regionRef" : "r_12_1"
+         },
+         {
+            "regionRef" : "r_12_2",
+            "index" : "24"
+         },
+         {
+            "regionRef" : "TextRegion_1545200696078_22",
+            "index" : "25"
+         },
+         {
+            "regionRef" : "r_12_5",
+            "index" : "26"
+         },
+         {
+            "regionRef" : "r_12_6",
+            "index" : "27"
+         },
+         {
+            "index" : "28",
+            "regionRef" : "r_12_7"
+         },
+         {
+            "index" : "29",
+            "regionRef" : "r_12_8"
+         },
+         {
+            "regionRef" : "r_12_9",
+            "index" : "30"
+         },
+         {
+            "regionRef" : "r_13_1",
+            "index" : "31"
+         },
+         {
+            "index" : "32",
+            "regionRef" : "r_13_2"
+         },
+         {
+            "index" : "33",
+            "regionRef" : "TextRegion_1545181924829_6"
+         },
+         {
+            "index" : "34",
+            "regionRef" : "r_13_6"
+         }
+      ],
+      "TextRegions" : [
+         {
+            "id" : "r_1_1",
+            "TextLines" : [
+               {
+                  "text" : "Seite 4",
+                  "id" : "tl_1"
+               }
+            ],
+            "TextEquiv" : "Seite 4"
+         },
+         {
+            "TextLines" : [
+               {
+                  "text" : "Wien, Samstag",
+                  "id" : "tl_2"
+               }
+            ],
+            "TextEquiv" : "Wien, Samstag",
+            "id" : "r_2_1"
+         },
+         {
+            "id" : "r_3_1",
+            "TextLines" : [
+               {
+                  "id" : "tl_3",
+                  "text" : "Arbeiter-Zeitung"
+               }
+            ],
+            "TextEquiv" : "Arbeiter-Zeitung"
+         },
+         {
+            "TextEquiv" : "6. Juli 1895",
+            "TextLines" : [
+               {
+                  "text" : "6. Juli 1895",
+                  "id" : "tl_4"
+               }
+            ],
+            "id" : "r_4_1"
+         },
+         {
+            "TextLines" : [
+               {
+                  "id" : "tl_5",
+                  "text" : "Nr. 182"
+               }
+            ],
+            "TextEquiv" : "Nr. 182",
+            "id" : "r_5_1"
+         },
+         {
+            "id" : "r_6_1",
+            "TextLines" : [
+               {
+                  "id" : "tl_6",
+                  "text" : "österreichischen Parlaments und in der Geschichte der fortschritt⸗"
+               },
+               {
+                  "text" : "lichen Partei unvergeßlich fortleben, und wir werden Ihnen",
+                  "id" : "tl_7"
+               },
+               {
+                  "text" : "stets treue Anhänglichkeit bewahren. Unsere Segenswünsche be⸗",
+                  "id" : "tl_8"
+               },
+               {
+                  "text" : "gleiten Sie auf allen Ihren Wegen.",
+                  "id" : "tl_9"
+               }
+            ],
+            "TextEquiv" : "österreichischen Parlaments und in der Geschichte der fortschritt⸗\nlichen Partei unvergeßlich fortleben, und wir werden Ihnen\nstets treue Anhänglichkeit bewahren. Unsere Segenswünsche be⸗\ngleiten Sie auf allen Ihren Wegen."
+         },
+         {
+            "id" : "r_7_1",
+            "TextEquiv" : "Wien, 5. Juli. [Die Zulassung der Frauen\nzur ärztlichen Thätigkeit.] In der heutigen Sitzung\ndes Budgetausschusses kam auch eine Petition der Baronin\nGabriele Possaner, Doktor der gesammten Heil⸗\nkunde und praktischer Arzt in der Schweiz, zur\nSprache. Baronin Possaner führt in ihrer Petition an, sie habe\nim Jahre 1885 die Maturitätsprüfung an der Lehrerbildungs⸗\nanstalt in Wien und dann im Jahre 1887 die Maturitätsprüfung\nam akademischen Obergymnasium in Wien bestanden. Da ihre\nImmatrikulation an der Wiener Universität sich als unausführbar\nerwies, ließ sie sich im April 1888 an der Hochschule in Zürich\nimmatrikuliren und meldete sich nach vier Semestern zur ersten\nStaatsprüfung für Aerzte. Ihr Wiener Maturitätszeugniß hatte\njedoch für die Zulassung zur ärztlichen Staatsprüfung keine\nGeltung, weshalb sie im Jahre 1890 nochmals die Maturitäts⸗\nprüfung in der Schweiz machte, sowie vierzehn Tage später\ndie erste ärztliche Staatsprüfung. Sie absolvirte sodann\nin Zürich ihre medizinischen Studien und war auch dort als\nAssistentin an der Augenklinik thätig. Sie erhielt im Dezember\n1893 das Diplom als praktischer Arzt für alle Kantone der\nSchweiz und im Sommer 1894 das Diplom als Doktor der ge⸗\nsammten Heilkunde. Im Jahre 1894 trat sie mit ministerieller\nBewilligung als Volontärarzt in die gynäkologische Klinik des\nProfessor Schauta in Wien ein, wo sie zuerst den sogenannten\nBeidienst, dann aber auch den Hauptdienst, nach den Versicherungen\ndes Professors zur vollen Zufriedenheit, leistete. Die Petentin habe\ndas Ministerium für Kultus und Unterricht gebeten, ihre beiden\närztlichen Diplome zu nostrisiziren und ihr die Ausübung\ndes ärztlichen Berufes in ihrer Heimat zu be⸗\nwilligen, und sie habe sich auch zur Erfüllung aller eventuell\nnoch zu erfüllenden Bedingungen bereit erklärt. In der Erledigung\ndieses Gesuches wurde aber erklärt, daß dasselbe gar nicht\nin Verhandlung genommen wurde.",
+            "TextLines" : [
+               {
+                  "id" : "tl_10",
+                  "text" : "Wien, 5. Juli. [Die Zulassung der Frauen"
+               },
+               {
+                  "text" : "zur ärztlichen Thätigkeit.] In der heutigen Sitzung",
+                  "id" : "tl_11"
+               },
+               {
+                  "text" : "des Budgetausschusses kam auch eine Petition der Baronin",
+                  "id" : "tl_12"
+               },
+               {
+                  "id" : "tl_13",
+                  "text" : "Gabriele Possaner, Doktor der gesammten Heil⸗"
+               },
+               {
+                  "text" : "kunde und praktischer Arzt in der Schweiz, zur",
+                  "id" : "tl_14"
+               },
+               {
+                  "text" : "Sprache. Baronin Possaner führt in ihrer Petition an, sie habe",
+                  "id" : "tl_15"
+               },
+               {
+                  "text" : "im Jahre 1885 die Maturitätsprüfung an der Lehrerbildungs⸗",
+                  "id" : "tl_16"
+               },
+               {
+                  "text" : "anstalt in Wien und dann im Jahre 1887 die Maturitätsprüfung",
+                  "id" : "tl_17"
+               },
+               {
+                  "text" : "am akademischen Obergymnasium in Wien bestanden. Da ihre",
+                  "id" : "tl_18"
+               },
+               {
+                  "text" : "Immatrikulation an der Wiener Universität sich als unausführbar",
+                  "id" : "tl_19"
+               },
+               {
+                  "text" : "erwies, ließ sie sich im April 1888 an der Hochschule in Zürich",
+                  "id" : "tl_20"
+               },
+               {
+                  "text" : "immatrikuliren und meldete sich nach vier Semestern zur ersten",
+                  "id" : "tl_21"
+               },
+               {
+                  "id" : "tl_22",
+                  "text" : "Staatsprüfung für Aerzte. Ihr Wiener Maturitätszeugniß hatte"
+               },
+               {
+                  "id" : "tl_23",
+                  "text" : "jedoch für die Zulassung zur ärztlichen Staatsprüfung keine"
+               },
+               {
+                  "id" : "tl_24",
+                  "text" : "Geltung, weshalb sie im Jahre 1890 nochmals die Maturitäts⸗"
+               },
+               {
+                  "text" : "prüfung in der Schweiz machte, sowie vierzehn Tage später",
+                  "id" : "tl_25"
+               },
+               {
+                  "id" : "tl_26",
+                  "text" : "die erste ärztliche Staatsprüfung. Sie absolvirte sodann"
+               },
+               {
+                  "id" : "tl_27",
+                  "text" : "in Zürich ihre medizinischen Studien und war auch dort als"
+               },
+               {
+                  "text" : "Assistentin an der Augenklinik thätig. Sie erhielt im Dezember",
+                  "id" : "tl_28"
+               },
+               {
+                  "id" : "tl_29",
+                  "text" : "1893 das Diplom als praktischer Arzt für alle Kantone der"
+               },
+               {
+                  "text" : "Schweiz und im Sommer 1894 das Diplom als Doktor der ge⸗",
+                  "id" : "tl_30"
+               },
+               {
+                  "text" : "sammten Heilkunde. Im Jahre 1894 trat sie mit ministerieller",
+                  "id" : "tl_31"
+               },
+               {
+                  "text" : "Bewilligung als Volontärarzt in die gynäkologische Klinik des",
+                  "id" : "tl_32"
+               },
+               {
+                  "id" : "tl_33",
+                  "text" : "Professor Schauta in Wien ein, wo sie zuerst den sogenannten"
+               },
+               {
+                  "id" : "tl_34",
+                  "text" : "Beidienst, dann aber auch den Hauptdienst, nach den Versicherungen"
+               },
+               {
+                  "text" : "des Professors zur vollen Zufriedenheit, leistete. Die Petentin habe",
+                  "id" : "tl_35"
+               },
+               {
+                  "id" : "tl_36",
+                  "text" : "das Ministerium für Kultus und Unterricht gebeten, ihre beiden"
+               },
+               {
+                  "text" : "ärztlichen Diplome zu nostrisiziren und ihr die Ausübung",
+                  "id" : "tl_37"
+               },
+               {
+                  "text" : "des ärztlichen Berufes in ihrer Heimat zu be⸗",
+                  "id" : "tl_38"
+               },
+               {
+                  "id" : "tl_39",
+                  "text" : "willigen, und sie habe sich auch zur Erfüllung aller eventuell"
+               },
+               {
+                  "text" : "noch zu erfüllenden Bedingungen bereit erklärt. In der Erledigung",
+                  "id" : "tl_40"
+               },
+               {
+                  "text" : "dieses Gesuches wurde aber erklärt, daß dasselbe gar nicht",
+                  "id" : "tl_41"
+               },
+               {
+                  "text" : "in Verhandlung genommen wurde.",
+                  "id" : "tl_42"
+               }
+            ]
+         },
+         {
+            "id" : "r_7_2",
+            "TextEquiv" : "Die Petentin führt zum Schlusse aus, daß sie, „Oester⸗\nreicherin mit Leib und Seele\", ihr Vaterland verlassen müsse,\nwenn man ihr verwehrt, die so mühsam erworbene Befähigung\nauszuüben. Sie richtet an das Abgeordnetenhaus das Ersuchen,\nes wolle die Regierung veranlassen, daß ihr die Ausübung der\närztlichen Praxis in Oesterreich, für welche sie die formalen Nach⸗\nweise vollkommener Eignung in weit höherem Maße geliefert habe,\nals es durchschnittlich gefordert wird, auch in der Erwägung frei⸗\ngegeben werde, daß durch die beiliegende Aufforderung des Ver⸗\neines für erweiterte Frauenbildung das Vorhandensein des Be⸗\ndürfnisses nach weiblichen Aerzten auch unstreitig nachgewiesen ist\nund sie dadurch in der Lage wäre, den ihr angebotenen Posten\nals Schulärztin zu übernehmen.",
+            "TextLines" : [
+               {
+                  "id" : "tl_43",
+                  "text" : "Die Petentin führt zum Schlusse aus, daß sie, „Oester⸗"
+               },
+               {
+                  "text" : "reicherin mit Leib und Seele\", ihr Vaterland verlassen müsse,",
+                  "id" : "tl_44"
+               },
+               {
+                  "id" : "tl_45",
+                  "text" : "wenn man ihr verwehrt, die so mühsam erworbene Befähigung"
+               },
+               {
+                  "text" : "auszuüben. Sie richtet an das Abgeordnetenhaus das Ersuchen,",
+                  "id" : "tl_46"
+               },
+               {
+                  "id" : "tl_47",
+                  "text" : "es wolle die Regierung veranlassen, daß ihr die Ausübung der"
+               },
+               {
+                  "id" : "tl_48",
+                  "text" : "ärztlichen Praxis in Oesterreich, für welche sie die formalen Nach⸗"
+               },
+               {
+                  "id" : "tl_49",
+                  "text" : "weise vollkommener Eignung in weit höherem Maße geliefert habe,"
+               },
+               {
+                  "text" : "als es durchschnittlich gefordert wird, auch in der Erwägung frei⸗",
+                  "id" : "tl_50"
+               },
+               {
+                  "id" : "tl_51",
+                  "text" : "gegeben werde, daß durch die beiliegende Aufforderung des Ver⸗"
+               },
+               {
+                  "id" : "tl_52",
+                  "text" : "eines für erweiterte Frauenbildung das Vorhandensein des Be⸗"
+               },
+               {
+                  "id" : "tl_53",
+                  "text" : "dürfnisses nach weiblichen Aerzten auch unstreitig nachgewiesen ist"
+               },
+               {
+                  "id" : "tl_54",
+                  "text" : "und sie dadurch in der Lage wäre, den ihr angebotenen Posten"
+               },
+               {
+                  "id" : "tl_55",
+                  "text" : "als Schulärztin zu übernehmen."
+               }
+            ]
+         },
+         {
+            "id" : "r_7_3",
+            "TextEquiv" : "Der Budgetausschuß beschloß, diese Petition der Regierung\nzur eingehendsten Erwägung und zur Berücksichtigung zuzuweisen,\njedenfalls aber auch diese Gelegenheit zu benützen, um über die\nFrage der Zulassung der Frauen zur Ausübung der ärztlichen\nPraxis eine prinzipielle Entscheidung zu treffen.",
+            "TextLines" : [
+               {
+                  "id" : "tl_56",
+                  "text" : "Der Budgetausschuß beschloß, diese Petition der Regierung"
+               },
+               {
+                  "text" : "zur eingehendsten Erwägung und zur Berücksichtigung zuzuweisen,",
+                  "id" : "tl_57"
+               },
+               {
+                  "id" : "tl_58",
+                  "text" : "jedenfalls aber auch diese Gelegenheit zu benützen, um über die"
+               },
+               {
+                  "text" : "Frage der Zulassung der Frauen zur Ausübung der ärztlichen",
+                  "id" : "tl_59"
+               },
+               {
+                  "id" : "tl_60",
+                  "text" : "Praxis eine prinzipielle Entscheidung zu treffen."
+               }
+            ]
+         },
+         {
+            "TextLines" : [
+               {
+                  "id" : "tl_61",
+                  "text" : "Berichterstatter Dr. Beer erstattet gleichzeitig Bericht über"
+               },
+               {
+                  "text" : "enre große Anzahl von Petitionen, welche die Zulassung von",
+                  "id" : "tl_62"
+               },
+               {
+                  "text" : "Frauen zu medizinischen Studien und überhaupt zu Universitäts⸗",
+                  "id" : "tl_63"
+               },
+               {
+                  "text" : "studien fordern. Er bemerkte, daß er bereits vor mehr als",
+                  "id" : "tl_64"
+               },
+               {
+                  "id" : "tl_65",
+                  "text" : "zwanzig Jahren im Ministerium für Kultus und Unterricht darauf"
+               },
+               {
+                  "id" : "tl_66",
+                  "text" : "hingearbeitet habe, in Oesterreich eine Anzahl höherer Mädchen⸗"
+               },
+               {
+                  "id" : "tl_67",
+                  "text" : "schulen zu begründen; leider sei in dieser Angelegenheit nichts"
+               },
+               {
+                  "id" : "line_1545182189577_19",
+                  "text" : "geschehen."
+               }
+            ],
+            "TextEquiv" : "Berichterstatter Dr. Beer erstattet gleichzeitig Bericht über\nenre große Anzahl von Petitionen, welche die Zulassung von\nFrauen zu medizinischen Studien und überhaupt zu Universitäts⸗\nstudien fordern. Er bemerkte, daß er bereits vor mehr als\nzwanzig Jahren im Ministerium für Kultus und Unterricht darauf\nhingearbeitet habe, in Oesterreich eine Anzahl höherer Mädchen⸗\nschulen zu begründen; leider sei in dieser Angelegenheit nichts\ngeschehen.",
+            "id" : "r_7_4"
+         },
+         {
+            "TextLines" : [
+               {
+                  "id" : "tl_69",
+                  "text" : "Mährisch=Neustadt, 4. Juli. (Eigenbericht.) [Die"
+               },
+               {
+                  "id" : "tl_70",
+                  "text" : "Reichsrathswahl.] Die sozialdemokratische Kandidatur"
+               },
+               {
+                  "text" : "hat den erhofften moralischen Erfolg vollauf gezeitigt.",
+                  "id" : "tl_71"
+               },
+               {
+                  "id" : "tl_72",
+                  "text" : "Genosse Krapka hielt in allen Städten des Wahlbezirkes"
+               },
+               {
+                  "id" : "tl_73",
+                  "text" : "Wählerversammlungen ab, die alle gut besucht waren und"
+               },
+               {
+                  "id" : "tl_74",
+                  "text" : "das größte Interesse der Wähler weckten. Die Behörden"
+               },
+               {
+                  "id" : "tl_75",
+                  "text" : "unterließen allerdings nichts, wodurch der sozialdemokratischen"
+               },
+               {
+                  "id" : "tl_76",
+                  "text" : "Kandidatur Stimmen entzogen werden konnten. In Jarmeritz,"
+               },
+               {
+                  "id" : "tl_77",
+                  "text" : "wo das Kleingewerbe stark sozialistisch gesinnt ist, hat die"
+               },
+               {
+                  "id" : "tl_78",
+                  "text" : "Bezirkshauptmannschaft Znaim 64 Wähler gestrichen, die bei"
+               },
+               {
+                  "id" : "tl_79",
+                  "text" : "der Wahl im Jahre 1891 gewählt haben. Die Begründung"
+               },
+               {
+                  "id" : "tl_80",
+                  "text" : "ist sehr merkwürdig: Wenn jemand ein Haus besitzt, dessen"
+               },
+               {
+                  "id" : "tl_81",
+                  "text" : "Miteigenthümerin seine Frau ist, so gebührt keinem das"
+               },
+               {
+                  "text" : "Wahlrecht, auch wenn die Steuer höher als 5 fl. ist. In",
+                  "id" : "tl_82"
+               },
+               {
+                  "id" : "tl_83",
+                  "text" : "Teltsch und Jarmeritz wurden die abgegebenen Stimmen für"
+               },
+               {
+                  "id" : "tl_84",
+                  "text" : "Genossen Krapka ungiltig erklärt, weil sie keinen Wohnort"
+               },
+               {
+                  "id" : "tl_85",
+                  "text" : "aufwiesen. Die eigentliche Wählermasse steckt noch ganz im"
+               },
+               {
+                  "text" : "Rahmen der bürgerlichen Schlagworte, aber auch da hat die",
+                  "id" : "tl_86"
+               },
+               {
+                  "text" : "sozialistische Kandidatur sehr genützt.",
+                  "id" : "tl_87"
+               }
+            ],
+            "TextEquiv" : "Mährisch=Neustadt, 4. Juli. (Eigenbericht.) [Die\nReichsrathswahl.] Die sozialdemokratische Kandidatur\nhat den erhofften moralischen Erfolg vollauf gezeitigt.\nGenosse Krapka hielt in allen Städten des Wahlbezirkes\nWählerversammlungen ab, die alle gut besucht waren und\ndas größte Interesse der Wähler weckten. Die Behörden\nunterließen allerdings nichts, wodurch der sozialdemokratischen\nKandidatur Stimmen entzogen werden konnten. In Jarmeritz,\nwo das Kleingewerbe stark sozialistisch gesinnt ist, hat die\nBezirkshauptmannschaft Znaim 64 Wähler gestrichen, die bei\nder Wahl im Jahre 1891 gewählt haben. Die Begründung\nist sehr merkwürdig: Wenn jemand ein Haus besitzt, dessen\nMiteigenthümerin seine Frau ist, so gebührt keinem das\nWahlrecht, auch wenn die Steuer höher als 5 fl. ist. In\nTeltsch und Jarmeritz wurden die abgegebenen Stimmen für\nGenossen Krapka ungiltig erklärt, weil sie keinen Wohnort\naufwiesen. Die eigentliche Wählermasse steckt noch ganz im\nRahmen der bürgerlichen Schlagworte, aber auch da hat die\nsozialistische Kandidatur sehr genützt.",
+            "id" : "r_8_1"
+         },
+         {
+            "id" : "r_9_1",
+            "TextEquiv" : "Krakan, 3. Juli. (Eigenbericht.) [Drei parla⸗\nmentarische Streber in der Klemme.] Wir\nhaben jetzt in der sogenanten „demokratischen“ (eigentlich\nnationalliberalen) polnischen Presse einen ergötzlichen Spektakel,\nwie sich die früheren Bundesgenossen in den Haaren liegen.\nDie drei „Propheten“, parlamentarische „Mädchen für\nalles\", Rutowski, Szczepanowski und Lewicki, haben ihre\nUnverschämtheit so weit getrieben, daß sie das gesammte\n„demokratische“ Lager bis in die Knochen blamirten. Vor\neiniger Zeit waren sie noch die Lieblinge der „nationalen“\nPresse; ihren Worten wurde von den Spießern mit Andacht\ngelauscht, ihre Aussätze wurden bereitwilligst gedruckt.\nNun hat sich aber das Maß gefüllt. Seit der Einbringung\ndes Taaffe'schen Entwurfes, eigentlich seitdem Szczepanowski\nso eifrig für den Ausnahmszustand in Prag eingetreten ist,\nhaben die Sozialdemokraten und nach ihrem Beispiele die\n„Volksthümler“ und die jüngeren Demokraten, die noch nicht\njedes Schamgefühl verloren haben, den „demokratischen“\nStrebern so energisch die Maske heruntergerissen, daß die\nbeunruhigte „öffentliche Meinung“, das ist die liberale Presse,\nim Interesse ihrer eigenen Existenz gegen die „Verräther“\nFront machte. Nun haben die drei seit einigen Wochen ihr\neigenes Kampforgan „Przelom“ („Durchbruch“) in Wien, wo\nsie sich reinzuwaschen bemühen und sich aus der Klemme\nziehen wollen, indem sie alle Schuld auf einige Wiener\nKorrespondenten der Krakauer und Lemberger Blätter\nherunterwälzen. Die Korrespondenten sollten unwahre Berichte\nüber ihr Treiben und ihre Schachergeschäfte den Zeitungen\nzugesendet haben. Die angegriffenen Journalisten wehren sich\naber gar mutthig und entdecken unterwegs fo viel Schmutz\nseitens der geehrten Herren Abgeordneten, daß es förmlich\nstinkt. Diese Abgeordneten werden als verrückte Intriganten\ngeschildert, die ihr Mandat zu verschiedenen „Geschäftchen“\nmißbrauchen. Leider gewinnt man den Eindruck, daß die\nJournalisten nicht viel besser, daß Beschuldigte und Be⸗\nschuldiger einander ziemlich gleichwerthig sind.",
+            "TextLines" : [
+               {
+                  "id" : "tl_88",
+                  "text" : "Krakan, 3. Juli. (Eigenbericht.) [Drei parla⸗"
+               },
+               {
+                  "id" : "tl_89",
+                  "text" : "mentarische Streber in der Klemme.] Wir"
+               },
+               {
+                  "id" : "tl_90",
+                  "text" : "haben jetzt in der sogenanten „demokratischen“ (eigentlich"
+               },
+               {
+                  "text" : "nationalliberalen) polnischen Presse einen ergötzlichen Spektakel,",
+                  "id" : "tl_91"
+               },
+               {
+                  "id" : "tl_92",
+                  "text" : "wie sich die früheren Bundesgenossen in den Haaren liegen."
+               },
+               {
+                  "text" : "Die drei „Propheten“, parlamentarische „Mädchen für",
+                  "id" : "tl_93"
+               },
+               {
+                  "id" : "tl_94",
+                  "text" : "alles\", Rutowski, Szczepanowski und Lewicki, haben ihre"
+               },
+               {
+                  "text" : "Unverschämtheit so weit getrieben, daß sie das gesammte",
+                  "id" : "tl_95"
+               },
+               {
+                  "text" : "„demokratische“ Lager bis in die Knochen blamirten. Vor",
+                  "id" : "tl_96"
+               },
+               {
+                  "id" : "tl_97",
+                  "text" : "einiger Zeit waren sie noch die Lieblinge der „nationalen“"
+               },
+               {
+                  "id" : "tl_98",
+                  "text" : "Presse; ihren Worten wurde von den Spießern mit Andacht"
+               },
+               {
+                  "text" : "gelauscht, ihre Aussätze wurden bereitwilligst gedruckt.",
+                  "id" : "tl_99"
+               },
+               {
+                  "text" : "Nun hat sich aber das Maß gefüllt. Seit der Einbringung",
+                  "id" : "tl_100"
+               },
+               {
+                  "text" : "des Taaffe'schen Entwurfes, eigentlich seitdem Szczepanowski",
+                  "id" : "tl_101"
+               },
+               {
+                  "id" : "tl_102",
+                  "text" : "so eifrig für den Ausnahmszustand in Prag eingetreten ist,"
+               },
+               {
+                  "id" : "tl_103",
+                  "text" : "haben die Sozialdemokraten und nach ihrem Beispiele die"
+               },
+               {
+                  "id" : "tl_104",
+                  "text" : "„Volksthümler“ und die jüngeren Demokraten, die noch nicht"
+               },
+               {
+                  "text" : "jedes Schamgefühl verloren haben, den „demokratischen“",
+                  "id" : "tl_105"
+               },
+               {
+                  "text" : "Strebern so energisch die Maske heruntergerissen, daß die",
+                  "id" : "tl_106"
+               },
+               {
+                  "text" : "beunruhigte „öffentliche Meinung“, das ist die liberale Presse,",
+                  "id" : "tl_107"
+               },
+               {
+                  "text" : "im Interesse ihrer eigenen Existenz gegen die „Verräther“",
+                  "id" : "tl_108"
+               },
+               {
+                  "id" : "tl_109",
+                  "text" : "Front machte. Nun haben die drei seit einigen Wochen ihr"
+               },
+               {
+                  "id" : "tl_110",
+                  "text" : "eigenes Kampforgan „Przelom“ („Durchbruch“) in Wien, wo"
+               },
+               {
+                  "id" : "tl_111",
+                  "text" : "sie sich reinzuwaschen bemühen und sich aus der Klemme"
+               },
+               {
+                  "id" : "tl_112",
+                  "text" : "ziehen wollen, indem sie alle Schuld auf einige Wiener"
+               },
+               {
+                  "id" : "tl_113",
+                  "text" : "Korrespondenten der Krakauer und Lemberger Blätter"
+               },
+               {
+                  "text" : "herunterwälzen. Die Korrespondenten sollten unwahre Berichte",
+                  "id" : "tl_114"
+               },
+               {
+                  "id" : "tl_115",
+                  "text" : "über ihr Treiben und ihre Schachergeschäfte den Zeitungen"
+               },
+               {
+                  "text" : "zugesendet haben. Die angegriffenen Journalisten wehren sich",
+                  "id" : "tl_116"
+               },
+               {
+                  "text" : "aber gar mutthig und entdecken unterwegs fo viel Schmutz",
+                  "id" : "tl_117"
+               },
+               {
+                  "text" : "seitens der geehrten Herren Abgeordneten, daß es förmlich",
+                  "id" : "tl_118"
+               },
+               {
+                  "text" : "stinkt. Diese Abgeordneten werden als verrückte Intriganten",
+                  "id" : "tl_119"
+               },
+               {
+                  "text" : "geschildert, die ihr Mandat zu verschiedenen „Geschäftchen“",
+                  "id" : "tl_120"
+               },
+               {
+                  "text" : "mißbrauchen. Leider gewinnt man den Eindruck, daß die",
+                  "id" : "tl_121"
+               },
+               {
+                  "id" : "tl_122",
+                  "text" : "Journalisten nicht viel besser, daß Beschuldigte und Be⸗"
+               },
+               {
+                  "id" : "tl_123",
+                  "text" : "schuldiger einander ziemlich gleichwerthig sind."
+               }
+            ]
+         },
+         {
+            "TextEquiv" : "Ausland.",
+            "TextLines" : [
+               {
+                  "id" : "line_1545181572766_4",
+                  "text" : "Ausland."
+               }
+            ],
+            "id" : "TextRegion_1545181572719_2"
+         },
+         {
+            "TextEquiv" : "Deutschland.",
+            "TextLines" : [
+               {
+                  "id" : "tl_125",
+                  "text" : "Deutschland."
+               }
+            ],
+            "id" : "r_10_2"
+         },
+         {
+            "id" : "r_10_3",
+            "TextLines" : [
+               {
+                  "id" : "tl_126",
+                  "text" : "— Wir haben gestern von dem merkwürdigen Tadel"
+               },
+               {
+                  "id" : "tl_127",
+                  "text" : "erzahlt, den der Colberger Bürgermeister van dem vorgesezten"
+               },
+               {
+                  "text" : "Regierungspräsidenten in Köslin erlitten hat, weil er anläß⸗",
+                  "id" : "tl_128"
+               },
+               {
+                  "text" : "lich der Reichsrathswahl im Kreise Colberg = Köslin den",
+                  "id" : "tl_129"
+               },
+               {
+                  "text" : "Strandschloßsaal — den größten städtischen Saal dieses",
+                  "id" : "tl_130"
+               }
+            ],
+            "TextEquiv" : "— Wir haben gestern von dem merkwürdigen Tadel\nerzahlt, den der Colberger Bürgermeister van dem vorgesezten\nRegierungspräsidenten in Köslin erlitten hat, weil er anläß⸗\nlich der Reichsrathswahl im Kreise Colberg = Köslin den\nStrandschloßsaal — den größten städtischen Saal dieses"
+         },
+         {
+            "id" : "r_11_1",
+            "TextEquiv" : "Badeortes — den Sozialdemokraten zu einer\nVolksversammlung zur Verfügung gestellt\nhat. Die Gemeinde ist deshalb in aller Form gemaßregelt\nworden; es wird in diesem Saale nicht mehr wie üblich\ndas Festessen des Fischereivereines abgehalten, der Landrath\nv. Puttkamer setzte sich mit der Militärbehörde ins Einver⸗\nnehmen, damit die Militärmusik dem Strandschloß⸗\nrestaurant entzogen werde, und endlich wurde der Bürger⸗\nmeister mit einer Ordnungsstrafe von 90 Mark belegt. Dieses\nebenso kleinliche wie gehässige Vorgehen der vorgesetzten Be⸗\nhörde gegen den Bürgermeister erbittert die Bevölkerung der\nStadt aufs tieffte. In der Stadtverordnetensitzung vom 1. Juli\nkam die Angelegenheit ausführlich zur Sprache, und die dabei\nvorgelesenen Aktenstücke sind politisch so werthvoll, charakteri⸗\nsiren den in Deutschland geübten Kampf gegen die Sozial⸗\ndemokratie in so nachdrücklicher Weise, daß wir verpflichtet\nsind, die Sache ausführlicher mitzutheileu. Der Bericht des\nBürgermeisters an den Regierungspräsidenten, der von ihm\nwegen der Ueberlassung des Lokals Rechenschaft verlangt\nhatte, lautet in den wesentlichsten Stellen:",
+            "TextLines" : [
+               {
+                  "text" : "Badeortes — den Sozialdemokraten zu einer",
+                  "id" : "tl_131"
+               },
+               {
+                  "id" : "tl_132",
+                  "text" : "Volksversammlung zur Verfügung gestellt"
+               },
+               {
+                  "text" : "hat. Die Gemeinde ist deshalb in aller Form gemaßregelt",
+                  "id" : "tl_133"
+               },
+               {
+                  "id" : "tl_134",
+                  "text" : "worden; es wird in diesem Saale nicht mehr wie üblich"
+               },
+               {
+                  "id" : "tl_135",
+                  "text" : "das Festessen des Fischereivereines abgehalten, der Landrath"
+               },
+               {
+                  "id" : "tl_136",
+                  "text" : "v. Puttkamer setzte sich mit der Militärbehörde ins Einver⸗"
+               },
+               {
+                  "id" : "tl_137",
+                  "text" : "nehmen, damit die Militärmusik dem Strandschloß⸗"
+               },
+               {
+                  "id" : "tl_138",
+                  "text" : "restaurant entzogen werde, und endlich wurde der Bürger⸗"
+               },
+               {
+                  "id" : "tl_139",
+                  "text" : "meister mit einer Ordnungsstrafe von 90 Mark belegt. Dieses"
+               },
+               {
+                  "text" : "ebenso kleinliche wie gehässige Vorgehen der vorgesetzten Be⸗",
+                  "id" : "tl_140"
+               },
+               {
+                  "text" : "hörde gegen den Bürgermeister erbittert die Bevölkerung der",
+                  "id" : "tl_141"
+               },
+               {
+                  "text" : "Stadt aufs tieffte. In der Stadtverordnetensitzung vom 1. Juli",
+                  "id" : "tl_142"
+               },
+               {
+                  "text" : "kam die Angelegenheit ausführlich zur Sprache, und die dabei",
+                  "id" : "tl_143"
+               },
+               {
+                  "id" : "tl_144",
+                  "text" : "vorgelesenen Aktenstücke sind politisch so werthvoll, charakteri⸗"
+               },
+               {
+                  "text" : "siren den in Deutschland geübten Kampf gegen die Sozial⸗",
+                  "id" : "tl_145"
+               },
+               {
+                  "text" : "demokratie in so nachdrücklicher Weise, daß wir verpflichtet",
+                  "id" : "tl_146"
+               },
+               {
+                  "text" : "sind, die Sache ausführlicher mitzutheileu. Der Bericht des",
+                  "id" : "tl_147"
+               },
+               {
+                  "id" : "tl_148",
+                  "text" : "Bürgermeisters an den Regierungspräsidenten, der von ihm"
+               },
+               {
+                  "id" : "tl_149",
+                  "text" : "wegen der Ueberlassung des Lokals Rechenschaft verlangt"
+               },
+               {
+                  "text" : "hatte, lautet in den wesentlichsten Stellen:",
+                  "id" : "tl_150"
+               }
+            ]
+         },
+         {
+            "id" : "r_11_2",
+            "TextLines" : [
+               {
+                  "text" : "Der Saal des hiesigen Strandschlosses ist Eigenthum der",
+                  "id" : "tl_151"
+               },
+               {
+                  "id" : "tl_152",
+                  "text" : "Stadtgemeinde. In demselben haben schon oft politische Ver⸗"
+               },
+               {
+                  "id" : "tl_153",
+                  "text" : "sammlungen stattgefunden. Außerhalb der Zeit vom 15. Juni bis"
+               },
+               {
+                  "id" : "tl_154",
+                  "text" : "15. September ist gar kein Bedenken getragen, den Saal dazu"
+               },
+               {
+                  "text" : "bereitzustellen. In diesem Jahre ist dort zuerst eine allgemeine",
+                  "id" : "tl_155"
+               },
+               {
+                  "id" : "tl_156",
+                  "text" : "Volksversammlung gestattet wurden, die von den Freisinnigen"
+               },
+               {
+                  "text" : "einberufen war, und am 8. Juni hielten die Freisinnigen ihre",
+                  "id" : "tl_157"
+               },
+               {
+                  "id" : "tl_158",
+                  "text" : "Wählerversammlung dort ab. Um dieselbe Zeit hat der Maurer"
+               },
+               {
+                  "id" : "tl_159",
+                  "text" : "Vierlich hier, Vorsitzender des Sozialdemokratischen Arbeiter⸗"
+               },
+               {
+                  "text" : "vereines, in den Strandschloßsaal ebenfalls eine Versammlung",
+                  "id" : "tl_160"
+               },
+               {
+                  "text" : "berufen zu dürfen. Für die Aufrechterhaltung einer guten Ord⸗",
+                  "id" : "tl_161"
+               },
+               {
+                  "text" : "nung werde gesorgt werden. Ich habe die Benützung des Saales",
+                  "id" : "tl_162"
+               },
+               {
+                  "id" : "tl_163",
+                  "text" : "genehmigt, habe aber bemerkt, daß die Versammlung bis zum"
+               },
+               {
+                  "id" : "tl_164",
+                  "text" : "15. Juni stattfinden müsse. Später könne mit Rücksicht auf das"
+               },
+               {
+                  "id" : "tl_165",
+                  "text" : "Bad der Saal zu keiner politischen Versammlung bewilligt"
+               },
+               {
+                  "id" : "tl_166",
+                  "text" : "werden. Der Maurer Bierlich erklärte, daß die Versammlung"
+               },
+               {
+                  "id" : "tl_167",
+                  "text" : "jedenfalls vor dem 15. Juni werde berufen werden. Sie hat"
+               },
+               {
+                  "id" : "tl_168",
+                  "text" : "am 12. Juni stattgefunden."
+               }
+            ],
+            "TextEquiv" : "Der Saal des hiesigen Strandschlosses ist Eigenthum der\nStadtgemeinde. In demselben haben schon oft politische Ver⸗\nsammlungen stattgefunden. Außerhalb der Zeit vom 15. Juni bis\n15. September ist gar kein Bedenken getragen, den Saal dazu\nbereitzustellen. In diesem Jahre ist dort zuerst eine allgemeine\nVolksversammlung gestattet wurden, die von den Freisinnigen\neinberufen war, und am 8. Juni hielten die Freisinnigen ihre\nWählerversammlung dort ab. Um dieselbe Zeit hat der Maurer\nVierlich hier, Vorsitzender des Sozialdemokratischen Arbeiter⸗\nvereines, in den Strandschloßsaal ebenfalls eine Versammlung\nberufen zu dürfen. Für die Aufrechterhaltung einer guten Ord⸗\nnung werde gesorgt werden. Ich habe die Benützung des Saales\ngenehmigt, habe aber bemerkt, daß die Versammlung bis zum\n15. Juni stattfinden müsse. Später könne mit Rücksicht auf das\nBad der Saal zu keiner politischen Versammlung bewilligt\nwerden. Der Maurer Bierlich erklärte, daß die Versammlung\njedenfalls vor dem 15. Juni werde berufen werden. Sie hat\nam 12. Juni stattgefunden."
+         },
+         {
+            "TextEquiv" : "Am Nachmittag des Tages, etwa 4 Uhr, kam der Herr\nLandrath v. Puttkamer zu mir. Er theilte mir mit, daß er vom\nHerrn Oberst Hitzigrath komme. Seine Aeußerungen waren, so\nweit sie mir noch erinnerlich, etwa folgende: Wenn die sozial⸗\ndemokratische Versammlung im Strandschloß stattfinde, könne die\nStadt davon Schaden haben. Die Regimentsmusik werde dann\nvor dem Strandschlosse nicht mehr spielen können, und anständige\nHerren könnten nicht mehr dahin gehen. Der Herr Oberst habe\nihm, als er zu demselben die letztere Meinung geäußert, erwidert:\nFür dies Jahr habe er, der Oberst, den Vertrag zwischen dem\nKapellmeister des Regiments und der Badedirektion genehmigt\nund mit vollzogen. Dabei werde es bleiben müssen. Im übrigen\nwolle er, der Oberst, sich die Sache überlegen. Der Herr Landrath\nversuchte mich zu veranlassen, die ertheilte Erlaubniß zur Benützung\ndes Saales zu widerrufen. Ich habe erklärt: Es bleibe bei der\nertheilten Erlaubniß zur Benützung des Saales. Die Folgen\nmüßten wir abwarten.",
+            "TextLines" : [
+               {
+                  "text" : "Am Nachmittag des Tages, etwa 4 Uhr, kam der Herr",
+                  "id" : "tl_169"
+               },
+               {
+                  "id" : "tl_170",
+                  "text" : "Landrath v. Puttkamer zu mir. Er theilte mir mit, daß er vom"
+               },
+               {
+                  "text" : "Herrn Oberst Hitzigrath komme. Seine Aeußerungen waren, so",
+                  "id" : "tl_171"
+               },
+               {
+                  "id" : "tl_172",
+                  "text" : "weit sie mir noch erinnerlich, etwa folgende: Wenn die sozial⸗"
+               },
+               {
+                  "id" : "tl_173",
+                  "text" : "demokratische Versammlung im Strandschloß stattfinde, könne die"
+               },
+               {
+                  "text" : "Stadt davon Schaden haben. Die Regimentsmusik werde dann",
+                  "id" : "tl_174"
+               },
+               {
+                  "id" : "tl_175",
+                  "text" : "vor dem Strandschlosse nicht mehr spielen können, und anständige"
+               },
+               {
+                  "id" : "tl_176",
+                  "text" : "Herren könnten nicht mehr dahin gehen. Der Herr Oberst habe"
+               },
+               {
+                  "id" : "tl_177",
+                  "text" : "ihm, als er zu demselben die letztere Meinung geäußert, erwidert:"
+               },
+               {
+                  "id" : "tl_178",
+                  "text" : "Für dies Jahr habe er, der Oberst, den Vertrag zwischen dem"
+               },
+               {
+                  "id" : "tl_179",
+                  "text" : "Kapellmeister des Regiments und der Badedirektion genehmigt"
+               },
+               {
+                  "text" : "und mit vollzogen. Dabei werde es bleiben müssen. Im übrigen",
+                  "id" : "tl_180"
+               },
+               {
+                  "id" : "tl_181",
+                  "text" : "wolle er, der Oberst, sich die Sache überlegen. Der Herr Landrath"
+               },
+               {
+                  "id" : "tl_182",
+                  "text" : "versuchte mich zu veranlassen, die ertheilte Erlaubniß zur Benützung"
+               },
+               {
+                  "text" : "des Saales zu widerrufen. Ich habe erklärt: Es bleibe bei der",
+                  "id" : "tl_183"
+               },
+               {
+                  "text" : "ertheilten Erlaubniß zur Benützung des Saales. Die Folgen",
+                  "id" : "tl_184"
+               },
+               {
+                  "text" : "müßten wir abwarten.",
+                  "id" : "tl_185"
+               }
+            ],
+            "id" : "r_11_3"
+         },
+         {
+            "id" : "r_11_4",
+            "TextEquiv" : "Die Versammlung verlief in bester Ordnung. Es war mir\nbekannt, daß die Sozialdemokraten hier in ihren Versammlungen\nallgemein eine musterhafte Zucht und Ordnung beobachten. Ich\nselbst bin in der fraglichen Versammlung gegenwärtig gewesen.\nDie Versammlung war eine allgemeine Volksversammlung; es\nwaren mehr Mitglieder anderer Parteien dort als Sozialdemo⸗\nkraten. Die Mitglieder anderer Parteien machten etwa zwei\nDrittel der Versammlung aus. Insbesondere waren auch mehrere\nBeamte verschiedener Art da. Reichstagsabgeordneter Herbert zu\nStettin und der Kaufmann Lotz ans Köslin sprachen für den\nsozialdemokratischen Wahlkandidaten. Einen unangemessenen,\nschimpfenden Ausdruck erlaubte sich in der Versammlung nur ein\nals Konservativer anftretender Schuhmachermeister. Es ist in\nkeiner anderen politischen Versammlung hier so ordentlich und\nruhig zugegangen wie in der von Sozialdemokraten berufenen.\nKeine andere ist auch so stark besucht worden und von so vielen\nMännern aus den verschiedenen politischen Parteien.",
+            "TextLines" : [
+               {
+                  "id" : "tl_186",
+                  "text" : "Die Versammlung verlief in bester Ordnung. Es war mir"
+               },
+               {
+                  "text" : "bekannt, daß die Sozialdemokraten hier in ihren Versammlungen",
+                  "id" : "tl_187"
+               },
+               {
+                  "text" : "allgemein eine musterhafte Zucht und Ordnung beobachten. Ich",
+                  "id" : "tl_188"
+               },
+               {
+                  "text" : "selbst bin in der fraglichen Versammlung gegenwärtig gewesen.",
+                  "id" : "tl_189"
+               },
+               {
+                  "id" : "tl_190",
+                  "text" : "Die Versammlung war eine allgemeine Volksversammlung; es"
+               },
+               {
+                  "id" : "tl_191",
+                  "text" : "waren mehr Mitglieder anderer Parteien dort als Sozialdemo⸗"
+               },
+               {
+                  "text" : "kraten. Die Mitglieder anderer Parteien machten etwa zwei",
+                  "id" : "tl_192"
+               },
+               {
+                  "id" : "tl_193",
+                  "text" : "Drittel der Versammlung aus. Insbesondere waren auch mehrere"
+               },
+               {
+                  "text" : "Beamte verschiedener Art da. Reichstagsabgeordneter Herbert zu",
+                  "id" : "tl_194"
+               },
+               {
+                  "text" : "Stettin und der Kaufmann Lotz ans Köslin sprachen für den",
+                  "id" : "tl_195"
+               },
+               {
+                  "text" : "sozialdemokratischen Wahlkandidaten. Einen unangemessenen,",
+                  "id" : "tl_196"
+               },
+               {
+                  "text" : "schimpfenden Ausdruck erlaubte sich in der Versammlung nur ein",
+                  "id" : "tl_197"
+               },
+               {
+                  "id" : "tl_198",
+                  "text" : "als Konservativer anftretender Schuhmachermeister. Es ist in"
+               },
+               {
+                  "text" : "keiner anderen politischen Versammlung hier so ordentlich und",
+                  "id" : "tl_199"
+               },
+               {
+                  "text" : "ruhig zugegangen wie in der von Sozialdemokraten berufenen.",
+                  "id" : "tl_200"
+               },
+               {
+                  "text" : "Keine andere ist auch so stark besucht worden und von so vielen",
+                  "id" : "tl_201"
+               },
+               {
+                  "id" : "tl_202",
+                  "text" : "Männern aus den verschiedenen politischen Parteien."
+               }
+            ]
+         },
+         {
+            "id" : "r_11_5",
+            "TextLines" : [
+               {
+                  "id" : "tl_203",
+                  "text" : "Was nun die hiesigen Sozialdemokraten anlangt, so sind es"
+               },
+               {
+                  "id" : "tl_204",
+                  "text" : "meist ordentliche, fleißige, arbeitsame Arbeiter und Handwerker,"
+               },
+               {
+                  "id" : "tl_205",
+                  "text" : "besonders Bauhandwerker, die, soweit sie Kinder haben, bemüht"
+               },
+               {
+                  "text" : "sind, solche ordentlich zu erziehen. Unordentliche, faule Arbeiter,",
+                  "id" : "tl_206"
+               },
+               {
+                  "id" : "tl_207",
+                  "text" : "Trinker, Männer, die Achtung nicht verdienen, hält sich der sozial⸗"
+               },
+               {
+                  "id" : "tl_208",
+                  "text" : "demokratische Verein hier am liebsten fern. Gerade weil die Sozial⸗"
+               },
+               {
+                  "id" : "tl_209",
+                  "text" : "demokraten hier in großer Anzahl ordentliche, tüchtige Männer und"
+               },
+               {
+                  "text" : "Bürger sind, wäre es unrecht und unverzeihlich gewesen, ihnen die",
+                  "id" : "tl_210"
+               },
+               {
+                  "id" : "tl_211",
+                  "text" : "Benützung des städtischen Saales zu versagen, dessen Benützung"
+               },
+               {
+                  "id" : "tl_212",
+                  "text" : "anderen ohneweiters gestattet worden ist."
+               }
+            ],
+            "TextEquiv" : "Was nun die hiesigen Sozialdemokraten anlangt, so sind es\nmeist ordentliche, fleißige, arbeitsame Arbeiter und Handwerker,\nbesonders Bauhandwerker, die, soweit sie Kinder haben, bemüht\nsind, solche ordentlich zu erziehen. Unordentliche, faule Arbeiter,\nTrinker, Männer, die Achtung nicht verdienen, hält sich der sozial⸗\ndemokratische Verein hier am liebsten fern. Gerade weil die Sozial⸗\ndemokraten hier in großer Anzahl ordentliche, tüchtige Männer und\nBürger sind, wäre es unrecht und unverzeihlich gewesen, ihnen die\nBenützung des städtischen Saales zu versagen, dessen Benützung\nanderen ohneweiters gestattet worden ist."
+         },
+         {
+            "TextEquiv" : "Die Ueberlassung des Saales zu der Versammlung soll bei\neinem Theile der Bürgerschaft lebhaften Anstoß erregt haben.\nDieser Theil der Bürgerschaft ist jedenfalls numerisch sehr klein.\nDer Herr Landrath hat darüber keinen Zweifel gelassen, daß ihm\ndie Versammlung im Strandschloffe unangenehm gewesen ist.\nWenn er von vornherein die Sache ruhig mit angesehen und sich\ndagegen nicht bemüht hätte, so zweifle ich sehr, ob überhaupt noch\njemandem der Umstand auch nur besonders ausgefallen wäre, daß\ndie Versammlung nach dem Strandschloß berufen worden und\ndort abgehalten ist. Soll von Austoßerregen die Rede sein, so halte\nich für ganz sicher, daß die Versagung des Saales bei der fraglichen\nVersammlung bei dem größten Theile der Bürger⸗\nschaft und insbesondere bei der großen Ar⸗\nbeiterbevölkerung hier großen Anstoß er⸗\nregt haben würde.",
+            "TextLines" : [
+               {
+                  "text" : "Die Ueberlassung des Saales zu der Versammlung soll bei",
+                  "id" : "tl_213"
+               },
+               {
+                  "text" : "einem Theile der Bürgerschaft lebhaften Anstoß erregt haben.",
+                  "id" : "tl_214"
+               },
+               {
+                  "id" : "tl_215",
+                  "text" : "Dieser Theil der Bürgerschaft ist jedenfalls numerisch sehr klein."
+               },
+               {
+                  "id" : "tl_216",
+                  "text" : "Der Herr Landrath hat darüber keinen Zweifel gelassen, daß ihm"
+               },
+               {
+                  "text" : "die Versammlung im Strandschloffe unangenehm gewesen ist.",
+                  "id" : "tl_217"
+               },
+               {
+                  "id" : "tl_218",
+                  "text" : "Wenn er von vornherein die Sache ruhig mit angesehen und sich"
+               },
+               {
+                  "text" : "dagegen nicht bemüht hätte, so zweifle ich sehr, ob überhaupt noch",
+                  "id" : "tl_219"
+               },
+               {
+                  "text" : "jemandem der Umstand auch nur besonders ausgefallen wäre, daß",
+                  "id" : "tl_220"
+               },
+               {
+                  "id" : "tl_221",
+                  "text" : "die Versammlung nach dem Strandschloß berufen worden und"
+               },
+               {
+                  "id" : "tl_222",
+                  "text" : "dort abgehalten ist. Soll von Austoßerregen die Rede sein, so halte"
+               },
+               {
+                  "text" : "ich für ganz sicher, daß die Versagung des Saales bei der fraglichen",
+                  "id" : "tl_223"
+               },
+               {
+                  "id" : "tl_224",
+                  "text" : "Versammlung bei dem größten Theile der Bürger⸗"
+               },
+               {
+                  "text" : "schaft und insbesondere bei der großen Ar⸗",
+                  "id" : "tl_225"
+               },
+               {
+                  "text" : "beiterbevölkerung hier großen Anstoß er⸗",
+                  "id" : "tl_226"
+               },
+               {
+                  "id" : "tl_227",
+                  "text" : "regt haben würde."
+               }
+            ],
+            "id" : "r_11_6"
+         },
+         {
+            "id" : "TextRegion_1545195007398_20",
+            "TextEquiv" : "Was weiter die weittragenden und schwerwiegenden nach⸗\ntheiligen Folgen für die Entwicklung des Badelebens hier und\nnamentlich des Verkehrs am Strandschloß — auch in finanzieller\nBeziehung — anlangt, so fürchte ich einen solchen Nachtheil nicht.\nJedenfalls darf die Rücksicht auf einen\nSchaden nicht abhalten, gerecht zu handeln\nund Gerechtigkeit und Billigkeit walten zu\nlassen, und nicht dahin führen, einen Theil der Bürgerschaft\ndem andern vorzuziehen, wie es geschehen sein würde, wenn den\nSozialdemokraten der Saal vorenthalten worden wäre.",
+            "TextLines" : [
+               {
+                  "text" : "Was weiter die weittragenden und schwerwiegenden nach⸗",
+                  "id" : "tl_228"
+               },
+               {
+                  "text" : "theiligen Folgen für die Entwicklung des Badelebens hier und",
+                  "id" : "tl_229"
+               },
+               {
+                  "id" : "tl_230",
+                  "text" : "namentlich des Verkehrs am Strandschloß — auch in finanzieller"
+               },
+               {
+                  "text" : "Beziehung — anlangt, so fürchte ich einen solchen Nachtheil nicht.",
+                  "id" : "tl_231"
+               },
+               {
+                  "id" : "tl_232",
+                  "text" : "Jedenfalls darf die Rücksicht auf einen"
+               },
+               {
+                  "id" : "tl_233",
+                  "text" : "Schaden nicht abhalten, gerecht zu handeln"
+               },
+               {
+                  "id" : "tl_234",
+                  "text" : "und Gerechtigkeit und Billigkeit walten zu"
+               },
+               {
+                  "id" : "tl_235",
+                  "text" : "lassen, und nicht dahin führen, einen Theil der Bürgerschaft"
+               },
+               {
+                  "id" : "tl_236",
+                  "text" : "dem andern vorzuziehen, wie es geschehen sein würde, wenn den"
+               },
+               {
+                  "text" : "Sozialdemokraten der Saal vorenthalten worden wäre.",
+                  "id" : "tl_237"
+               }
+            ]
+         },
+         {
+            "TextEquiv" : "Wer nicht sitzen will, wo Sozialdemokraten\ngesessen haben, oder nicht weilen will, wo solche\ngeweilt haben, der geräth in Deutschland in\nVerlegenheit, noch irgendwo Platz zu finden.\nJedenfalls darf er auf keiner Eisenbahn mehr fahren. Das\nhiesige Strandschloß ist erheblich ausgebessert worden. Da\ndie Bauhandwerker und sonstigen Handwerker hier zahlreich\nSozialdemokraten sind, so ist selbstverständlich, daß die\nBauten und Besserungen sowohl an der einen wie an\nder anderen Stelle mindestens theilweise von Sozial⸗\ndelnokraten ausgeführt sind. Was wir essen und trinken,\nist, wenn die Sachen in Fabriken, Brauereien\nu. s. w. Arbeiten erfordert haben, der Regel nach\nvon Sozialdemokraten hergestellt. Unsere Kleidung\nund deren Stoffe sind jedensalls theilweise Ergebnisse der Thätig⸗\nkeit sozialdemokratischer Arbeiter. Man kann in keinem\nneuen Hanse mehr wohnen, an welchem nicht\nSozialdemokraten mitgebaut hatten. Kurz, Sozial⸗\ndemokraten kann niemand in Deutschland mehr ganz vermeiden. Den\nStrandschloßsaal hier meiden zu wollen, weil sich in demselben Sozial⸗\ndemokraten versammelt haben, erscheint dem Magistrat hier selbst⸗\nverständlich als nicht zu billigen. Der Saal gehört nicht den\nSozialdemokraten hier, sondern der Stadtgemeinde, und die\nSozialdemokraten, welche dort gewesen sind, haben sich gut be⸗\ntragen und sind im ganzen ebenso gute Männer als andere,\ndie dort weilten. Auch sittlich stehen sie im\nganzen mindestens ebenso hoch. Es soll für die\nMilitärkapelle nun nicht mehr passend sein, vor dem Strandschloß\nzu spielen. Wer kann dafür bürgen, daß die Musiker nicht selbst",
+            "TextLines" : [
+               {
+                  "text" : "Wer nicht sitzen will, wo Sozialdemokraten",
+                  "id" : "tl_238"
+               },
+               {
+                  "id" : "tl_239",
+                  "text" : "gesessen haben, oder nicht weilen will, wo solche"
+               },
+               {
+                  "id" : "tl_240",
+                  "text" : "geweilt haben, der geräth in Deutschland in"
+               },
+               {
+                  "id" : "tl_241",
+                  "text" : "Verlegenheit, noch irgendwo Platz zu finden."
+               },
+               {
+                  "id" : "tl_242",
+                  "text" : "Jedenfalls darf er auf keiner Eisenbahn mehr fahren. Das"
+               },
+               {
+                  "text" : "hiesige Strandschloß ist erheblich ausgebessert worden. Da",
+                  "id" : "tl_243"
+               },
+               {
+                  "text" : "die Bauhandwerker und sonstigen Handwerker hier zahlreich",
+                  "id" : "tl_244"
+               },
+               {
+                  "text" : "Sozialdemokraten sind, so ist selbstverständlich, daß die",
+                  "id" : "tl_245"
+               },
+               {
+                  "id" : "tl_246",
+                  "text" : "Bauten und Besserungen sowohl an der einen wie an"
+               },
+               {
+                  "id" : "tl_247",
+                  "text" : "der anderen Stelle mindestens theilweise von Sozial⸗"
+               },
+               {
+                  "id" : "tl_248",
+                  "text" : "delnokraten ausgeführt sind. Was wir essen und trinken,"
+               },
+               {
+                  "id" : "tl_249",
+                  "text" : "ist, wenn die Sachen in Fabriken, Brauereien"
+               },
+               {
+                  "text" : "u. s. w. Arbeiten erfordert haben, der Regel nach",
+                  "id" : "tl_250"
+               },
+               {
+                  "id" : "tl_251",
+                  "text" : "von Sozialdemokraten hergestellt. Unsere Kleidung"
+               },
+               {
+                  "id" : "tl_252",
+                  "text" : "und deren Stoffe sind jedensalls theilweise Ergebnisse der Thätig⸗"
+               },
+               {
+                  "id" : "tl_253",
+                  "text" : "keit sozialdemokratischer Arbeiter. Man kann in keinem"
+               },
+               {
+                  "id" : "tl_254",
+                  "text" : "neuen Hanse mehr wohnen, an welchem nicht"
+               },
+               {
+                  "id" : "tl_255",
+                  "text" : "Sozialdemokraten mitgebaut hatten. Kurz, Sozial⸗"
+               },
+               {
+                  "text" : "demokraten kann niemand in Deutschland mehr ganz vermeiden. Den",
+                  "id" : "tl_256"
+               },
+               {
+                  "id" : "tl_257",
+                  "text" : "Strandschloßsaal hier meiden zu wollen, weil sich in demselben Sozial⸗"
+               },
+               {
+                  "text" : "demokraten versammelt haben, erscheint dem Magistrat hier selbst⸗",
+                  "id" : "tl_258"
+               },
+               {
+                  "id" : "tl_259",
+                  "text" : "verständlich als nicht zu billigen. Der Saal gehört nicht den"
+               },
+               {
+                  "text" : "Sozialdemokraten hier, sondern der Stadtgemeinde, und die",
+                  "id" : "tl_260"
+               },
+               {
+                  "text" : "Sozialdemokraten, welche dort gewesen sind, haben sich gut be⸗",
+                  "id" : "tl_261"
+               },
+               {
+                  "id" : "tl_262",
+                  "text" : "tragen und sind im ganzen ebenso gute Männer als andere,"
+               },
+               {
+                  "id" : "tl_263",
+                  "text" : "die dort weilten. Auch sittlich stehen sie im"
+               },
+               {
+                  "id" : "tl_264",
+                  "text" : "ganzen mindestens ebenso hoch. Es soll für die"
+               },
+               {
+                  "text" : "Militärkapelle nun nicht mehr passend sein, vor dem Strandschloß",
+                  "id" : "tl_265"
+               },
+               {
+                  "text" : "zu spielen. Wer kann dafür bürgen, daß die Musiker nicht selbst",
+                  "id" : "tl_266"
+               }
+            ],
+            "id" : "TextRegion_1545199768031_21"
+         },
+         {
+            "TextLines" : [
+               {
+                  "text" : "theilweise mit den Sozialdemokraten denken und empfinden.",
+                  "id" : "tl_267"
+               },
+               {
+                  "id" : "tl_268",
+                  "text" : "Ich habe, so lange ich hier im Amte bin, den Grundsatz befolgt,"
+               },
+               {
+                  "text" : "den Sozialdemokraten gegenüber jede unnöthige Härte ebensosehr",
+                  "id" : "tl_269"
+               },
+               {
+                  "id" : "tl_270",
+                  "text" : "zu vermeiden wie anderen Bürgern gegenüber. Sie können hier"
+               },
+               {
+                  "id" : "tl_271",
+                  "text" : "vom Märtyrerthum nicht reden; das Gegentheil würde ihre An⸗"
+               },
+               {
+                  "text" : "hänger nur mehren.",
+                  "id" : "tl_272"
+               }
+            ],
+            "TextEquiv" : "theilweise mit den Sozialdemokraten denken und empfinden.\nIch habe, so lange ich hier im Amte bin, den Grundsatz befolgt,\nden Sozialdemokraten gegenüber jede unnöthige Härte ebensosehr\nzu vermeiden wie anderen Bürgern gegenüber. Sie können hier\nvom Märtyrerthum nicht reden; das Gegentheil würde ihre An⸗\nhänger nur mehren.",
+            "id" : "r_12_1"
+         },
+         {
+            "id" : "r_12_2",
+            "TextEquiv" : "Jedenfalls ist nach Ansicht auch des Magistrats sicher, daß\ndie Bereitstellung des städtischen Saales zu einer Versammlung\nhier den sozialen Frieden gefördert hat. Und wenn\nfortgefahren werden sollte, wie es in einer Zeitung versucht ist, der\nStadt oder dem Strandschloßwirth deswegen Nachtheile zu bereiten,\nso kann das geeignet sein, den gesellschaftlichen Haß zu fördern.\nEuer Hochwohlgeboren werden hieraus entnehmen, daß es mir\nunmöglich ist, auch nur einen Augenblick zu bereuen,\nwas ich gethan habe. Im Gegentheil, ich bin damit zufrieden und\nim Gewissen völlig ruhig. Ich würde glauben, anders un⸗\ngerecht und unchristlich gehandelt zu haben.",
+            "TextLines" : [
+               {
+                  "id" : "tl_273",
+                  "text" : "Jedenfalls ist nach Ansicht auch des Magistrats sicher, daß"
+               },
+               {
+                  "id" : "tl_274",
+                  "text" : "die Bereitstellung des städtischen Saales zu einer Versammlung"
+               },
+               {
+                  "id" : "tl_275",
+                  "text" : "hier den sozialen Frieden gefördert hat. Und wenn"
+               },
+               {
+                  "text" : "fortgefahren werden sollte, wie es in einer Zeitung versucht ist, der",
+                  "id" : "tl_276"
+               },
+               {
+                  "text" : "Stadt oder dem Strandschloßwirth deswegen Nachtheile zu bereiten,",
+                  "id" : "tl_277"
+               },
+               {
+                  "id" : "tl_278",
+                  "text" : "so kann das geeignet sein, den gesellschaftlichen Haß zu fördern."
+               },
+               {
+                  "id" : "tl_279",
+                  "text" : "Euer Hochwohlgeboren werden hieraus entnehmen, daß es mir"
+               },
+               {
+                  "id" : "tl_280",
+                  "text" : "unmöglich ist, auch nur einen Augenblick zu bereuen,"
+               },
+               {
+                  "id" : "tl_281",
+                  "text" : "was ich gethan habe. Im Gegentheil, ich bin damit zufrieden und"
+               },
+               {
+                  "id" : "tl_282",
+                  "text" : "im Gewissen völlig ruhig. Ich würde glauben, anders un⸗"
+               },
+               {
+                  "text" : "gerecht und unchristlich gehandelt zu haben.",
+                  "id" : "tl_283"
+               }
+            ]
+         },
+         {
+            "id" : "TextRegion_1545200696078_22",
+            "TextLines" : [
+               {
+                  "text" : "Die Antwort des Regierungspräsidenten setzt der Sache",
+                  "id" : "tl_284"
+               },
+               {
+                  "id" : "tl_285",
+                  "text" : "die Krone auf. Der Regierungspräsident erklärt, der Bürger⸗"
+               },
+               {
+                  "id" : "tl_286",
+                  "text" : "meister hätte durch Ueberlassung des Saales den Zielen einer"
+               },
+               {
+                  "text" : "Partei, die den Umsturz der bestehenden Gesellschaftsordnung,",
+                  "id" : "tl_287"
+               },
+               {
+                  "text" : "der Monarchie und des Christenthums auf ihre Fahne ge⸗",
+                  "id" : "tl_288"
+               },
+               {
+                  "id" : "tl_289",
+                  "text" : "schrieben hat, mit vollem Bewußtsein direkten Vorschub ge⸗"
+               },
+               {
+                  "id" : "tl_290",
+                  "text" : "leistet. Durch dieses Verhalten habe er nicht nur den kom⸗"
+               },
+               {
+                  "text" : "munalen Interessen der Stadt geschadet, sondern auch damit",
+                  "id" : "tl_291"
+               },
+               {
+                  "id" : "tl_292",
+                  "text" : "die Pflichten, die ihm sein Amt als mittelbarer Staats⸗"
+               },
+               {
+                  "id" : "tl_293",
+                  "text" : "beamtet und als Oberhaupt einer Kommune anferlegt, aufs"
+               },
+               {
+                  "text" : "gröblichste verletzt. Denn ein Beamter, welcher die Zwecke",
+                  "id" : "tl_294"
+               },
+               {
+                  "id" : "tl_295",
+                  "text" : "der sozialdemokratischen Partei, sei es direkt oder indirekt,"
+               },
+               {
+                  "text" : "bewußt unterstützt und zu ihrer Weiterverbreitung beiträgt,",
+                  "id" : "tl_296"
+               },
+               {
+                  "text" : "handelt pflichtwidrig. Der Regierungspräsident erklärt das",
+                  "id" : "tl_297"
+               },
+               {
+                  "id" : "tl_298",
+                  "text" : "Vorgehen des Bürgermeisters, das verständig, gerecht und"
+               },
+               {
+                  "id" : "tl_299",
+                  "text" : "logisch war, für „eine gröbliche Verletzung der Amtspflicht“"
+               },
+               {
+                  "id" : "tl_300",
+                  "text" : "und bestraft ihn mit einer Buße von 90 Mark. — Diese"
+               },
+               {
+                  "text" : "Aktenstücke sind menschliche Dokumente, die man genau",
+                  "id" : "tl_301"
+               },
+               {
+                  "text" : "merken muß.",
+                  "id" : "tl_302"
+               }
+            ],
+            "TextEquiv" : "Die Antwort des Regierungspräsidenten setzt der Sache\ndie Krone auf. Der Regierungspräsident erklärt, der Bürger⸗\nmeister hätte durch Ueberlassung des Saales den Zielen einer\nPartei, die den Umsturz der bestehenden Gesellschaftsordnung,\nder Monarchie und des Christenthums auf ihre Fahne ge⸗\nschrieben hat, mit vollem Bewußtsein direkten Vorschub ge⸗\nleistet. Durch dieses Verhalten habe er nicht nur den kom⸗\nmunalen Interessen der Stadt geschadet, sondern auch damit\ndie Pflichten, die ihm sein Amt als mittelbarer Staats⸗\nbeamtet und als Oberhaupt einer Kommune anferlegt, aufs\ngröblichste verletzt. Denn ein Beamter, welcher die Zwecke\nder sozialdemokratischen Partei, sei es direkt oder indirekt,\nbewußt unterstützt und zu ihrer Weiterverbreitung beiträgt,\nhandelt pflichtwidrig. Der Regierungspräsident erklärt das\nVorgehen des Bürgermeisters, das verständig, gerecht und\nlogisch war, für „eine gröbliche Verletzung der Amtspflicht“\nund bestraft ihn mit einer Buße von 90 Mark. — Diese\nAktenstücke sind menschliche Dokumente, die man genau\nmerken muß."
+         },
+         {
+            "TextEquiv" : "Italien.",
+            "TextLines" : [
+               {
+                  "id" : "tl_303",
+                  "text" : "Italien."
+               }
+            ],
+            "id" : "r_12_5"
+         },
+         {
+            "id" : "r_12_6",
+            "TextEquiv" : "Rom, 5 Juli. (Telegramm.) [Kammersitzung.] De⸗\nputirter Aprile bringt eine Interpellation über den Konflikt\nzwischen französischen und italienischen Arbeitern\nbei Saint=Jan=Maurienne ein. Die Kammer tritt hierauf in die\nBerathung der finanziellen Reformen ein.",
+            "TextLines" : [
+               {
+                  "id" : "tl_304",
+                  "text" : "Rom, 5 Juli. (Telegramm.) [Kammersitzung.] De⸗"
+               },
+               {
+                  "id" : "tl_305",
+                  "text" : "putirter Aprile bringt eine Interpellation über den Konflikt"
+               },
+               {
+                  "id" : "tl_306",
+                  "text" : "zwischen französischen und italienischen Arbeitern"
+               },
+               {
+                  "id" : "tl_307",
+                  "text" : "bei Saint=Jan=Maurienne ein. Die Kammer tritt hierauf in die"
+               },
+               {
+                  "text" : "Berathung der finanziellen Reformen ein.",
+                  "id" : "tl_308"
+               }
+            ]
+         },
+         {
+            "id" : "r_12_7",
+            "TextLines" : [
+               {
+                  "id" : "tl_309",
+                  "text" : "Serbien."
+               }
+            ],
+            "TextEquiv" : "Serbien."
+         },
+         {
+            "TextEquiv" : "Belgrad, 5. Juli. (Telegramm.) Wie verlautet, hätte\nSimic die ihm übertragene Mission der Bildung eines\nKoalitionsministeriums in die Hände des Königs zurück⸗\ngelegt und würde derzeit mit Stojan Novakovic\nüber die Bildung eines fortschrittlichen Kabinets\nverhandelt.",
+            "TextLines" : [
+               {
+                  "id" : "tl_310",
+                  "text" : "Belgrad, 5. Juli. (Telegramm.) Wie verlautet, hätte"
+               },
+               {
+                  "text" : "Simic die ihm übertragene Mission der Bildung eines",
+                  "id" : "tl_311"
+               },
+               {
+                  "text" : "Koalitionsministeriums in die Hände des Königs zurück⸗",
+                  "id" : "tl_312"
+               },
+               {
+                  "text" : "gelegt und würde derzeit mit Stojan Novakovic",
+                  "id" : "tl_313"
+               },
+               {
+                  "text" : "über die Bildung eines fortschrittlichen Kabinets",
+                  "id" : "tl_314"
+               },
+               {
+                  "id" : "tl_315",
+                  "text" : "verhandelt."
+               }
+            ],
+            "id" : "r_12_8"
+         },
+         {
+            "TextLines" : [
+               {
+                  "id" : "tl_316",
+                  "text" : "— Die außerordentliche Session der Skupschtina"
+               },
+               {
+                  "text" : "wird morgen um 8 Uhr Früh durch das Ministerium",
+                  "id" : "tl_317"
+               },
+               {
+                  "text" : "Christie eröffnet werden. Stojan Novakovic setzt",
+                  "id" : "tl_318"
+               },
+               {
+                  "text" : "seine Bemühungen, ein fortschrittliches Kabinet zu bilden, fort.",
+                  "id" : "tl_319"
+               }
+            ],
+            "TextEquiv" : "— Die außerordentliche Session der Skupschtina\nwird morgen um 8 Uhr Früh durch das Ministerium\nChristie eröffnet werden. Stojan Novakovic setzt\nseine Bemühungen, ein fortschrittliches Kabinet zu bilden, fort.",
+            "id" : "r_12_9"
+         },
+         {
+            "TextLines" : [
+               {
+                  "id" : "tl_320",
+                  "text" : "Tagesnenigkeiten."
+               }
+            ],
+            "TextEquiv" : "Tagesnenigkeiten.",
+            "id" : "r_13_1"
+         },
+         {
+            "id" : "r_13_2",
+            "TextEquiv" : "Geschichtlicher Kalender. 6. Juli 1373. Johannes Hus\ngeboren. — 1415. Johannes Hus verbrannt. — 1535. Thomas\nMorus in London hingerichtet. — 1870. Frankreich erklärt, einen\ndeutschen Fürsten auf dem spanischen Throne nicht zu dulden. —\n1893. Schließung der Pariser Arbeitsbörse. — 1894. Kongreß\nder dänischen Sozialdemokraten in Aarhus.",
+            "TextLines" : [
+               {
+                  "id" : "tl_321",
+                  "text" : "Geschichtlicher Kalender. 6. Juli 1373. Johannes Hus"
+               },
+               {
+                  "text" : "geboren. — 1415. Johannes Hus verbrannt. — 1535. Thomas",
+                  "id" : "tl_322"
+               },
+               {
+                  "id" : "tl_323",
+                  "text" : "Morus in London hingerichtet. — 1870. Frankreich erklärt, einen"
+               },
+               {
+                  "id" : "tl_324",
+                  "text" : "deutschen Fürsten auf dem spanischen Throne nicht zu dulden. —"
+               },
+               {
+                  "id" : "tl_325",
+                  "text" : "1893. Schließung der Pariser Arbeitsbörse. — 1894. Kongreß"
+               },
+               {
+                  "text" : "der dänischen Sozialdemokraten in Aarhus.",
+                  "id" : "tl_326"
+               }
+            ]
+         },
+         {
+            "id" : "TextRegion_1545181924829_6",
+            "TextEquiv" : "* Glückliche Menschen. Während Millionen gebeugt\nvon der Sorge dahinkenchen, sitzen am Kanal, der jetzt in\nFolge des Regenwetters ganz stattlich angeschwollen ist und\ndie Ackererde von Bayerland, voit Ober= und Niederösterreich\nin kaffeebraunen Fluthen gen Osten führt, etliche hundert\nMenschen, die nur beit einen Kummer haben, daß der Fisch\nanbeißt, und zwar rasch anbeißt! Das sind gar mörderische\nWerkzeuge, mit denen die Fischer hantieren. Von einer Angel⸗\nschnur kann man füglich nicht mehr sprechen. Ein klafterlanger\nMessingdraht verläuft an seinem versenkten, mit einem Blei⸗\ngewicht beschwerten Ende in einem fürchterlichen Dreizack,\nund die Angelhaken sind Anker, wahrhaftige Anker. Jetzt\naber in Teufels Namen — was sind das für Menschen, die\nzwölf oder auch mehr geschlagene Stunden im schönen\nSonnenschein dasitzen im üppig wuchernden Unkraut der\nKanalböschung? Das weiß niemand in Wien zu sagen,\nniemand. Am Ufer und auf den Brücken staut sich der\nStrom der Passanten, Augen, aus denen die leb⸗\nhafteste Neugier blitzt, verfolgen jede Bewegung der\nFischer. Der dicke Rentier keucht vorbei und seufzt,\ndaß er auch dort sitzen möchte. Und es seufzt der Geschäfts⸗\nmann, und es seufzt der Arbeiter. Alle möchten sie dort\nsitzen und angeln und auf die ganze Welt pfeifen. — Es\nheißt in der Schrift: „Du sollst dem Ochsen nicht das Maul\nverbinden, der da drischet.\" Aber auch dem Fischer am\nWiener Kanal wird das Maul nicht verbunden, obwohl er\nweder drischt, noch ackert, noch irgendwelche Leistungen ver⸗\nrichtet, sondern bloß auf der Böschung hockt und die vorbei⸗\njagenden Wellen anschaut. Siehe, es kommt das traute, breit⸗\nhüftige Weib mit einem Korb und gibt dem Fischer zu essen.\nEs schleicht das Töchterchen heran und übergibt dem vor⸗\ntrefflichen Vater eine Weinflasche, auf daß er sich labe. Und\ndas Söhnlein schafft Zigaretten herbei. Und der Vater ißt\nund trinkt und raucht und schaut geschlagene zwölf Stunden\nauf das fließende Wasser. Was das für Menschen\nsind, die sich im Sonnenschein am Wiener Kanal füttern\nlassen, das ist, wie gesagt, ein tiefes Geheimniß. Wir\nwollen versuchen, es zu ergründen, allein es gelingt uns\nnicht. Fassen wir in der Nähe des Fischers\nPosto, dreht er sich unwillig nach uns um. Grüßen wir,\ndankt er kaum. Wünschen wir ihm reichlichen Fischfang, so\nermahnt er uns, weiter zurückzutreten, damit uns der Fisch\nnicht sehe. Hört ihr: damit uns der Fisch nicht sehe! Es ist\nempörend. Der Fisch soll uns nicht sehen! Wie kann er uns\naber sehen, da er in dem schmutzigen Wasser schwimmt?\nDoch der Fischer weiß eine solche Atmosphäre um sich zu\nverbreiten, daß man fast in Ehrfurcht ersterben möchte. Man\nweicht gehorsam zuruck. Vor der Faulheit, die sich 10\nimposant in Szene setzt, senkt man die Waffen!",
+            "TextLines" : [
+               {
+                  "id" : "tl_327",
+                  "text" : "* Glückliche Menschen. Während Millionen gebeugt"
+               },
+               {
+                  "text" : "von der Sorge dahinkenchen, sitzen am Kanal, der jetzt in",
+                  "id" : "tl_328"
+               },
+               {
+                  "text" : "Folge des Regenwetters ganz stattlich angeschwollen ist und",
+                  "id" : "tl_329"
+               },
+               {
+                  "id" : "tl_330",
+                  "text" : "die Ackererde von Bayerland, voit Ober= und Niederösterreich"
+               },
+               {
+                  "id" : "tl_331",
+                  "text" : "in kaffeebraunen Fluthen gen Osten führt, etliche hundert"
+               },
+               {
+                  "text" : "Menschen, die nur beit einen Kummer haben, daß der Fisch",
+                  "id" : "tl_332"
+               },
+               {
+                  "id" : "tl_333",
+                  "text" : "anbeißt, und zwar rasch anbeißt! Das sind gar mörderische"
+               },
+               {
+                  "id" : "tl_334",
+                  "text" : "Werkzeuge, mit denen die Fischer hantieren. Von einer Angel⸗"
+               },
+               {
+                  "id" : "tl_335",
+                  "text" : "schnur kann man füglich nicht mehr sprechen. Ein klafterlanger"
+               },
+               {
+                  "text" : "Messingdraht verläuft an seinem versenkten, mit einem Blei⸗",
+                  "id" : "tl_336"
+               },
+               {
+                  "id" : "tl_337",
+                  "text" : "gewicht beschwerten Ende in einem fürchterlichen Dreizack,"
+               },
+               {
+                  "id" : "tl_338",
+                  "text" : "und die Angelhaken sind Anker, wahrhaftige Anker. Jetzt"
+               },
+               {
+                  "id" : "tl_339",
+                  "text" : "aber in Teufels Namen — was sind das für Menschen, die"
+               },
+               {
+                  "text" : "zwölf oder auch mehr geschlagene Stunden im schönen",
+                  "id" : "tl_340"
+               },
+               {
+                  "text" : "Sonnenschein dasitzen im üppig wuchernden Unkraut der",
+                  "id" : "tl_341"
+               },
+               {
+                  "text" : "Kanalböschung? Das weiß niemand in Wien zu sagen,",
+                  "id" : "tl_342"
+               },
+               {
+                  "id" : "tl_343",
+                  "text" : "niemand. Am Ufer und auf den Brücken staut sich der"
+               },
+               {
+                  "text" : "Strom der Passanten, Augen, aus denen die leb⸗",
+                  "id" : "tl_344"
+               },
+               {
+                  "id" : "tl_345",
+                  "text" : "hafteste Neugier blitzt, verfolgen jede Bewegung der"
+               },
+               {
+                  "id" : "tl_346",
+                  "text" : "Fischer. Der dicke Rentier keucht vorbei und seufzt,"
+               },
+               {
+                  "text" : "daß er auch dort sitzen möchte. Und es seufzt der Geschäfts⸗",
+                  "id" : "tl_347"
+               },
+               {
+                  "text" : "mann, und es seufzt der Arbeiter. Alle möchten sie dort",
+                  "id" : "tl_348"
+               },
+               {
+                  "id" : "tl_349",
+                  "text" : "sitzen und angeln und auf die ganze Welt pfeifen. — Es"
+               },
+               {
+                  "id" : "tl_350",
+                  "text" : "heißt in der Schrift: „Du sollst dem Ochsen nicht das Maul"
+               },
+               {
+                  "text" : "verbinden, der da drischet.\" Aber auch dem Fischer am",
+                  "id" : "tl_351"
+               },
+               {
+                  "text" : "Wiener Kanal wird das Maul nicht verbunden, obwohl er",
+                  "id" : "tl_352"
+               },
+               {
+                  "text" : "weder drischt, noch ackert, noch irgendwelche Leistungen ver⸗",
+                  "id" : "tl_353"
+               },
+               {
+                  "id" : "tl_354",
+                  "text" : "richtet, sondern bloß auf der Böschung hockt und die vorbei⸗"
+               },
+               {
+                  "id" : "tl_355",
+                  "text" : "jagenden Wellen anschaut. Siehe, es kommt das traute, breit⸗"
+               },
+               {
+                  "id" : "tl_356",
+                  "text" : "hüftige Weib mit einem Korb und gibt dem Fischer zu essen."
+               },
+               {
+                  "id" : "tl_357",
+                  "text" : "Es schleicht das Töchterchen heran und übergibt dem vor⸗"
+               },
+               {
+                  "text" : "trefflichen Vater eine Weinflasche, auf daß er sich labe. Und",
+                  "id" : "tl_358"
+               },
+               {
+                  "text" : "das Söhnlein schafft Zigaretten herbei. Und der Vater ißt",
+                  "id" : "tl_359"
+               },
+               {
+                  "text" : "und trinkt und raucht und schaut geschlagene zwölf Stunden",
+                  "id" : "tl_360"
+               },
+               {
+                  "text" : "auf das fließende Wasser. Was das für Menschen",
+                  "id" : "tl_361"
+               },
+               {
+                  "id" : "tl_362",
+                  "text" : "sind, die sich im Sonnenschein am Wiener Kanal füttern"
+               },
+               {
+                  "text" : "lassen, das ist, wie gesagt, ein tiefes Geheimniß. Wir",
+                  "id" : "tl_363"
+               },
+               {
+                  "text" : "wollen versuchen, es zu ergründen, allein es gelingt uns",
+                  "id" : "tl_364"
+               },
+               {
+                  "id" : "tl_365",
+                  "text" : "nicht. Fassen wir in der Nähe des Fischers"
+               },
+               {
+                  "text" : "Posto, dreht er sich unwillig nach uns um. Grüßen wir,",
+                  "id" : "tl_366"
+               },
+               {
+                  "id" : "tl_367",
+                  "text" : "dankt er kaum. Wünschen wir ihm reichlichen Fischfang, so"
+               },
+               {
+                  "id" : "tl_368",
+                  "text" : "ermahnt er uns, weiter zurückzutreten, damit uns der Fisch"
+               },
+               {
+                  "text" : "nicht sehe. Hört ihr: damit uns der Fisch nicht sehe! Es ist",
+                  "id" : "tl_369"
+               },
+               {
+                  "id" : "tl_370",
+                  "text" : "empörend. Der Fisch soll uns nicht sehen! Wie kann er uns"
+               },
+               {
+                  "text" : "aber sehen, da er in dem schmutzigen Wasser schwimmt?",
+                  "id" : "tl_371"
+               },
+               {
+                  "text" : "Doch der Fischer weiß eine solche Atmosphäre um sich zu",
+                  "id" : "tl_372"
+               },
+               {
+                  "id" : "tl_373",
+                  "text" : "verbreiten, daß man fast in Ehrfurcht ersterben möchte. Man"
+               },
+               {
+                  "id" : "tl_374",
+                  "text" : "weicht gehorsam zuruck. Vor der Faulheit, die sich 10"
+               },
+               {
+                  "id" : "tl_375",
+                  "text" : "imposant in Szene setzt, senkt man die Waffen!"
+               }
+            ]
+         },
+         {
+            "TextEquiv" : "* Wieder ein erkrankter Caissonarbeiter. Der\n32jährige Karl Schneider aus Oberndorf in Württemberg\nhatte gestern Abends von 6 bis halb 11 Uhr zum erstenmale\nbeim Schleusenbau in Rußdorf im Caisson gearbeitet. Beim\nAusschleusen fühlte er sich ganz wohl, als er aber in sein\nWohnhaus, Döbling, Muthgasse Nr. 76 kam, stürzte er im\nHausflur unter Krämpfen zusammen. Aerzte der Freiwilligen\nRettungsgesellschaft wurden berufen, und bei der Untersuchung\nergab sich, daß bei Schneider das Gehörvermögen fast voll⸗\nständig aufgehoben war. Auf schriftlich an ihn gerichtete\nFragen antwortete der Kranke, daß er reißende Schmerzen\nin den beiden Armen, am Kreuz und in den Kniegelenten\nempfinde, er klagte über Schwindelanfälle und Athemnoth,",
+            "TextLines" : [
+               {
+                  "text" : "* Wieder ein erkrankter Caissonarbeiter. Der",
+                  "id" : "tl_376"
+               },
+               {
+                  "id" : "tl_377",
+                  "text" : "32jährige Karl Schneider aus Oberndorf in Württemberg"
+               },
+               {
+                  "text" : "hatte gestern Abends von 6 bis halb 11 Uhr zum erstenmale",
+                  "id" : "line_1545182091749_7"
+               },
+               {
+                  "text" : "beim Schleusenbau in Rußdorf im Caisson gearbeitet. Beim",
+                  "id" : "line_1545182095056_8"
+               },
+               {
+                  "id" : "line_1545182098286_9",
+                  "text" : "Ausschleusen fühlte er sich ganz wohl, als er aber in sein"
+               },
+               {
+                  "text" : "Wohnhaus, Döbling, Muthgasse Nr. 76 kam, stürzte er im",
+                  "id" : "line_1545182101374_10"
+               },
+               {
+                  "text" : "Hausflur unter Krämpfen zusammen. Aerzte der Freiwilligen",
+                  "id" : "line_1545182104494_11"
+               },
+               {
+                  "id" : "line_1545182107802_12",
+                  "text" : "Rettungsgesellschaft wurden berufen, und bei der Untersuchung"
+               },
+               {
+                  "id" : "line_1545182110734_13",
+                  "text" : "ergab sich, daß bei Schneider das Gehörvermögen fast voll⸗"
+               },
+               {
+                  "text" : "ständig aufgehoben war. Auf schriftlich an ihn gerichtete",
+                  "id" : "line_1545182114494_14"
+               },
+               {
+                  "id" : "line_1545182117458_15",
+                  "text" : "Fragen antwortete der Kranke, daß er reißende Schmerzen"
+               },
+               {
+                  "text" : "in den beiden Armen, am Kreuz und in den Kniegelenten",
+                  "id" : "line_1545182119876_16"
+               },
+               {
+                  "text" : "empfinde, er klagte über Schwindelanfälle und Athemnoth,",
+                  "id" : "line_1545182122949_17"
+               }
+            ],
+            "id" : "r_13_6"
+         }
+      ]
+   }
+}

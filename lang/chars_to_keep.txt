@@ -1,0 +1,151 @@
+
+⸗	11502
+'⸗'  U+2E17  11799  e2 b8 97    &#x2e17;   DOUBLE OBLIQUE HYPHEN (Dash_Punctuation)
+—	2948
+'—'  U+2014  8212   e2 80 94    &mdash;    EM DASH (Dash_Punctuation)
+
+–	7
+'–'  U+2013  8211   e2 80 93    &ndash;    EN DASH (Dash_Punctuation)
+~	2
+'~'  U+007E  126    7e          &#x7e;     TILDE (Math_Symbol)
+_	2
+'_'  U+005F  95     5f          &lowbar;   LOW LINE (Connector_Punctuation)
+…	1
+'…'  U+2026  8230   e2 80 a6    &mldr;     HORIZONTAL ELLIPSIS (Other_Punctuation)
+═	3
+'═'  U+2550  9552   e2 95 90    &boxH;     BOX DRAWINGS DOUBLE HORIZONTAL (Other_Symbol)
+„	1911
+'„'  U+201E  8222   e2 80 9e    &bdquo;    DOUBLE LOW-9 QUOTATION MARK (Open_Punctuation)
+“	1576
+'“'  U+201C  8220   e2 80 9c    &ldquo;    LEFT DOUBLE QUOTATION MARK (Initial_Punctuation)
+”	1
+'”'  U+201D  8221   e2 80 9d    &rdquo;    RIGHT DOUBLE QUOTATION MARK (Final_Punctuation)
+«	9
+'«'  U+00AB  171    c2 ab       &laquo;    LEFT-POINTING DOUBLE ANGLE QUOTATION MARK (Initial_Punctuation)
+»	4
+'»'  U+00BB  187    c2 bb       &raquo;    RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK (Final_Punctuation)
+’	88
+'’'  U+2019  8217   e2 80 99    &rsquo;    RIGHT SINGLE QUOTATION MARK (Final_Punctuation)
+‘	7
+'‘'  U+2018  8216   e2 80 98    &lsquo;    LEFT SINGLE QUOTATION MARK (Initial_Punctuation)
+‚	6
+'‚'  U+201A  8218   e2 80 9a    &sbquo;    SINGLE LOW-9 QUOTATION MARK (Open_Punctuation)
+´	2
+'´'  U+00B4  180    c2 b4       &acute;    ACUTE ACCENT (Modifier_Symbol)
+·	114
+'·'  U+00B7  183    c2 b7       &middot;   MIDDLE DOT (Other_Punctuation)
+•	113
+'•'  U+2022  8226   e2 80 a2    &bull;     BULLET (Other_Punctuation)
+°	90
+'°'  U+00B0  176    c2 b0       &deg;      DEGREE SIGN (Other_Symbol)
+●	1
+'●'  U+25CF  9679   e2 97 8f    &#x25cf;   BLACK CIRCLE (Other_Symbol)
+˙	9
+'˙'  U+02D9  729    cb 99       &dot;      DOT ABOVE (Modifier_Symbol)
+
+
+□	36
+'□'  U+25A1  9633   e2 96 a1    &squ;      WHITE SQUARE (Other_Symbol)
+
+∆	5
+'∆'  U+2206  8710   e2 88 86    &#x2206;   INCREMENT (Math_Symbol)
+
+±	2
+'±'  U+00B1  177    c2 b1       &pm;       PLUS-MINUS SIGN (Math_Symbol)
+†	2
+'†'  U+2020  8224   e2 80 a0    &dagger;   DAGGER (Other_Punctuation)
+‡
+'‡'  U+2021  8225   e2 80 a1    &Dagger;   DOUBLE DAGGER (Other_Punctuation)
+
+
+
+
+
+à	147
+á	13
+â	3
+æ	1
+aͤ
+Æ
+Aͤ
+Á
+ç	23
+Ç
+ɔ	1
+è	31
+é	283
+ê	13
+ë	3
+ï	2
+ʞ	1
+ñ	2
+ò	2
+ó	6
+ô	36
+ő	1
+œ
+oͤ
+Ó	1
+Oͤ 
+Œ
+ř	3
+ꝛ	72
+Š	1
+ſ	53636
+û	1
+uͤ
+Uͤ
+Ù
+Û
+ž	1
+Ž	1
+
+
+
+
+$ uni s fraction | grep -i vulgar
+'¼'  U+00BC  188    c2 bc       &frac14;   VULGAR FRACTION ONE QUARTER (Other_Number)
+'½'  U+00BD  189    c2 bd       &half;     VULGAR FRACTION ONE HALF (Other_Number)
+'¾'  U+00BE  190    c2 be       &frac34;   VULGAR FRACTION THREE QUARTERS (Other_Number)
+'⅐'  U+2150  8528   e2 85 90    &#x2150;   VULGAR FRACTION ONE SEVENTH (Other_Number)
+'⅑'  U+2151  8529   e2 85 91    &#x2151;   VULGAR FRACTION ONE NINTH (Other_Number)
+'⅒'  U+2152  8530   e2 85 92    &#x2152;   VULGAR FRACTION ONE TENTH (Other_Number)
+'⅓'  U+2153  8531   e2 85 93    &frac13;   VULGAR FRACTION ONE THIRD (Other_Number)
+'⅔'  U+2154  8532   e2 85 94    &frac23;   VULGAR FRACTION TWO THIRDS (Other_Number)
+'⅕'  U+2155  8533   e2 85 95    &frac15;   VULGAR FRACTION ONE FIFTH (Other_Number)
+'⅖'  U+2156  8534   e2 85 96    &frac25;   VULGAR FRACTION TWO FIFTHS (Other_Number)
+'⅗'  U+2157  8535   e2 85 97    &frac35;   VULGAR FRACTION THREE FIFTHS (Other_Number)
+'⅘'  U+2158  8536   e2 85 98    &frac45;   VULGAR FRACTION FOUR FIFTHS (Other_Number)
+'⅙'  U+2159  8537   e2 85 99    &frac16;   VULGAR FRACTION ONE SIXTH (Other_Number)
+'⅚'  U+215A  8538   e2 85 9a    &frac56;   VULGAR FRACTION FIVE SIXTHS (Other_Number)
+'⅛'  U+215B  8539   e2 85 9b    &frac18;   VULGAR FRACTION ONE EIGHTH (Other_Number)
+'⅜'  U+215C  8540   e2 85 9c    &frac38;   VULGAR FRACTION THREE EIGHTHS (Other_Number)
+'⅝'  U+215D  8541   e2 85 9d    &frac58;   VULGAR FRACTION FIVE EIGHTHS (Other_Number)
+'⅞'  U+215E  8542   e2 85 9e    &frac78;   VULGAR FRACTION SEVEN EIGHTHS (Other_Number)
+'↉'  U+2189  8585   e2 86 89    &#x2189;   VULGAR FRACTION ZERO THIRDS (Other_Number)
+
+
+'₀'  U+2080  8320   e2 82 80    &#x2080;   SUBSCRIPT ZERO (Other_Number)
+'₁'  U+2081  8321   e2 82 81    &#x2081;   SUBSCRIPT ONE (Other_Number)
+'₂'  U+2082  8322   e2 82 82    &#x2082;   SUBSCRIPT TWO (Other_Number)
+'₃'  U+2083  8323   e2 82 83    &#x2083;   SUBSCRIPT THREE (Other_Number)
+'₄'  U+2084  8324   e2 82 84    &#x2084;   SUBSCRIPT FOUR (Other_Number)
+'₅'  U+2085  8325   e2 82 85    &#x2085;   SUBSCRIPT FIVE (Other_Number)
+'₆'  U+2086  8326   e2 82 86    &#x2086;   SUBSCRIPT SIX (Other_Number)
+'₇'  U+2087  8327   e2 82 87    &#x2087;   SUBSCRIPT SEVEN (Other_Number)
+'₈'  U+2088  8328   e2 82 88    &#x2088;   SUBSCRIPT EIGHT (Other_Number)
+'₉'  U+2089  8329   e2 82 89    &#x2089;   SUBSCRIPT NINE (Other_Number)
+
+'²'  U+00B2  178    c2 b2       &sup2;     SUPERSCRIPT TWO (Other_Number)
+'³'  U+00B3  179    c2 b3       &sup3;     SUPERSCRIPT THREE (Other_Number)
+'¹'  U+00B9  185    c2 b9       &sup1;     SUPERSCRIPT ONE (Other_Number)
+'⁰'  U+2070  8304   e2 81 b0    &#x2070;   SUPERSCRIPT ZERO (Other_Number)
+'⁴'  U+2074  8308   e2 81 b4    &#x2074;   SUPERSCRIPT FOUR (Other_Number)
+'⁵'  U+2075  8309   e2 81 b5    &#x2075;   SUPERSCRIPT FIVE (Other_Number)
+'⁶'  U+2076  8310   e2 81 b6    &#x2076;   SUPERSCRIPT SIX (Other_Number)
+'⁷'  U+2077  8311   e2 81 b7    &#x2077;   SUPERSCRIPT SEVEN (Other_Number)
+'⁸'  U+2078  8312   e2 81 b8    &#x2078;   SUPERSCRIPT EIGHT (Other_Number)
+'⁹'  U+2079  8313   e2 81 b9    &#x2079;   SUPERSCRIPT NINE (Other_Number)
+
+
+
