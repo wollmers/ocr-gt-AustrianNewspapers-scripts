@@ -1,0 +1,10 @@
+ONB_ibn_19110701_036.tif_tl_32.gt.txt: Rank -> Bank
+
+missing file: /gt/train/ONB_nfp_19110701_028/ONB_nfp_19110701_028.tif_tl_2.png
+
+ONB_krz_19110701_002.jpg_tl_35.gt.txt: Dermato-Therapeut.-Jnstitut
+ONB_aze_19110701_002.jpg_tl_128.gt.txt: Paris, 28. Jnni.
+
+
+ONB_aze_18950706_8.jpg_line_1546496895959_11.gt.txt: im Jn- und Auslande
+

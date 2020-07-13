@@ -189,5 +189,24 @@ helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers$ grep -R --exclude
 ./gt/eval/ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_147.gt.txt:betrug 36•26 Millionen Kronen oder 20 Percent der Prämien. Das
 ./gt/eval/ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_129.gt.txt:Millionen Kronen, die Zinſen 38•15 Millionen Kronen, die Geſammt⸗
 
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers/gt$ grep -R '^[s]' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval/ | grep '.txt:'
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_aze_18950706_4/ONB_aze_18950706_4.jpg_line_1545182114494_14.gt.txt:ständig aufgehoben war. Auf schriftlich an ihn gerichtete
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_ibn_19110701_038/ONB_ibn_19110701_038.tif_tl_47.gt.txt:spannendes Drama.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_nfp_18730705_010/ONB_nfp_18730705_010.tif_tl_76.gt.txt:scheinung, daß beiſpielsweiſe heute ſchon große Repsquantitäten
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_aze_19110701_010/ONB_aze_19110701_010.jpg_line_1545993145221_23.gt.txt:schuldverschreibungen:
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_nfp_19110701_017/ONB_nfp_19110701_017.tif_line_1548384365069_102.gt.txt:schlag
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_nfp_19110701_017/ONB_nfp_19110701_017.tif_tl_171.gt.txt:silber 8 ⅜ Pfd. St.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_nfp_18950706_010/ONB_nfp_18950706_010.tif_tl_350.gt.txt:still, doch relativ behauptet. Die neuerliche Ab⸗
+
+######## grep
+
+#### too many 
+grep -R --exclude *.png --exclude *.rej 'sch' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ >> grep.log
+
+grep -Ri --exclude *.png --exclude *.rej 'Gasse' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ >> grep.log
+grep -R --exclude *.png --exclude *.rej 'st' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/
+grep -R --exclude *.png --exclude *.rej '[0-9]/[0-9]' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ >> grep.log 
 
 
+##### delete files
+find ./ -name "*.bak" -delete

@@ -77,10 +77,10 @@ our $config = {
 };
 
 our $stats = {
-  'pages_total'     => 0,
-  'pages_different' => {}, # ->{$pagename}++;
-  'lines_total'     => 0,
-  'lines_different' => 0,
+    'pages_total'     => 0,
+    'pages_different' => {}, # ->{$pagename}++;
+    'lines_total'     => 0,
+    'lines_different' => 0,
 };
 
 our $current_file = '';
@@ -90,23 +90,23 @@ my $file_count = 0;
 my $file_limit = 0;
 
 for my $dir (qw(page_train page_eval)) {
-  $current_dir = $dir;
-  my $dir_name = $config->{'page_dir'} . $config->{$dir};
-  opendir(my $dir_dh, "$dir_name") || die "Can't opendir $dir_name: $!";
-  my @files = grep { /^[^._]/ && /\.xml$/i && -f "$dir_name/$_" } readdir($dir_dh);
-  closedir $dir_dh;
+    $current_dir = $dir;
+    my $dir_name = $config->{'page_dir'} . $config->{$dir};
+    opendir(my $dir_dh, "$dir_name") || die "Can't opendir $dir_name: $!";
+    my @files = grep { /^[^._]/ && /\.xml$/i && -f "$dir_name/$_" } readdir($dir_dh);
+    closedir $dir_dh;
 
-  for my $file (@files) {
-    $file_count++;
-    last if ($file_limit && $file_count > $file_limit);
+    for my $file (@files) {
+        $file_count++;
+        last if ($file_limit && $file_count > $file_limit);
 
-    $stats->{'pages_total'}++;
+        $stats->{'pages_total'}++;
 
-    $current_file = $dir_name . '/' . $file;
-    print STDERR 'current XML-file: ', $current_file, "\n"
-    		if ($options->{'verbose'} >= 1);
-    parse($current_file);
-  }
+        $current_file = $dir_name . '/' . $file;
+        print STDERR 'current XML-file: ', $current_file, "\n"
+    		    if ($options->{'verbose'} >= 1);
+        parse($current_file);
+    }
 }
 
 print_stats();
@@ -114,109 +114,57 @@ print_stats();
 ############################
 
 sub print_stats {
-  #my ($stats) = @_;
+    #my ($stats) = @_;
 
-  print STDERR 'Pages total:     ', $stats->{'pages_total'}, "\n";
-  print STDERR 'Pages different: ', scalar(keys %{$stats->{'pages_different'}}), "\n";
-  print STDERR 'Lines total:     ', $stats->{'lines_total'}, "\n";
-  print STDERR 'Lines different: ', $stats->{'lines_different'}, "\n";
+    print STDERR 'Pages total:     ', $stats->{'pages_total'}, "\n";
+    print STDERR 'Pages different: ', scalar(keys %{$stats->{'pages_different'}}), "\n";
+    print STDERR 'Lines total:     ', $stats->{'lines_total'}, "\n";
+    print STDERR 'Lines different: ', $stats->{'lines_different'}, "\n";
 
 }
 
 sub parse {
-  my ($XMLFILE) = @_;
+    my ($XMLFILE) = @_;
 
-=pod
-
-my $twig= XML::Twig->new(
-    pretty_print => 'indented',
-    twig_roots => {
-        jdk => sub{
-            my ($t, $jdk) = @_;
-            $jdk->set_text( 'JDK 1.8.0_40' );
-            $jdk->print;
-            $jdk->purge;
-            return;
+    # /PcGts/Page/TextRegion
+    my $twig = XML::Twig->new(
+        pretty_print => 'indented',
+        keep_atts_order => 1,
+        output_encoding => 'UTF-8',
+        #remove_cdata => 1,
+        TwigHandlers => {
+  	        '/PcGts/Page' => \&page,
         },
-    },
-    twig_print_outside_roots => 1,
-);
+    );
 
-$twig->parsefile_inplace( 'nightly.xml', '.bak' );
-$twig->flush;
+    eval { $twig->parsefile_inplace( $XMLFILE, '.bak' ); };
 
-  if ($oldtext ne $text) {
-      my $bakfile = $oldfile . '.bak';
-      move $oldfile,$bakfile;
+    if ($@) {
+        print STDERR "XML PARSE ERROR: " . $@;
+        print STDERR 'file: ',$current_file, ' dir: ',$current_dir ,"\n";
+        #die "XML PARSE ERROR: " . $@;
+    }
 
-      open(my $out,">:encoding(UTF-8)",$oldfile)
-          or $self->app->log->debug("cannot open $oldfile: $!");
-
-      print $out $text;
-      close($out);
-  }
-
- $twig->parsefile( $file);
- my($outfile) = $file;
- $outfile =~ s/([.]dita)/.out$1/i;
-
-# current best practices recommend the  use the 3 args form of
-# open and lexical filehandles
-open( my $out,'>', $outfile);
-$twig->flush( $out);
-close( $out);
-
-=cut
-
-  # /PcGts/Page/TextRegion
-  my $twig = XML::Twig->new(
-    pretty_print => 'indented',
-    #pretty_print => 'wrapped',
-    #pretty_print => 'indented_a',
-    keep_atts_order => 1,
-    #keep_encoding => 1,
-    output_encoding => 'UTF-8',
-    #remove_cdata => 1,
-    TwigHandlers => {
-    #twig_roots => {
-  	  #'/PcGts/Page/TextRegion' => \&text_region,
-  	  '/PcGts/Page' => \&page,
-    },
-    #twig_print_outside_roots => 1,
-  );
-
-
-  #eval { $twig->parsefile($XMLFILE); };
-  eval { $twig->parsefile_inplace( $XMLFILE, '.bak' ); };
-
-  if ($@) {
-    print STDERR "XML PARSE ERROR: " . $@;
-    print STDERR 'file: ',$current_file, ' dir: ',$current_dir ,"\n";
-    #die "XML PARSE ERROR: " . $@;
-  }
-
-  open(my $xml_out,">:encoding(UTF-8)",$XMLFILE)
+    open(my $xml_out,">:encoding(UTF-8)",$XMLFILE)
             or die "cannot open $XMLFILE: $!";
-  $twig->flush( $xml_out);
-  close( $xml_out );
+    $twig->flush( $xml_out);
+    close( $xml_out );
 
-  return;
+    return;
 }
 
 # <TextRegion type="paragraph" id="r_1_3" custom="readingOrder {index:2;}">
 #sub text_region {
 sub page {
-  my ($twig, $Page) = @_;
+    my ($twig, $Page) = @_;
 
-  # /PcGts
-  # <Page imageFilename="ONB_ibn_18640702_006.tif"
+    # /PcGts
+    # <Page imageFilename="ONB_ibn_18640702_006.tif"
+    my $Page_imageFilename = $Page->att('imageFilename');
+    print STDERR '$Page_imageFilename: ',
+  	    $Page_imageFilename,"\n" if ($options->{'verbose'} >= 2);
 
-  #my $Page_imageFilename = $TextRegion->parent()->att('imageFilename');
-  my $Page_imageFilename = $Page->att('imageFilename');
-  print STDERR '$Page_imageFilename: ',
-  	$Page_imageFilename,"\n" if ($options->{'verbose'} >= 2);
-
-  my @TextRegions = $Page->children( 'TextRegion');
+    my @TextRegions = $Page->children( 'TextRegion');
 
 TR: for my $TextRegion (@TextRegions) {
 
@@ -225,10 +173,6 @@ TR: for my $TextRegion (@TextRegions) {
   #     Abendblatt 5 kr.</Unicode>
   my $TextEquiv = $TextRegion->first_child( 'TextEquiv');
 
-  # ERROR $TextEquiv not defined: ONB_ibn_19110701_008.tif TextRegion_id=region_1547026084602_43
-  # <TextRegion id="region_1547026084602_43" custom="readingOrder {index:115;}">
-  #       <Coords points="3008,4591 3047,4591 3047,4649 3008,4649"/>
-  #    </TextRegion>
   if (!defined $TextEquiv) {
     print STDERR 'WARN $TextEquiv not defined, skipped: ', $Page_imageFilename,
       ' TextRegion_id=',$TextRegion->att('id'),"\n";
@@ -349,17 +293,17 @@ TR: for my $TextRegion (@TextRegions) {
 #/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train
 
 sub page2line_name {
-  my ($Page_imageFilename, $TL_id) = @_;
+    my ($Page_imageFilename, $TL_id) = @_;
 
-  my $page_name = $Page_imageFilename;
-  $page_name =~ s/\.(xml|pdf|txt|tif|tiff|jpg|jpeg|png)$//i;
+    my $page_name = $Page_imageFilename;
+    $page_name =~ s/\.(xml|pdf|txt|tif|tiff|jpg|jpeg|png)$//i;
 
-  my $sub_dir   = $current_dir;
-  $sub_dir      =~ s/page/line/; # page_(eval|train)
-  my $dir       = $config->{'line_dir'} . $config->{$sub_dir} . '/' . $page_name . '/';
-  my $line_file = $dir . $Page_imageFilename . '_' . $TL_id . '.gt.txt';
+    my $sub_dir   = $current_dir;
+    $sub_dir      =~ s/page/line/; # page_(eval|train)
+    my $dir       = $config->{'line_dir'} . $config->{$sub_dir} . '/' . $page_name . '/';
+    my $line_file = $dir . $Page_imageFilename . '_' . $TL_id . '.gt.txt';
 
-  return $line_file;
+    return $line_file;
 }
 
 __END__

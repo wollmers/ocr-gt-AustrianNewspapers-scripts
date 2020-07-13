@@ -4,8 +4,141 @@ https://www.imagemagick.org/discourse-server/viewtopic.php?t=33352
 Resize, rotate, shear and rotate an image based on Adobe InDesign coordinates
 https://imagemagick.org/discourse-server/viewtopic.php?t=35977
 
+
 ImageMagick v6 Examples --
+http://www.imagemagick.org/Usage/
+
+Cutting and Bordering
+http://www.imagemagick.org/Usage/crop/
+
+http://www.imagemagick.org/Usage/crop/#crop
+The "-crop" image operator will simply cut out the part of all the images 
+in the current sequence at the size and position you specify by its geometry argument.
+
+# crop top left
+ convert rose: -crop 40x30-10-10  crop_tl.gif 
+
  Warping Images
 http://www.imagemagick.org/Usage/warping/
 http://www.imagemagick.org/Usage/warping/#shear
 
+Waving Images
+http://www.imagemagick.org/Usage/warping/#wave
+
+### ONB_newseye
+
+Downloaded 2020-03-01
+
+      <Created>2018-11-29T10:57:56.021+01:00</Created>
+      <LastChange>2019-02-01T11:35:48.644+01:00</LastChange>
+
+         <TextLine id="tl_303"
+                   primaryLanguage="German"
+                   custom="readingOrder {index:0;}">
+            <Coords points="1417,3200 2046,3200 2046,3246 1417,3246"/>
+            <Baseline points="1417,3241 1700,3251 2049,3262"/>
+            <TextEquiv>
+               <Unicode>Mit den Fliekenden drangen wir durch die Thore von</Unicode>
+
+### AustrianNewspapers
+
+    <Created>2018-11-29T10:57:56.021+01:00</Created>
+    <LastChange>2019-02-01T11:35:48.644+01:00</LastChange>
+
+<TextRegion type="paragraph" id="r_21_3" custom="readingOrder {index:48;}">
+      <Coords points="1417,3189 2061,3207 2059,3365 1405,3338"/>
+      <TextLine id="tl_303" primaryLanguage="German" custom="readingOrder {index:0;}">
+      
+        <Coords points="1417,3200  2046,3200  2046,3246     1417,3246"/>
+                        left,top   right,top  right,bottom  left,bottom
+        #x1,y1 x2,y2
+        
+    <Baseline points="  1417,3241 1700,3251                 2049,3262"/>
+                        left                                right
+    
+    right - left   = 2046 - 1417   = 629
+    bottom - top   = 3246 - 3200   = 46
+    baseline - top = 3241 - 3200   = 41 (descender = 5)
+    skew = (3262 - 3241) / 629 = 21 / 629 = 0,0333
+        
+  <span class='ocr_line' id='line_1_323' 
+     title="bbox 1417 3219 2053  3283; baseline 0.027 -39; x_size 36; x_descenders 6; x_ascenders 13">
+     
+                 left top  right bottom
+    page-xml     1417 3200 2046  3246
+    tesseract    1417 3219 2053  3283
+        
+        <TextEquiv>
+          <Unicode>Mit den Fliehenden drangen wir durch die Thore von</Unicode>
+        </TextEquiv>
+      </TextLine>
+      
+      
+      
+      <TextLine id="line_1545028417729_5" custom="readingOrder {index:1;}">
+      
+        <Coords points="1416,3223  2057,3248  2055,3298     1414,3273"/>
+                        left,top   right,top  right,bottom  left,bottom
+        
+        <Baseline points="1414,3268 2055,3293"/>
+        <TextEquiv>
+          <Unicode>Schladming, denn jetzt galt es den Herren und Adeligen,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      
+###########
+
+newseye <Coords points="   1417,3200 2046,3200 2046,3246 1417,3246"/>
+austrian <Coords points="  1417,3189 2061,3207 2059,3365 1405,3338"/>
+
+                           left  top  right bottom
+newseye                    1417  3200 2046  3246
+austrian                   1405  3189 2061  3365
+tesseract title="bbox      1417  3219 2053  3283
+                           left  top  right bottom
+      
+########
+r - l = 2053 - 1417 = 636
+b - t = 3283 - 3219 = 64
+skew = (3264 - 3219 - 49) / 636 = 94 / 636
+                                                           left top  right bottom
+     <span class='ocr_line' id='line_1_323'    title="bbox 1417 3219 2053  3283; baseline 0.027 -39; x_size 36; x_descenders 6; x_ascenders 13">
+      <span class='ocrx_word' id='word_1_2199' title='bbox 1417 3219 1513  3276; x_wconf 43'>DU</span>
+      <span class='ocrx_word' id='word_1_2200' title='bbox 1515 3223 1634  3279; x_wconf 9'>denden</span>
+      <span class='ocrx_word' id='word_1_2201' title='bbox 1655 3228 1733  3283; x_wconf 16' lang='deu'>ran</span>
+      <span class='ocrx_word' id='word_1_2202' title='bbox 1746 3232 1782  3255; x_wconf 96'>wir</span>
+      <span class='ocrx_word' id='word_1_2203' title='bbox 1800 3233 1855  3263; x_wconf 96'>durch</span>
+      <span class='ocrx_word' id='word_1_2204' title='bbox 1878 3237 1908  3259; x_wconf 96'>die</span>
+      <span class='ocrx_word' id='word_1_2205' title='bbox 1922 3238 1986  3267; x_wconf 95'>Thore</span>
+      <span class='ocrx_word' id='word_1_2206' title='bbox 2014 3231 2053  3264; x_wconf 95'>von</span>
+     </span>
+      
+arctan(0.39) = 2.233°
+
+#### test picture
+<span class='ocr_line' id='line_1_2' title="bbox 111 315 657 399; baseline 0.035 -27; x_size 73; x_descenders 14; x_ascenders 19">
+
+https://github.com/kba/hocr-spec/issues/15
+
+when rotating this picture by 2° (convert -rotate 2) the first values is around 0.035 and we have arctan(0.035) ~= 2°. 
+
+https://www.wolframalpha.com/input/?i=arctan%280.035%29
+arctan(0.035)
+
+
+Therefore, baseline 0 0; would stand for the line y = 0*x+0 = 0 i.e. a horizontal line. 
+And something like baseline 0.019 -22; would stand for y = 0.019 x - 22 which is a slightly skewed line shifted by 22.
+
+
+   <div class='ocr_carea' id='block_1_1' title="bbox 118 108 774 210">
+    <p class='ocr_par' id='par_1_1'         title="bbox 118 108 774 210">
+     <span class='ocr_line' id='line_1_1'   title="bbox 118 108 774 210; baseline 0.035 -33; x_size 88; x_descenders 17; x_ascenders 23">
+      <span class='ocrx_word' id='word_1_1' title='bbox 118 108 289 182; x_wconf 96'>This</span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 319 117 380 185; x_wconf 96'>is</span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 412 140 451 187; x_wconf 96'>a</span>
+      <span class='ocrx_word' id='word_1_4' title='bbox 478 124 774 210; x_wconf 96'>picture.</span>
+     </span>
+    </p>
+   </div>
+   
+   

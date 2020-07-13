@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+  <meta name='ocr-system' content='tesseract 5.0.0-alpha' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word ocrp_wconf'/>
+ </head>
+ <body>
+  <div class='ocr_page' id='page_1' title='image "ONB_aze_18950706_1.jpg_tl_303.gt.png"; bbox 0 0 629 46; ppageno 0'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 1 0 629 46">
+    <p class='ocr_par' id='par_1_1' lang='deu' title="bbox 1 0 629 46">
+     <span class='ocr_line' id='line_1_1' title="bbox 329 0 629 15; baseline 0.01 -13; x_size 31.5; x_descenders 5.5; x_ascenders 9.6071424">
+      <span class='ocrx_word' id='word_1_1' title='bbox 329 0 331 2; x_wconf 20'>u</span>
+      <span class='ocrx_word' id='word_1_2' title='bbox 442 0 499 4; x_wconf 8'>Tr</span>
+      <span class='ocrx_word' id='word_1_3' title='bbox 567 0 592 19; x_wconf 32' lang='frk'>IDES“</span>
+      <span class='ocrx_word' id='word_1_4' title='bbox 597 0 629 19; x_wconf 24' lang='frk'>12200</span>
+     </span>
+     <span class='ocr_line' id='line_1_2' title="bbox 1 0 629 44; baseline 0.018 -20; x_size 30; x_descenders 5; x_ascenders 9">
+      <span class='ocrx_word' id='word_1_5' title='bbox 1 0 44 14; x_wconf 37' lang='frk'>M.</span>
+      <span class='ocrx_word' id='word_1_6' title='bbox 59 0 78 14; x_wconf 0' lang='frk'>&lt;,.</span>
+      <span class='ocrx_word' id='word_1_7' title='bbox 101 0 135 27; x_wconf 74' lang='frk'>as.</span>
+      <span class='ocrx_word' id='word_1_8' title='bbox 144 0 215 25; x_wconf 36'>sogen</span>
+      <span class='ocrx_word' id='word_1_9' title='bbox 244 0 277 23; x_wconf 95' lang='frk'>der</span>
+      <span class='ocrx_word' id='word_1_10' title='bbox 303 2 435 31; x_wconf 92' lang='frk'>ſchäumenden</span>
+      <span class='ocrx_word' id='word_1_11' title='bbox 451 7 507 32; x_wconf 73'>Enns</span>
+      <span class='ocrx_word' id='word_1_12' title='bbox 536 6 629 44; x_wconf 96' lang='frk'>getrieben</span>
+     </span>
+     <span class='ocr_line' id='line_1_3' title="bbox 1 19 532 46; baseline 0.002 -1; x_size 28.697168; x_descenders 4.6971679; x_ascenders 10">
+      <span class='ocrx_word' id='word_1_13' title='bbox 1 19 39 42; x_wconf 38' lang='frk'>Mit</span>
+      <span class='ocrx_word' id='word_1_14' title='bbox 55 21 89 43; x_wconf 38' lang='frk'>Heit:</span>
+      <span class='ocrx_word' id='word_1_15' title='bbox 104 23 216 46; x_wconf 58' lang='frk'>Tlichonhon</span>
+      <span class='ocrx_word' id='word_1_16' title='bbox 231 28 315 46; x_wconf 50' lang='frk'>Ho</span>
+      <span class='ocrx_word' id='word_1_17' title='bbox 329 32 438 46; x_wconf 2'>BETA</span>
+      <span class='ocrx_word' id='word_1_18' title='bbox 461 37 532 46; x_wconf 27'>BES;</span>
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,25 @@
+manually cut out
+
+a: tesseract ONB_aze_18950706_1.jpg_tl_303.png ONB_aze_18950706_1.jpg_tl_303a -l deu+frk -c tessedit_write_images=true makebox hocr txt
+
+baseline 0.039 -27;
+arctan(0.039) = 2.233°
+
+#The "-shear" operator takes each row (or column) of pixels and slides them along 
+so that each row (or column) is displaced by the same amount 
+relative to the neighbouring row (or column). Its two arguments are given in terms of angles.
+
+convert ONB_aze_18950706_1.jpg_tl_303.png  -background none  -shear 0,2  shear_y2.png
+
+convert ONB_aze_18950706_1.jpg_tl_303.png  -background none  -shear 0,-2  shear_y-2.png
+
+convert ONB_aze_18950706_1.jpg_tl_303.png  -background none  -shear 0,-2.2  shear_y-2.2.png
+
+- crop it
+
+b: tesseract shear_y-2.2_cropped.png ONB_aze_18950706_1.jpg_tl_303b -l deu+frk -c tessedit_write_images=true makebox hocr txt
+
+from GT: ONB_aze_18950706_1.jpg_tl_303.gt.png
+
+tesseract ONB_aze_18950706_1.jpg_tl_303.gt.png ONB_aze_18950706_1.jpg_tl_303.gta -l deu+frk -c tessedit_write_images=true makebox hocr txt
+

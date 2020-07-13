@@ -1,0 +1,122 @@
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers$ grep -Ri '"' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train/ | grep '.txt'
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_92.gt.txt:Türkei und der Krim". Trieſt—Trieſt vom 28. Auguſt bis
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_70.gt.txt:polis" und „Brünn“).
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_214.gt.txt:raſthenie beim Manne", Preis
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_030/ONB_nfp_19110701_030.tif_tl_64.gt.txt:Gautſch" und „Prinz Hohenlohe“).
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_001/ONB_nfp_18950706_001.tif_tl_336.gt.txt:Poeſie" mit folgenden Worten ausſpricht : „Wir wollen nur
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_001/ONB_nfp_18950706_001.tif_tl_293.gt.txt:etwas Shakeſpeare, bitt' ich! und vom Allerbeſten!"
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_001/ONB_nfp_18950706_001.tif_tl_301.gt.txt:licher Ehe" beſtätigen werden. Die Pſychologie des genialen
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_3/ONB_aze_18950706_3.jpg_tl_369.gt.txt:theidigungsminiſterium" und „Miniſterium für Kultus und
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_3/ONB_aze_18950706_3.jpg_tl_370.gt.txt:Unterricht."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_3/ONB_aze_18950706_3.jpg_tl_331.gt.txt:gung") in Verhandlung gezogen. (Berichterſtatter: Freiherr
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_3/ONB_aze_18950706_3.jpg_tl_264.gt.txt:kann?" (Lebhafte Heiterkeit.) Ganz ſo geht es bei der Mur⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_ibn_19110701_009/ONB_ibn_19110701_009.tif_tl_208.gt.txt:Mitternacht" zur einmaligen Aufführung. Die
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_ibn_19110701_009/ONB_ibn_19110701_009.tif_tl_89.gt.txt:graphen". Die außerordentlich gelungene Aufnahme
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_5/ONB_aze_18950706_5.jpg_tl_263.gt.txt:ham," lallte er den entſetzten Gläubigen zu, die ihn eine
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_5/ONB_aze_18950706_5.jpg_tl_285.gt.txt:fähig" geweſen. Betrunken war er deshalb, weil er im Kotter
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_2/ONB_aze_18950706_2.jpg_line_1545031769395_33.gt.txt:manches Herz."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_19110701_001/ONB_aze_19110701_001.jpg_tl_117.gt.txt:Tiſch oder ſagen .unberufen", um Unheil abzuwenden, oder
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_19110701_001/ONB_aze_19110701_001.jpg_tl_248.gt.txt:waltung" als muſterbildlich preiſt und das Verwalten
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_ibn_19110701_008/ONB_ibn_19110701_008.tif_tl_164.gt.txt:land" traf in New⸗York mit viertägiger Ver⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_015/ONB_nfp_19110701_015.tif_tl_167.gt.txt:Erſatz für den projektierten ſogenannten Donau⸗Oder⸗Kanal",
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_89.gt.txt:Todsünden" die Tragödien „Der Med“ (Trägheit) und
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_56.gt.txt:gegnen", Lieder (Lula Miesz ⸗ Gmeiner, Klavierbegleitung
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_152.gt.txt:ſpricht", „Sandmännchen“ (Stoja v. Milinkovic), E. Lalos
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_164.gt.txt:Jahren", geſungen von Franz Hofbauer.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_012/ONB_nfp_19110701_012.tif_tl_55.gt.txt:Ruh'", c) „Die drei Zigeuner“, d) „Wieder möcht' ich dir be⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_line_1548819199099_232.gt.txt:IN WIEN"
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_022/ONB_nfp_19110701_022.tif_line_1548819178991_231.gt.txt:"VENEDIG
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_004/ONB_nfp_18950706_004.tif_tl_93.gt.txt:Gymnaſial⸗Studiums" nachzuweiſen beſtrebt war, war Graf
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_004/ONB_nfp_18950706_004.tif_tl_212.gt.txt:meus") von Salieri. — In der Hofpfarrkirche zu St. Auguſtin
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_004/ONB_nfp_18950706_004.tif_tl_15.gt.txt:irgendwo vergeſſen."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_003/ONB_nfp_18950706_003.tif_tl_322.gt.txt:ungen" prahlt, ſteigert ſich zuſehends; der Ausdruck
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_003/ONB_nfp_18950706_003.tif_tl_284.gt.txt:empor auf der Erde Gipfel!"
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_003/ONB_nfp_18950706_003.tif_tl_249.gt.txt:Feldzug," ſo ſchließt der Bericht des genannten Blattes, „iſt
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_003/ONB_nfp_18950706_003.tif_tl_264.gt.txt:Maſchinen bauende Thier!" ... „Nein!“ fährt er fort,
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_284.gt.txt:für die Menſchheit ſtehen Alle wie Einer zuſammen!" Jeder
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_178.gt.txt:auch ohne Ueberwindung von höherem Drucke auszuathmen."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_343.gt.txt:aufgehalten...." Jetzt ruft er ſeinem Schwager, dem
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_148.gt.txt:nicht mehr gefordert wird." (Lebhafter Beifall.) Dieſe Reſolution wird
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_273.gt.txt:richt". Schluß der Sitzung ¼6 Uhr.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_362.gt.txt:pimpelten, nervenſchwachen Zeit dieſes Weltgewinſel — —"
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_52.gt.txt:politiſchen Verwaltung" in Verhandlung gezogen. Zum
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_383.gt.txt:empor? Wer kann uns erlöſen?" Und im Ver⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_89.gt.txt:drei Kreuzer leihen, daß ich mir zwei Inländer kaufen kann?" (Leb⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_272.gt.txt:Miniſterium" und „Miniſterium für Cultus und Unter⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_002/ONB_nfp_18950706_002.tif_tl_203.gt.txt:digung", in Verhandlung gezogen. (Berichterſtatter Freiherr
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_232.gt.txt:5% " siebenbürgische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_220.gt.txt:5% " oberösterr.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_line_1547622544302_6.gt.txt:1% " fl. 50
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_267.gt.txt:Ofener Lose " 40
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_line_1547602263291_2.gt.txt:5% " Tiroler
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_222.gt.txt:5% " böhmische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_230.gt.txt:5% " galizische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_265.gt.txt:Clary-Lose " 40
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_269.gt.txt:Waldstoin-Lose " 20
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_234.gt.txt:5% " ung. detto
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_226.gt.txt:5% " Kärnten, Krain u.Küstenland
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_224.gt.txt:5% " schlesische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_228.gt.txt:5% " Temeser Banat.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_line_1547622772763_7.gt.txt:Palffy-Lose " 40
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_266.gt.txt:St. Genois-Lose " 40
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_233.gt.txt:5% " Tem. Verl.-Cl.
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_221.gt.txt:5% " ealzburgische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_268.gt.txt:Windischgritz-Lose " 20
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_223.gt.txt:5% " mährische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_231.gt.txt:5% " Bukowinzer
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_line_1547622181427_3.gt.txt:" " Fünftel-
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_248.gt.txt:1860 " ganze
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_227.gt.txt:5% " ungarische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_line_1547622287177_4.gt.txt:" Fünftel-
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_225.gt.txt:5% " steierische
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_229.gt.txt:5% " croatische u. elavonlsche
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18730705_011/ONB_nfp_18730705_011.tif_tl_270.gt.txt:Keglerich-Lose " 10
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_193.gt.txt:Ende der Leiden des unglücklichen Knaben." Der Tod trat am
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_255.gt.txt:Souvenir an Ihren erſten Tag in Buenretiro."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_312.gt.txt:Sie iſt ja ſo viel jünger als Sie."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_139.gt.txt:Märker noch ſchwere Grenzwacht hielt". Auch eine „Straße von
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_338.gt.txt:selber treu bleibt."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_306.gt.txt:vor künſtleriſchen Augen Gnade finden würden."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_341.gt.txt:uns beliebt zu machen?" fragte die muntere Gräfin. „Erlauben
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_322.gt.txt:eine gute Lehrerin."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_375.gt.txt:mehr gelangweilt werden." (Fortsetzung folgt.)
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_304.gt.txt:Ihrer Durchlauchten," ſagte er, „doch die meiſten dieſer Kritzeleien
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_140.gt.txt:Kairo", die bekanntlich als Rue de Caire bei der Pariſer Aus⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_201.gt.txt:geeignet, ohne weitere Vorſichtsmaßregeln aufbewahrt zu werden."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_370.gt.txt:nächtlichen Lebenswandel einer Kaſſiopeia obſervirt," flüſterte die
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_358.gt.txt:liche Akademie errichtet werden."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_325.gt.txt:Sie iſt die wahrhafteſte Natur, die mir je begegnet iſt."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_295.gt.txt:ſollen uns le beau temps machen."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_333.gt.txt:zu ſchämen, mein Gemal. Ich theile dasſelbe vollkommen."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_18950706_005/ONB_nfp_18950706_005.tif_tl_188.gt.txt:war es zu ſpät," erzählt Pelletan in ſeinen erſt im vorigen Jahre
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_19110701_003/ONB_aze_19110701_003.jpg_tl_50.gt.txt:Stetigkeit und Feſtigkeit" des leider geweſenen Bienerthſchen
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_1/ONB_aze_18950706_1.jpg_tl_57.gt.txt:klaſſen" unter dem Ausnahmszuſtand leiden. Der Ab⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_1/ONB_aze_18950706_1.jpg_tl_89.gt.txt:freundlichſten" von den Erinnerungen, die ihn mit ihr
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_aze_18950706_1/ONB_aze_18950706_1.jpg_line_1545028422123_7.gt.txt:noch in den Federn lagen." (Fortsetzung folgt.)
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_211.gt.txt:Nachrichten" auf Koſten des Beklagten veröffentlichen
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_ibn_19110701_018/ONB_ibn_19110701_018.tif_tl_210.gt.txt:poſt", „Salzburger BolksKatt“ und „Innsbrucker
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_007/ONB_krz_19110701_007.jpg_line_1547432975902_4.gt.txt:Toscana, ehemalige Kronprinzessin von Sachsen."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_007/ONB_krz_19110701_007.jpg_tl_152.gt.txt:eſſern und Wimmerln"
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_007/ONB_krz_19110701_007.jpg_tl_20.gt.txt:zeſſin". Ich ſchrieb weder das Werk, noch lieferte ich
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_009/ONB_krz_19110701_009.jpg_tl_100.gt.txt:Linde" Johann Lehner aufgehalten und dabei eine ſchwere
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_009/ONB_krz_19110701_009.jpg_tl_82.gt.txt:Kronen⸗Zeitung", 9. Bez., Pramergaſſe 28, portofrei zuge⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_009/ONB_krz_19110701_009.jpg_tl_36.gt.txt:Pflug" in Wels hat ſich geſtern der Tapezierermeiſter Albert
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_020/ONB_nfp_19110701_020.tif_tl_170.gt.txt:in den Jahren 1824 und 1825." Die Koſten dieſes -Denk⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_217.gt.txt:tadellos."
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_011/ONB_nfp_19110701_011.tif_tl_186.gt.txt:Abbazia rc." — Verein für Werimeiſter und Induſtrie⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_008/ONB_krz_19110701_008.jpg_tl_114.gt.txt:Popper, Hof⸗ und Gerichtsadvokat,"
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_006/ONB_krz_19110701_006.jpg_tl_144.gt.txt:verſorgt!" Aber nach dieſer Zeit wird er dann doch tiefer
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_006/ONB_krz_19110701_006.jpg_tl_103.gt.txt:gezahlt habe, zahle ich in Hinkunft halt rund 1 Krone." Der
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_006/ONB_krz_19110701_006.jpg_tl_105.gt.txt:zahlte, werde ich 1 Krone und 8 Heller zahlen!" Dieſe
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_krz_19110701_006/ONB_krz_19110701_006.jpg_tl_92.gt.txt:die hohen Preiſe nicht!" Denn abgeſehen davon, daß
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_028/ONB_nfp_19110701_028.tif_tl_517.gt.txt:kriege." Dargeſtellt unter beſonderer Berückſichtigung der
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_028/ONB_nfp_19110701_028.tif_tl_577.gt.txt:Staatshaushaltes."] Sonderabdruck aus „Stref⸗
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_028/ONB_nfp_19110701_028.tif_tl_579.gt.txt:wiſſenſchaftlichen Vereine", Wien, 1911. L. W. Seidel ###
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/train//ONB_nfp_19110701_026/ONB_nfp_19110701_026.tif_tl_333.gt.txt:ſich Ausſichten auf neue und ungeahnte Fortſchritte."
+
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers/gt$ grep -Ri '"' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval/ | grep '.txt:'
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_krz_19110701_010/ONB_krz_19110701_010.jpg_tl_45.gt.txt:Hand" heißt die Ehe
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_krz_19110701_010/ONB_krz_19110701_010.jpg_tl_153.gt.txt:Todſünden" die Tragödien „Der Med“ (Trägheit),
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_aze_18950706_4/ONB_aze_18950706_4.jpg_tl_351.gt.txt:verbinden, der da driſchet." Aber auch dem Fiſcher am
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_aze_18950706_4/ONB_aze_18950706_4.jpg_tl_94.gt.txt:alles", Rutowski, Szczepanowski und Lewicki, haben ihre
+/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval//ONB_aze_18950706_4/ONB_aze_18950706_4.jpg_tl_44.gt.txt:reicherin mit Leib und Seele", ihr Vaterland verlaſſen müſſe,

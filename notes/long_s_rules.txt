@@ -11,8 +11,9 @@ Aſbeſt (von ἀ-σβεστος), Aſphalt (von α-σφαλης), tranſzendent
 
 2) s steht im Silbenanlaut.
 ro􏲑g, Lesung, Raserei, Tran􏲑t, Prosodie, Psy􏰈e, T􏲑ngtau, Csárdás
-3) s steht in Buchstaben􏰗ruppen, die eine 􏰗esonderte Aussprache kenn􏰡eichnen, wie sch oder ss (Di􏰗raph, Tri􏰗raph, ...), es sei denn, es ist der le􏰘te Buchstabe der Gruppe und der sinntra􏰗enden Einheit.
-Fis􏰈, lassen, assoziieren, Dissertation, Squa􏲞, Krzysztof, Csárdás aber: dass, hässli (nach Heyse); Is􏰈ias (kein sch-Laut)
+3) s steht in Buchstaben􏰗gruppen, die eine gesonderte Aussprache kennzeichnen, 
+wie sch oder ss (Digraph, Tri􏰗graph, ...), es sei denn, es ist der letzte Buchstabe der Gruppe und der sinntragenden Einheit.
+Fis􏰈, lassen, assoziieren, Dissertation, Squa􏲞, Krzysztof, Csárdás aber: dass, hässli (nach Heyse); Ischias (kein sch-Laut)
       
 
 
@@ -27,7 +28,10 @@ vor
 [\w]            ſ       ſ         ſ         ſ               ſ    s
 
 s/^[s]/ſ/
+
 s/([act])[s]([g]|[eioyäöü]|[bdfhklrſtu]|[cjmnpqvw]|[\w])/\1ſ\2/
+= [act][s][äöüſßa-z] ???
+= [act][s][geioyäöü] ???
 
 s/([eiouyäöüp])[ſ]([g])/\1s\2/
 s/([eiouyäöüp])[s]([eioyäöü]|[bdfhklrſtu]|[cjmnpqvw]|[\w])/\1ſ\2/

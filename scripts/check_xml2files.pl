@@ -57,8 +57,8 @@ pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
 
 our $config = {
     ### dir of github/[wollmers|UB-Mannheim]/AustrianNewspapers
-    'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/', # original files
-    #'page_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    #'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/', # original files
+    'page_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
     'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
 
     ### dir for tests
@@ -105,7 +105,7 @@ for my $dir (qw(page_train page_eval)) {
   }
 }
 
-print_stats();
+#print_stats();
 
 ############################
 
@@ -214,27 +214,14 @@ sub text_region {
     }
 	my $line_file = page2line_name($Page_imageFilename, $TL_id);
 
-	if (-f $line_file) {
-   		print STDERR '$line_file: ', $line_file, "\n" if ($options->{'verbose'} >= 2);
+	if (!-f $line_file) {
+   		print STDERR 'MISSING: ', $line_file, "\n";
+    }
 
-      	open(my $line_fh,"<:encoding(UTF-8)",$line_file)
-            or die "cannot open $line_file: $!";
-
-     	LINE: while (my $line = <$line_fh>) {
-        		chomp $line;
-            if ($line ne $TL_text) {
-              print STDERR 'DIFF line text different: ',
-                $Page_imageFilename,' TL_id=', $TL_id,
-                "\n", ' TL_text:   ', $TL_text,
-                "\n", ' line file: ', $line, "\n"
-                    if ($options->{'verbose'} >= 1);
-
-                $stats->{'pages_different'}->{$Page_imageFilename}++;
-                $stats->{'lines_different'}++;
-              last LINE;
-            }
-     	}
-    		close $line_fh;
+    my $image_file = $line_file;
+    $image_file =~ s/gt\.txt$/png/;
+	if (!-f $image_file) {
+   		print STDERR 'MISSING: ', $image_file, "\n";
     }
 
   }

@@ -1,0 +1,58 @@
+	<TextRegion type="paragraph" id="r_4_1" custom="readingOrder {index:13;}">
+	
+      <Coords points="468,214 707,214 707,260 468,260"/>  y-min 214 y-max 260
+      
+      <TextLine id="tl_22" primaryLanguage="German" custom="readingOrder {index:0;}">
+        <Coords points="469,215 706,215 706,259 469,259"/>
+        <Baseline points="470,251 578,251 631,249 706,253"/>
+        <TextEquiv>
+          <Unicode>Preis 4 kr.</Unicode>
+        </TextEquiv>
+        <TextStyle fontFamily="Times New Roman" fontSize="11.0"/>
+      </TextLine>
+      <TextEquiv>
+        <Unicode>Preis 4 kr.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+
+    <TextRegion id="region_1545028436532_8" custom="readingOrder {index:3;}">
+    
+      <Coords points="401,298 1752,298 1752,591 401,591"/>  y-min 298 y-max 591
+                                                                  259       527
+                                                                  228       557
+      
+      <TextLine id="line_1545028444976_9" custom="readingOrder {index:0;}">
+      
+        <Coords points="427,477 1746,474 1746,524 427,527"/>
+        
+        <Baseline points="427,522 1746,519"/>
+        <TextEquiv>
+          <Unicode>Arbeiter=Zeitung</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextEquiv>
+        <Unicode>Arbeiter=Zeitung</Unicode>
+      </TextEquiv>
+    </TextRegion>
+
+    <TextRegion type="paragraph" id="r_7_1" custom="readingOrder {index:16;}">
+    
+      <Coords points="487,609 1666,609 1666,671 487,671"/>  y-min 609 y-max 671
+      
+      
+      <TextLine id="tl_25" primaryLanguage="German" custom="readingOrder {index:0;}">
+      
+        <Coords points="488,610 1665,610 1665,670 488,670"/>
+        
+        <Baseline points="489,656 797,657 893,657 1239,659 1665,663"/>
+        <TextEquiv>
+          <Unicode>Zentralorgan der öſterreichiſchen Sozialdemokratie.</Unicode>
+        </TextEquiv>
+        <TextStyle fontFamily="Times New Roman" fontSize="12.0"/>
+      </TextLine>
+      <TextEquiv>
+        <Unicode>Zentralorgan der öſterreichiſchen Sozialdemokratie.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    
+    

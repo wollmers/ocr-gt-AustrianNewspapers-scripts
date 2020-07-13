@@ -237,3 +237,225 @@ train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_27.gt.txt:A###ang 1/###8 
 train/ONB_nfp_19110701_021/ONB_nfp_19110701_021.tif_tl_4.gt.txt:1. Juli 191###
 train/ONB_nfp_18950706_017/ONB_nfp_18950706_017.tif_tl_371.gt.txt:Favoriten, Rothehofgaſſe Nr. 19, verhaft###
 eval/ONB_ibn_19110701_006/ONB_ibn_19110701_006.tif_tl_205.gt.txt:willigen Feuerwehr S###eins, Lorenz Hoſp,
+
+[^/]+/
+grep -Ri '[a-z]=[a-z]' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ | grep '.txt:'
+ONB_ibn_18640702_010.tif_line_1545893045267_62.gt.txt:L. Steindecker=Schlesinger,
+ONB_ibn_18640702_010.tif_line_1545892954094_57.gt.txt:Geld=Verloosung.
+ONB_ibn_18640702_010.tif_line_1545892975344_58.gt.txt:Original=Loose für alle Ziehungen, (keine Promessen), womit die
+ONB_ibn_18640702_010.tif_line_1545893063361_63.gt.txt:Bank= und Wechsel=Geschäft in Frankfurt a. M.
+ONB_ibn_19110701_001.tif_line_1545961436059_20.gt.txt:Bezugs=Preise: Am Platze monatlich 1 K; mit täglicher
+ONB_aze_19110701_008.jpg_line_1545874392734_4.gt.txt:in der „Urania“ der Vortrag „Alt=Wien“ von Adam Müller=
+ONB_aze_19110701_001.jpg_line_1548938649206_9.gt.txt:Inseraten=Aufnahme
+ONB_aze_19110701_001.jpg_line_1545095225287_4.gt.txt:Arbeiter=Zeitung
+ONB_ibn_19110701_030.tif_line_1546503972559_15.gt.txt:Kronen=Bazar, Mu⸗
+ONB_ibn_19110701_015.tif_line_1547717261011_31.gt.txt:Gaumont=Kunstfilm!
+ONB_ibn_19110701_023.tif_line_1545968901193_2.gt.txt:Apollo=Saal
+ONB_ibn_19110701_023.tif_line_1545978216427_34.gt.txt:Doppel=Konzert
+ONB_aze_19110701_012.jpg_line_1546512432309_55.gt.txt:I. Stock=im=Eisenplatz 7, 1. Stock
+ONB_aze_19110701_012.jpg_line_1547806380095_357.gt.txt:Nachf., Annoncen=Expedition in Wien I/1.
+ONB_aze_19110701_012.jpg_line_1546509894997_15.gt.txt:Verlag der Arbeiter=Zeitung: Dr. Adler=Emmerling. — Herausgeber: Dr. Viktor Adler. — Verantwortlicher Redakteur: Max Winter.
+ONB_aze_19110701_012.jpg_line_1546510319725_25.gt.txt:Biskuit=Engros=Niederlage Cabos, VI.
+ONB_aze_19110701_012.jpg_line_1547805953733_337.gt.txt:Parterre=Gasseneingang.
+ONB_aze_19110701_012.jpg_line_1547806250313_349.gt.txt:Sacco=Anzug
+ONB_nfp_18950706_012.tif_line_1548393732888_11.gt.txt:Leiden der Unterleibs=Organe. Route über Linz a. d. D. od. Steyr. Saison vom
+ONB_nfp_18950706_015.tif_line_1548838398630_122.gt.txt:5 Kilo fl. 1.80; Zucker=Marillen für Dunst
+ONB_nfp_18950706_015.tif_line_1548900135795_17.gt.txt:seit 1878. Handelsfach=Lehrer Victor
+ONB_nfp_18950706_015.tif_line_1548732450244_21.gt.txt:rain=, Milch= u. Molken=Curen (eigene Maierei)
+ONB_nfp_18950706_015.tif_line_1548843365550_155.gt.txt:kurient des k. k. Franz=Josephs=Gymn.
+ONB_nfp_18950706_015.tif_line_1548841954362_140.gt.txt:Clavier=Gelgenheitskäufe!
+ONB_ibn_18640702_003.tif_line_1545809467995_6.gt.txt:Berg=Isel.
+ONB_nfp_18730705_009.tif_line_1547608106336_68.gt.txt:Verwaltungs=Einnahmen
+ONB_nfp_18730705_007.tif_line_1547433507476_2.gt.txt:Fiaker=, 12 Einspänner=Eigenthümer, 29 Fiaker=, 37 Einspänner=,
+ONB_nfp_18730705_007.tif_line_1547433525528_3.gt.txt:3 Stellwagen=Kutscher und 1 Tramway=Kutscher; wegen sonstiger
+ONB_nfp_18730705_007.tif_line_1547433546076_4.gt.txt:Ausschreitungen: 201 Fiaker=, 176 Einspänner=Eigenthümer und 12
+ONB_nfp_19110701_022.tif_line_1548817529076_176.gt.txt:Leinen=Anzug
+ONB_nfp_19110701_022.tif_line_1548817529060_172.gt.txt:Mode=Anzug
+ONB_nfp_19110701_022.tif_line_1548817670412_196.gt.txt:Masch=Kostüm.
+ONB_nfp_19110701_022.tif_line_1548817670412_194.gt.txt:Lüster=Kostüm.
+ONB_nfp_19110701_022.tif_line_1548817670412_198.gt.txt:Steirer=Joppe
+ONB_nfp_19110701_022.tif_line_1548817529076_178.gt.txt:Touristen=Anzug
+ONB_nfp_19110701_022.tif_line_1548817529076_174.gt.txt:Tennis=Anzug
+ONB_nfp_19110701_022.tif_line_1548819534647_241.gt.txt:Mädchen=Fortbildungsschule
+ONB_nfp_19110701_022.tif_line_1548817670412_200.gt.txt:Mädchen=Waschkost.
+ONB_nfp_19110701_022.tif_line_1548817529076_180.gt.txt:Lüster=Sakko
+ONB_nfp_19110701_022.tif_line_1548817778536_203.gt.txt:eine Reife=Ausstattung, bestehend aus: 1 Gerstl=
+ONB_nfp_18950706_013.tif_line_1548640464525_5.gt.txt:Börse=Operationen. Exotische Werthpapiere. Provinz=Aufträge sorgfältigst.
+ONB_nfp_18950706_013.tif_line_1548641751817_8.gt.txt:sitäts=Buchhandlung, Wien, I., Kohlmarkt 20, Specialgeschäft f. Rechts- u. Staats⸗
+ONB_nfp_18950706_013.tif_line_1548642628694_12.gt.txt:Loden=Costüme von fl. 12, Kleider von fl. 12. J. U. Plank, II., Praterstraße 36.
+ONB_nfp_18950706_013.tif_line_1548642614627_11.gt.txt:von fl. 4, Sammt=Capes von fl. 7; Jaquets von fl. 5; Wettermäntel von fl. 9,
+ONB_nfp_18950706_013.tif_line_1548641517961_6.gt.txt:helm's Kefirpulver zur Selbst=Darstellung der Kefirmilch mit bestem Erfolge
+ONB_nfp_19110701_004.tif_line_1548295599314_5.gt.txt:Der Konflikt Protic=Prodanovic.
+ONB_nfp_18950706_004.tif_line_1548149313029_24.gt.txt:Langenwang=Mitterdorf einschließlich
+ONB_nfp_18950706_004.tif_line_1548149318226_26.gt.txt:Donavitz=Vordernberg
+ONB_nfp_18950706_004.tif_line_1548149316160_25.gt.txt:Wartberg=Mürzthal=Leoben einschließlich
+ONB_ibn_19110701_035.tif_line_1546847072243_35.gt.txt:(Transitstation) ###pol=München.
+ONB_ibn_19110701_035.tif_line_1546845192158_24.gt.txt:Frühschoppen=Konzert
+ONB_ibn_19110701_035.tif_line_1546845588971_27.gt.txt:Frühschoppen=Konzert
+ONB_aze_18950706_7.jpg_line_1545273166518_154.gt.txt:3% detto Prämien=Schuldv., E. 1889 
+ONB_aze_18950706_7.jpg_line_1545277678608_1.gt.txt:Tramway=Gesellschaft, Wr. 170 fl.
+ONB_aze_18950706_7.jpg_line_1545127843196_40.gt.txt:transito fl. 14.—, fl. 14.25, per November=März ab Triest
+ONB_aze_18950706_7.jpg_line_1545273219069_157.gt.txt:4% Galiz. Bodenkredit=Berein
+ONB_aze_18950706_7.jpg_line_1545273134578_153.gt.txt:3% detto Prämien=Schuldv., E. 1880
+ONB_aze_18950706_7.jpg_line_1545278132932_13.gt.txt:Papier=Rubel
+ONB_aze_18950706_7.jpg_line_1545275200167_278.gt.txt:d. Boden=Kred.=Anst. Em. 1880
+ONB_aze_18950706_7.jpg_line_1545275180477_276.gt.txt:Waldstein=Lose 20 fl. K=M.
+ONB_aze_18950706_7.jpg_line_1545127833384_39.gt.txt:ab Triest transito fl. 14.— fl. 14.25, per Juni=August ab Triest
+ONB_aze_18950706_7.jpg_line_1545272723762_121.gt.txt:Donan=Regul.=Lose 1870 100 fl. 5%
+ONB_aze_18950706_7.jpg_line_1545272775673_124.gt.txt:Mähr. Landes=Anl. v. J. 1890 4%
+ONB_aze_18950706_7.jpg_line_1545278095557_8.gt.txt:20 Mark=Stücke
+ONB_aze_18950706_7.jpg_line_1545277830263_5.gt.txt:Salgo=Tarj. Steinkohl.=B. 20 fl.
+ONB_aze_18950706_7.jpg_line_1545276020030_320.gt.txt:Union=Bank 200 fl.
+ONB_aze_18950706_7.jpg_line_1545272783861_125.gt.txt:Oberöst. Landes=Anl. v. J. 1887, 4%
+ONB_aze_18950706_7.jpg_line_1545272822490_129.gt.txt:detto v. J. 1874 (Prämien=Anlehen)
+ONB_aze_18950706_8.jpg_line_1545358247347_45.gt.txt:Fahrplan der Lokalzüge in allen Tabak=Trafiken Wiens.
+ONB_aze_18950706_8.jpg_line_1545357716941_9.gt.txt:5.55 Früh: Payerbach=Reichenau, Kaltenleutg., Laxenburg, Aspang. 6.— Früh: Potten⸗
+ONB_aze_18950706_8.jpg_line_1545358286868_48.gt.txt:Fahrkarten=Stadtbureau der kgl. ungar. Staatseisenbahnen in Wien, I., Kärntnerring 9,
+ONB_aze_18950706_8.jpg_line_1545358240253_44.gt.txt:Fahr=Ordnungen in Plakat= und Taschenformat bei allen Billetten=Kassen; Taschen=
+ONB_aze_18950706_8.jpg_line_1545358275461_47.gt.txt:Agentur der Internationalen Schlafwagen=Gesellschaft, I., Kärntnerring Nr. 15, im
+ONB_aze_18950706_8.jpg_line_1545297817230_105.gt.txt:Permanente Ausstellung von Erzeugnissen der Kunst=Industrie. — Hof=Jagd=
+ONB_aze_18950706_8.jpg_line_1545299379734_124.gt.txt:Kasten fl. 8, Doppel=Chiffonière
+ONB_aze_18950706_8.jpg_line_1545358255738_46.gt.txt:Fahrkarten=Ausgabe (in beschränktem Maße) und Auskünfte bei der Wiener
+ONB_aze_18950706_8.jpg_line_1545299622078_130.gt.txt:Knaben=Ueber=
+ONB_aze_18950706_1.jpg_line_1545028444976_9.gt.txt:Arbeiter=Zeitung
+ONB_ibn_19110701_029.tif_line_1546248168934_20.gt.txt:Sport=Wägen
+ONB_aze_19110701_011.jpg_line_1547715135880_15.gt.txt:M. Erhardt=V.
+ONB_aze_19110701_011.jpg_line_1547715135911_28.gt.txt:Die Meßner=Marie
+ONB_aze_19110701_011.jpg_line_1546497926892_25.gt.txt:bach=Dorf und retour
+ONB_aze_19110701_011.jpg_line_1546497589098_15.gt.txt:Donau=Dampfschifffahrts=Gesellschaft.
+ONB_ibn_19110701_026.tif_line_1546222349750_2.gt.txt:Postkarten=Photographie
+ONB_ibn_19110701_010.tif_line_1547100812198_21.gt.txt:Juni=Juli
+ONB_ibn_18640702_009.tif_line_1545890153261_51.gt.txt:Geld=Versoofung.
+ONB_nfp_18950706_016.tif_line_1548056675706_28.gt.txt:schöner Garten, zu verkaufen. Ober=St.
+ONB_nfp_18950706_011.tif_line_1548290746148_6.gt.txt:Zwanzig=Francsst.
+ONB_nfp_19110701_016.tif_line_1548298155770_28.gt.txt:Pacific 194 3/8 194 1/9, Canada=Pacific 248 ⅛ (248 5/8), Sounthern
+ONB_nfp_19110701_016.tif_line_1548298152089_27.gt.txt:Pacific 138 ¼ (138 ¾), Southern=Pacific 126 ¾ (126 7/8) Union=
+ONB_nfp_19110701_016.tif_line_1548298149451_26.gt.txt:Rio=Tinto 69 7/8 (69 ¾), Atchison 116 ¾ (116 ¾), Northern=
+ONB_ibn_18640702_008.tif_line_1548917314597_78.gt.txt:Preuß. Kassen=Anweisungen
+ONB_ibn_18640702_008.tif_line_1548917314594_68.gt.txt:K. Rend=Dukaten
+ONB_ibn_18640702_008.tif_line_1545883907759_37.gt.txt:Geld=Sorter.
+ONB_ibn_18640702_008.tif_line_1548917314593_66.gt.txt:K. Münz=Dukaten
+ONB_krz_19110701_001.jpg_line_1547189690857_202.gt.txt:Beraubte Opfer einer Automobil=Katastrophe.
+ONB_krz_19110701_001.jpg_line_1547189676394_177.gt.txt:Monats=Abonnement:
+ONB_nfp_18730705_010.tif_line_1547629161506_82.gt.txt:Zoll=Ctr.
+ONB_nfp_18730705_010.tif_line_1547631118549_301.gt.txt:Wochenausweis der vereinigten Südösterreichisch=Lom⸗
+ONB_nfp_18730705_010.tif_line_1547630864144_274.gt.txt:Linie Salzburg=Hallein.
+ONB_nfp_18730705_010.tif_line_1547631128143_302.gt.txt:bardischen u. Central=italienischen Eisenbahn=Geſellschaft
+ONB_nfp_18730705_010.tif_line_1547631539530_313.gt.txt:Gesammt=Einnahmen vom 1. Ja⸗
+ONB_nfp_18730705_010.tif_line_1547630458590_228.gt.txt:Linie Neumarkt=Braunau=Simbach.
+ONB_nfp_18730705_010.tif_line_1547630683385_254.gt.txt:Linie Wien=Kaiser=Ebersdorf.
+ONB_krz_19330701_010.jpg_line_1547719307616_1818.gt.txt:Illustrierte Kronen=Zeitung.
+ONB_nfp_19110701_017.tif_line_1548385103176_474.gt.txt:O=Gyalle
+
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers$ grep -R 'straße' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ | grep '.txt:'
+ONB_nfp_19110701_031.tif_line_1549868267475_152.gt.txt:straße. 62375—5
+ONB_nfp_19110701_031.tif_line_1549868066519_131.gt.txt:9. Bezirk, Rußdorferstraße Nr. 68,
+ONB_nfp_19110701_031.tif_line_1549867699343_95.gt.txt:Krugerstraße. 82374—5
+
+ONB_nfp_19110701_031.tif_line_1549868012331_126.gt.txt:straße 3. 62246—5
+
+ONB_nfp_19110701_031.tif_line_1549866779831_85.gt.txt:straße 5. 62336—5
+ONB_nfp_19110701_031.tif_line_1549857587265_68.gt.txt:felderstraße 54, 1. Stiege,
+
+ONB_nfp_19110701_031.tif_line_1549867952815_120.gt.txt:Maximilianstraße Nr. 9, 1. Stiege,
+ONB_nfp_19110701_031.tif_line_1549868259334_151.gt.txt:Akademiestraße Nr. 2, Ecke Kruger⸗
+ONB_nfp_19110701_031.tif_line_1549872337720_214.gt.txt:straße 4, Tür 20. 62362—11
+
+ONB_nfp_19110701_031.tif_line_1549867692311_94.gt.txt:1. Bez., Akademiestraße Nr. 2, Ecke
+
+ONB_nfp_19110701_030.tif_line_1548662582590_24.gt.txt:Liechtensteinstraße 14.
+ONB_nfp_19110701_030.tif_line_1548662479131_16.gt.txt:Asvernstraße gelegen, verkauft
+
+ONB_nfp_19110701_030.tif_line_1548662475902_15.gt.txt:Erzherzog Karlstraße und
+ONB_nfp_19110701_030.tif_line_1548662572575_21.gt.txt:Praterstraße 78. Tel. 22552. 62116-1
+ONB_nfp_19110701_030.tif_line_1548659652209_505.gt.txt:9/4, Nutzdorferstraße 37,
+
+ONB_nfp_19110701_030.tif_line_1548663016489_37.gt.txt:straße 45, Tel. 5289/VI,
+ONB_nfp_19110701_030.tif_line_1548659715778_508.gt.txt:Krugerstraße 4, Mezzanin,
+ONB_ibn_19110701_030.tif_tl_112.gt.txt:J. Kaufmann, Ofenhandlg., Karlstraße 6.
+ONB_ibn_19110701_030.tif_line_1546504101730_18.gt.txt:Landhausstraße 4.
+ONB_ibn_19110701_030.tif_line_1546506990819_51.gt.txt:straße 1a,
+ONB_ibn_19110701_030.tif_tl_145.gt.txt:Schöpfstraße 15.
+ONB_ibn_19110701_030.tif_tl_291.gt.txt:Franz Urban, Photoartikel, Innstraße 21.
+ONB_ibn_19110701_030.tif_line_1546506068569_39.gt.txt:straße 29.
+ONB_ibn_19110701_030.tif_line_1546506467678_42.gt.txt:straße 1-3.
+ONB_ibn_19110701_030.tif_tl_254.gt.txt:Hutfabrik: Innstraße 27.
+ONB_ibn_19110701_030.tif_line_1546501676340_2.gt.txt:straße 6.
+ONB_ibn_19110701_030.tif_line_1546504721378_24.gt.txt:straße 1
+ONB_ibn_19110701_030.tif_tl_205.gt.txt:Verkaufsräume: Anichstraße 7.
+ONB_ibn_19110701_030.tif_tl_186.gt.txt:Stiaßny & Schleſinger, Anichstraße 4.
+ONB_ibn_19110701_030.tif_line_1546504499780_22.gt.txt:straße 8,
+ONB_ibn_19110701_030.tif_line_1546508049225_65.gt.txt:straße 3.
+ONB_ibn_19110701_030.tif_line_1546503790605_12.gt.txt:straße 16.
+ONB_ibn_19110701_030.tif_line_1546506826960_49.gt.txt:Südbahnstraße 10,
+ONB_ibn_19110701_030.tif_line_1546507830491_63.gt.txt:sienstraße 34.
+ONB_ibn_19110701_030.tif_line_1546506653366_46.gt.txt:straße 4.
+ONB_ibn_19110701_030.tif_line_1546503978371_16.gt.txt:seumstraße Nr. 12.
+ONB_ibn_19110701_030.tif_tl_123.gt.txt:Anton Mitſchka, Maria Thereſienstraße
+ONB_ibn_19110701_030.tif_line_1546506604741_44.gt.txt:straße Nr. 3.
+ONB_ibn_19110701_030.tif_line_1546502701605_5.gt.txt:Anichstraße 9,
+ONB_ibn_19110701_030.tif_line_1546506870100_50.gt.txt:Leopoldstraße Nr. 12.
+ONB_ibn_19110701_023.tif_line_1545968934873_4.gt.txt:Museumstraße 20.
+ONB_aze_19110701_012.jpg_tl_175.gt.txt:straße 74. Lager aller Sorten rohen und
+ONB_aze_19110701_012.jpg_line_1546509905577_16.gt.txt:Druck= und Verlagsanstalt „Vorwärts“ Swoboda & Co., Wien. V. Wienstraße 89A.
+ONB_aze_19110701_012.jpg_line_1546504417432_644.gt.txt:III. Hauptstraße 18
+ONB_aze_19110701_012.jpg_line_1546504977154_651.gt.txt:verkaufen. XX. Wallensteinstraße 27,
+ONB_aze_19110701_012.jpg_line_1547803925480_263.gt.txt:Gumpendorferstraße 55.
+ONB_aze_19110701_012.jpg_line_1547802188300_135.gt.txt:Felberstraße 64, 1. Stock, Tür 9.
+ONB_aze_19110701_012.jpg_line_1548053617407_1.gt.txt:Wipplingerstraße 31.
+ONB_aze_19110701_012.jpg_line_1546504411628_642.gt.txt:Ecke Mariahilferstraße (nur für
+ONB_aze_19110701_012.jpg_line_1546510152765_19.gt.txt:straße 28, Tür 2.
+ONB_aze_19110701_012.jpg_line_1546508159400_684.gt.txt:die Einlöseanstelt VIII. Josefstädterstraße
+ONB_aze_19110701_012.jpg_line_1547801254090_127.gt.txt:Vorgartenstraße 99, Tür 20.
+ONB_aze_19110701_012.jpg_line_1547802879101_161.gt.txt:Nr. 17, bei der Mariahilferstraße.
+ONB_aze_19110701_012.jpg_line_1547803946919_267.gt.txt:Wiedener Hauptstraße 13.
+ONB_ibn_19110701_014.tif_tl_4.gt.txt:lingstraße 4, 1. Stock. 13379
+ONB_nfp_18950706_015.tif_line_1548842715815_152.gt.txt:zu verkaufen. I., Singerstraße Nr. 6,
+ONB_nfp_18950706_015.tif_tl_762.gt.txt:straße 4.   44071—5
+ONB_nfp_18950706_015.tif_line_1548841990004_144.gt.txt:Praterstraße 23. 44372—5
+ONB_nfp_18950706_015.tif_line_1548917467726_36.gt.txt:im Institut Wieden, Hauptstraße Nr. 39,
+ONB_nfp_19110701_022.tif_line_1548819614455_243.gt.txt:Hauptstraße 20 (Paulanerhof) Telephon 3533.
+ONB_nfp_18950706_013.tif_tl_215.gt.txt:von 10 Flaschen aufwärts. XI/5, Jägerstraße 35. Telephon 7742.
+ONB_nfp_18950706_013.tif_tl_106.gt.txt:früher Neuer Markt Unter Lauben, befindet ſich jetzt Bräunerstraße Nr. 12.
+ONB_nfp_19110701_032.tif_line_1549944233980_105.gt.txt:Mariahilferstraße 103 (nächst „Hotel
+ONB_nfp_19110701_032.tif_tl_389.gt.txt:lingerstraße 21. 55029—9
+ONB_nfp_19110701_032.tif_line_1549939812813_53.gt.txt:straße 29. 68207—9
+ONB_nfp_19110701_032.tif_line_1549945269700_120.gt.txt:kunftei, 1. Bez., Bräunerstraße
+ONB_krz_19110701_012.jpg_line_1547535721438_4.gt.txt:straße 30. 3032
+ONB_nfp_18950706_002.tif_tl_76.gt.txt:tion in Schleſien und tritt für die Incamerirung der Bezirksstraße
+ONB_krz_19110701_013.jpg_tl_217.gt.txt:Hauptstraße 73. 14159
+ONB_aze_18950706_8.jpg_tl_141.gt.txt:3177 Hauptstraße Nr. 72.
+ONB_aze_18950706_8.jpg_tl_94.gt.txt:straße 59, an Wochentagen (mit Ausnahme Samstag) von 10 bis 4 Uhr, an
+ONB_aze_18950706_8.jpg_line_1545358491347_54.gt.txt:Druck von L. Bergmann & Comp., Wien, IX. Universitätsstraße 6—8.
+ONB_ibn_19110701_029.tif_tl_42.gt.txt:„Pietät“ Matthäus Winkler junior, Maria Thereſienstraße Nr. 22.
+ONB_ibn_19110701_018.tif_tl_228.gt.txt:Alois Flora, Andreas Hoferstraße 42; Haupt⸗
+ONB_ibn_19110701_019.tif_tl_64.gt.txt:tätsgeschäft, Anichstraße 6; J. Reithoffer’s Söhne,
+ONB_nfp_18950706_016.tif_line_1548062262183_80.gt.txt:Wien, I., Kärntnerstraße 5,
+ONB_nfp_18950706_016.tif_tl_293.gt.txt:Baden, Helenenstraße 112,
+ONB_nfp_18950706_016.tif_line_1548061426063_58.gt.txt:1. Bez., Helferstorferstraße Nr. 13, im
+ONB_nfp_18950706_016.tif_line_1548062089822_78.gt.txt:Wien, Mariahilferstraße 37,
+ONB_nfp_18950706_016.tif_line_1548062358716_85.gt.txt:I., Bellariastraße 4, Telephon 2473. 42267=1
+ONB_nfp_18950706_016.tif_line_1548056695003_29.gt.txt:Veit, Hauptstraße 158. 43803—5
+
+#### too many 
+grep -R 'sch'    AustrianNewspapers/gt/ | grep '.txt:'
+grep -Ri 'Gasse' AustrianNewspapers/gt/ | grep '.txt:'
+grep -R 'st'     AustrianNewspapers/gt/ | grep '.txt:'
+grep -R '[0-9]/[0-9]' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ | grep '.txt:'
+
+
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers$ grep -R '2c\.' /Users/helmut/github/ocr-gt/AustrianNewspapers/gt/ | grep '.txt:'
+ONB_ibn_18640702_010.tif_line_1545893004892_60.gt.txt:15,000, 12,000, 10,000 2c. binnen 4 Monate gewonnen werden müſſen,
+ONB_nfp_19110701_030.tif_tl_529.gt.txt:Gärtnerhaus 2c.. an der Elektriſchen,
+ONB_nfp_18950706_012.tif_line_1548393603175_9.gt.txt:Elektr. beleuchtet. Exquisites Buffet 2c. Telephon 2332. Wilh. Sesser, Cafétier.
+ONB_nfp_18950706_015.tif_tl_452.gt.txt:kaufmänniſches Rechnen, Kalligraphie 2c.,
+ONB_nfp_18950706_015.tif_tl_30.gt.txt:für zahlreiche Berg⸗ und Hochtouren (Dobratsch, Großglockner, Mangart 2c.). Cur⸗
+ONB_nfp_18730705_009.tif_line_1547607486597_20.gt.txt:Wein, Most 2c.
+ONB_nfp_18950706_014.tif_tl_145.gt.txt:2c., inclus. Fundus, Einrichtung ꝛc. um
+ONB_nfp_19110701_032.tif_line_1549945264203_119.gt.txt:genheitsnachweist 2c. Vertraulichste
+ONB_aze_18950706_8.jpg_tl_185.gt.txt:weine, Cognac, Lianeure, Thee, Rum 2c.2c.
+ONB_nfp_18730705_005.tif_tl_105.gt.txt:Rud. Wurzer, Bonn; den Doctoren Ure, Campbell, Thoveland 2c.,
+ONB_nfp_18950706_016.tif_line_1548062352481_84.gt.txt:Erbschaften 2c. Franz Förstl
+ONB_nfp_18950706_016.tif_tl_50.gt.txt:Mühle 2c.) verkauft, Caution 5000 fl. 44381⸗5
+ONB_nfp_19110701_029.tif_tl_520.gt.txt:Zweigniederlassung. Die arabiſchen Ziffern (1 2c.) bedeuten die
+ONB_aze_19110701_010.jpg_tl_227.gt.txt:comités 2c.) bis zum Wahltag innerhalb der Amtsſtunden
