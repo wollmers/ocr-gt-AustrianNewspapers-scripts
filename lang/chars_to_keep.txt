@@ -58,8 +58,105 @@ _	2
 '‡'  U+2021  8225   e2 80 a1    &Dagger;   DOUBLE DAGGER (Other_Punctuation)
 
 
+'☛'  U+261B  9755   e2 98 9b    &#x261b;   BLACK RIGHT POINTING INDEX (Other_Symbol)
+'☚'  U+261A  9754   e2 98 9a    &#x261a;   BLACK LEFT POINTING INDEX (Other_Symbol)
+
+'✤'  U+2724  10020  e2 9c a4    &#x2724;   HEAVY FOUR BALLOON-SPOKED ASTERISK (Other_Symbol)
+'■'  U+25A0  9632   e2 96 a0    &#x25a0;   BLACK SQUARE (Other_Symbol)
+
+'▲'  U+25B2  9650   e2 96 b2    &#x25b2;   BLACK UP-POINTING TRIANGLE (Other_Symbol)
+'△'  U+25B3  9651   e2 96 b3    &xutri;    WHITE UP-POINTING TRIANGLE (Other_Symbol)
+
+'◯'  U+25EF  9711   e2 97 af    &xcirc;    LARGE CIRCLE (Other_Symbol)
+'⬤'  U+2B24  11044  e2 ac a4    &#x2b24;   BLACK LARGE CIRCLE (Other_Symbol)
+'◻'  U+25FB  9723   e2 97 bb    &EmptySmallSquare; WHITE MEDIUM SQUARE (Math_Symbol)
+'◼'  U+25FC  9724   e2 97 bc    &FilledSmallSquare; BLACK MEDIUM SQUARE (Math_Symbol)
+
+'⏍'  U+23CD  9165   e2 8f 8d    &#x23cd;   SQUARE FOOT (Other_Symbol)
+
+'⬛' U+2B1B  11035  e2 ac 9b    &#x2b1b;   BLACK LARGE SQUARE (Other_Symbol)
+'⬜' U+2B1C  11036  e2 ac 9c    &#x2b1c;   WHITE LARGE SQUARE (Other_Symbol)
 
 
+'÷'  U+00F7  247    c3 b7       &div;      DIVISION SIGN (Math_Symbol)
+'∕'  U+2215  8725   e2 88 95    &#x2215;   DIVISION SLASH (Math_Symbol)
+'✕'  U+2715  10005  e2 9c 95    &#x2715;   MULTIPLICATION X (Other_Symbol)
+'－' U+FF0D  65293  ef bc 8d    &#xff0d;   FULLWIDTH HYPHEN-MINUS (Dash_Punctuation)
+'＋' U+FF0B  65291  ef bc 8b    &#xff0b;   FULLWIDTH PLUS SIGN (Math_Symbol)
+'＜' U+FF1C  65308  ef bc 9c    &#xff1c;   FULLWIDTH LESS-THAN SIGN (Math_Symbol)
+'＝' U+FF1D  65309  ef bc 9d    &#xff1d;   FULLWIDTH EQUALS SIGN (Math_Symbol)
+'＞' U+FF1E  65310  ef bc 9e    &#xff1e;   FULLWIDTH GREATER-THAN SIGN (Math_Symbol)
+'｜' U+FF5C  65372  ef bd 9c    &#xff5c;   FULLWIDTH VERTICAL LINE (Math_Symbol)
+'～' U+FF5E  65374  ef bd 9e    &#xff5e;   FULLWIDTH TILDE (Math_Symbol)
+'￢' U+FFE2  65506  ef bf a2    &#xffe2;   FULLWIDTH NOT SIGN (Math_Symbol)
+'≅'  U+2245  8773   e2 89 85    &cong;     APPROXIMATELY EQUAL TO (Math_Symbol)
+
+'═'  U+2550  9552   e2 95 90    &boxH;     BOX DRAWINGS DOUBLE HORIZONTAL (Other_Symbol)
+
+used now
+'’'  U+2019  8217   e2 80 99    &rsquo;    RIGHT SINGLE QUOTATION MARK (Final_Punctuation)
+'„'  U+201E  8222   e2 80 9e    &bdquo;    DOUBLE LOW-9 QUOTATION MARK (Open_Punctuation)
+'“'  U+201C  8220   e2 80 9c    &ldquo;    LEFT DOUBLE QUOTATION MARK (Initial_Punctuation)
+
+Fraktur
+'‘'  U+2018 LEFT SINGLE QUOTATION MARK (Initial_Punctuation)
+'’'  U+2019 RIGHT SINGLE QUOTATION MARK (Final_Punctuation)
+'‚'  U+201A SINGLE LOW-9 QUOTATION MARK (Open_Punctuation)
+'“'  U+201C LEFT DOUBLE QUOTATION MARK (Initial_Punctuation)
+'”'  U+201D RIGHT DOUBLE QUOTATION MARK (Final_Punctuation)
+'„'  U+201E DOUBLE LOW-9 QUOTATION MARK (Open_Punctuation)
+
+compare
+'('  U+0028  40     28          &lpar;     LEFT PARENTHESIS (Open_Punctuation)
+')'  U+0029  41     29          &rpar;     RIGHT PARENTHESIS (Close_Punctuation)
+
+helmut@Helmuts-MacBook-Pro:~/github/ocr-gt/AustrianNewspapers$ uni s quotation
+     cpoint  dec    utf-8       html       name
+'"'  U+0022  34     22          &quot;     QUOTATION MARK (Other_Punctuation)
+
+'«'  U+00AB  171    c2 ab       &laquo;    LEFT-POINTING DOUBLE ANGLE QUOTATION MARK (Initial_Punctuation)
+'»'  U+00BB  187    c2 bb       &raquo;    RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK (Final_Punctuation)
+
+'‘'  U+2018  8216   e2 80 98    &lsquo;    LEFT SINGLE QUOTATION MARK (Initial_Punctuation)
+'’'  U+2019  8217   e2 80 99    &rsquo;    RIGHT SINGLE QUOTATION MARK (Final_Punctuation)
+
+'‚'  U+201A  8218   e2 80 9a    &sbquo;    SINGLE LOW-9 QUOTATION MARK (Open_Punctuation)
+'‛'  U+201B  8219   e2 80 9b    &#x201b;   SINGLE HIGH-REVERSED-9 QUOTATION MARK (Initial_Punctuation)
+
+'“'  U+201C  8220   e2 80 9c    &ldquo;    LEFT DOUBLE QUOTATION MARK (Initial_Punctuation)
+'”'  U+201D  8221   e2 80 9d    &rdquo;    RIGHT DOUBLE QUOTATION MARK (Final_Punctuation)
+
+'„'  U+201E  8222   e2 80 9e    &bdquo;    DOUBLE LOW-9 QUOTATION MARK (Open_Punctuation)
+
+'‟'  U+201F  8223   e2 80 9f    &#x201f;   DOUBLE HIGH-REVERSED-9 QUOTATION MARK (Initial_Punctuation)
+
+'‹'  U+2039  8249   e2 80 b9    &lsaquo;   SINGLE LEFT-POINTING ANGLE QUOTATION MARK (Initial_Punctuation)
+'›'  U+203A  8250   e2 80 ba    &rsaquo;   SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (Final_Punctuation)
+
+'❛'  U+275B  10075  e2 9d 9b    &#x275b;   HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+'❜'  U+275C  10076  e2 9d 9c    &#x275c;   HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+
+'❝'  U+275D  10077  e2 9d 9d    &#x275d;   HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+'❞'  U+275E  10078  e2 9d 9e    &#x275e;   HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+
+'❟'  U+275F  10079  e2 9d 9f    &#x275f;   HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+'❠'  U+2760  10080  e2 9d a0    &#x2760;   HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+
+'❮'  U+276E  10094  e2 9d ae    &#x276e;   HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT (Open_Punctuation)
+'❯'  U+276F  10095  e2 9d af    &#x276f;   HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT (Close_Punctuation)
+
+'⹂'  U+2E42  11842  e2 b9 82    &#x2e42;   DOUBLE LOW-REVERSED-9 QUOTATION MARK (Open_Punctuation)
+'〝' U+301D  12317  e3 80 9d    &#x301d;   REVERSED DOUBLE PRIME QUOTATION MARK (Open_Punctuation)
+'〞' U+301E  12318  e3 80 9e    &#x301e;   DOUBLE PRIME QUOTATION MARK (Close_Punctuation)
+'〟' U+301F  12319  e3 80 9f    &#x301f;   LOW DOUBLE PRIME QUOTATION MARK (Close_Punctuation)
+'＂' U+FF02  65282  ef bc 82    &#xff02;   FULLWIDTH QUOTATION MARK (Other_Punctuation)
+'🙶'  U+1F676 128630 f0 9f 99 b6 &#x1f676;  SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+'🙷'  U+1F677 128631 f0 9f 99 b7 &#x1f677;  SANS-SERIF HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+'🙸'  U+1F678 128632 f0 9f 99 b8 &#x1f678;  SANS-SERIF HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT (Other_Symbol)
+'�'  U+E0022 917538 f3 a0 80 a2 &#xe0022;  TAG QUOTATION MARK (Format)
+
+# for phone extensions
+'ʃ'  U+0283  643    ca 83       &#x283;    LATIN SMALL LETTER ESH (Lowercase_Letter)
 
 à	147
 á	13

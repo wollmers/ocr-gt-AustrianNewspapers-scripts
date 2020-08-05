@@ -4,7 +4,9 @@ use strict;
 use warnings;
 use utf8;
 
-use 5.010;
+use 5.020; # regex_sets need 5.18
+
+no warnings "experimental::regex_sets";
 
 use Time::HiRes qw( time );
 #use Sys::Hostname;
@@ -12,7 +14,7 @@ use Time::HiRes qw( time );
 use Getopt::Long  '2.32';
 use Pod::Usage;
 
-#use XML::Twig;
+use XML::Twig;
 #use JSON::MaybeXS qw(JSON);
 
 use Unicode::Normalize;
@@ -22,7 +24,7 @@ use Data::Dumper;
 
 our $VERSION = '0.01';
 
-binmode(STDIN,":encoding(UTF-8)");
+binmode(STDIN, ":encoding(UTF-8)");
 binmode(STDOUT,":encoding(UTF-8)");
 binmode(STDERR,":encoding(UTF-8)");
 
@@ -78,11 +80,7 @@ our $stats = {
   'lines_different' => 0,
 };
 
-our $current_file = '';
-our $current_dir  = '';
-#our @files;
-my $file_count = 0;
-my $file_limit = 0;
+
 
 ### collect stats
 
@@ -103,6 +101,7 @@ my $alphabet_frequency     = {};
 my $char_bigram_frequency  = {};
 my $char_trigram_frequency = {};
 
+=pod
 #/Users/helmut/github/ocr-gt/AustrianNewspapers/gt/eval/  ONB_aze_18950706_4/ONB_aze_18950706_4.jpg_tl_1.gt.txt
 for my $dir (qw(line_train line_eval)) {
     $current_dir = $dir;
@@ -132,6 +131,46 @@ for my $dir (qw(line_train line_eval)) {
         }
     }
 }
+=cut
+
+################
+
+our $current_file = '';
+our $current_dir  = '';
+#our @files;
+my $file_count = 0;
+my $file_limit = 0;
+
+our $last_word = '';
+
+for my $dir (qw(page_train page_eval)) {
+  $current_dir = $dir;
+  my $dir_name = $config->{'page_dir'} . $config->{$dir};
+  opendir(my $dir_dh, "$dir_name") || die "Can't opendir $dir_name: $!";
+  my @files = grep { /^[^._]/ && /\.xml$/i && -f "$dir_name/$_" } readdir($dir_dh);
+  closedir $dir_dh;
+
+  for my $file (@files) {
+    $file_count++;
+    $page_count++;
+    last if ($file_limit && $file_count > $file_limit);
+
+    my $document = $file;
+    $document =~ s/_\d+\.xml$//; # remove page number
+    $documents->{$document}++;
+
+    $stats->{'pages_total'}++;
+
+    $current_file = $dir_name . '/' . $file;
+    print STDERR 'current XML-file: ', $current_file, "\n"
+    		if ($options->{'verbose'} >= 1);
+    parse($current_file);
+  }
+}
+
+#print_stats();
+
+############################
 
 
 ### collect stats
@@ -162,6 +201,7 @@ open(my $trigrams_fh, ">:encoding(UTF-8)", $trigrams_file)
 my $bigrams_unique   = scalar keys %{$char_bigram_frequency};
 my $trigrams_unique  = scalar keys %{$char_trigram_frequency};
 my $documents_unique = scalar keys %{$documents};
+my $words_unique     = scalar keys %{$word_frequency};
 
 ##### print stats
 print $stats_fh $0,' Version ',$VERSION,"\n";
@@ -176,6 +216,7 @@ print $stats_fh 'documents:       ',sprintf('%15s',$documents_unique),"\n";
 print $stats_fh 'pages:           ',sprintf('%15s',$page_count),"\n";
 print $stats_fh 'lines:           ',sprintf('%15s',$line_count),"\n";
 print $stats_fh 'words:           ',sprintf('%15s',$word_count),"\n";
+print $stats_fh 'words unique:    ',sprintf('%15s',$words_unique),"\n";
 print $stats_fh 'chars:           ',sprintf('%15s',$char_count),"\n";
 print $stats_fh 'graphemes:       ',sprintf('%15s',$grapheme_count),"\n";
 print $stats_fh 'bigrams:         ',sprintf('%15s',$bigram_count),"\n";
@@ -306,6 +347,119 @@ close $trigrams_fh;
 
 
 ############################
+sub parse {
+  my ($XMLFILE) = @_;
+
+  # /PcGts/Page/TextRegion
+  my $twig = XML::Twig->new(
+    #remove_cdata => 1,
+    TwigHandlers => {
+  	  '/PcGts/Page/TextRegion' => \&text_region,
+    }
+  );
+
+  eval { $twig->parsefile($XMLFILE); };
+
+  if ($@) {
+    print STDERR "XML PARSE ERROR: " . $@;
+    print STDERR 'file: ',$current_file, ' dir: ',$current_dir ,"\n";
+    #die "XML PARSE ERROR: " . $@;
+  }
+  return;
+}
+
+# <TextRegion type="paragraph" id="r_1_3" custom="readingOrder {index:2;}">
+sub text_region {
+  my ($twig, $TextRegion) = @_;
+
+  # /PcGts
+  # <Page imageFilename="ONB_ibn_18640702_006.tif"
+
+  my $Page_imageFilename = $TextRegion->parent()->att('imageFilename');
+  print STDERR '$Page_imageFilename: ',
+  	$Page_imageFilename,"\n" if ($options->{'verbose'} >= 2);
+
+  # <TextEquiv>
+  #   <Unicode>Provinz (inklusive Porto) 5 kr.
+  #     Abendblatt 5 kr.</Unicode>
+  my $TextEquiv = $TextRegion->first_child( 'TextEquiv');
+  if (!defined $TextEquiv) {
+    print STDERR 'ERROR $TextEquiv not defined: ', $Page_imageFilename,
+      ' TextRegion_id=',$TextRegion->att('id'),"\n";
+      return 0;
+  }
+  my $TE_unicode   = $TextEquiv->first_child('Unicode');
+  if (!defined $TE_unicode) {
+    print STDERR 'ERROR $TE_unicode not defined: ', $Page_imageFilename,
+      ' TextRegion_id=',$TextRegion->att('id'),"\n";
+      return 0;
+  }
+
+  my $TE_text      = $TE_unicode->text();
+  my @TE_text      = split("\n",$TE_text); # assumes Unix(LF) line endings
+
+  print STDERR '@TE_text: ', "\n  ",join("\n  ",@TE_text),"\n"
+  	if ($options->{'verbose'} >= 2);
+
+
+  # <TextLine id="tl_3" primaryLanguage="German" custom="readingOrder {index:0;}">
+  #   <TextEquiv>
+  #     <Unicode>Provinz (inklusive Porto) 5 kr.</Unicode>
+  my @TextLines = $TextRegion->children( 'TextLine');
+  print STDERR '@TextLines: ', Dumper(\@TextLines), "\n"
+  	if ($options->{'verbose'} >= 3);
+
+  if (scalar(@TE_text) != scalar(@TextLines)) {
+    print STDERR 'WARN: line count differs TextEquiv <=> TextLine(s)',
+      ' in file: ', $current_file, ' TextRegion id=', $TextRegion->att( 'id'),"\n"
+        if ($options->{'verbose'} >= 1);
+  }
+
+  # TODO: connect split words; needs sort by $readingOrder
+
+  my $ordered_lines = {};
+  for my $TextLine (@TextLines) {
+
+	my $TL_id   = $TextLine->att( 'id');
+  	my $custom  = $TextLine->att( 'custom');
+    	my $TL_text = $TextLine->first_child( 'TextEquiv')->first_child('Unicode')->text();
+    	print STDERR '$TL_id: ', $TL_id, ' $custom: ', $custom,
+    		"\n", ' $TL_text: ', $TL_text, "\n"
+     	if ($options->{'verbose'} >= 2);
+
+	$stats->{'lines_total'}++;
+
+	my $readingOrder;
+	if ($custom =~ m/readingOrder\s*\{\s*index\s*:\s*(\d+)\s*;\s*\}/) {
+   		$readingOrder = $1;
+    		print STDERR '$readingOrder: ', $readingOrder, "\n"
+    			if ($options->{'verbose'} >= 2);
+
+    		$ordered_lines->{$readingOrder}->{'TL_id'}   = $TL_id;
+    		$ordered_lines->{$readingOrder}->{'TL_text'} = $TL_text;
+   	}
+  }
+
+  $last_word = '';
+  for my $readingOrder (sort { $a <=>  $b } keys %$ordered_lines) {
+
+    my $TL_id   = $ordered_lines->{$readingOrder}->{'TL_id'};
+    my $TL_text = $ordered_lines->{$readingOrder}->{'TL_text'};
+
+	my $line_file = page2line_name($Page_imageFilename, $TL_id);
+
+	if (-f $line_file) {
+   		print STDERR '$line_file: ', $line_file, "\n" if ($options->{'verbose'} >= 2);
+
+      	parse_line($line_file);
+    }
+
+  }
+#$element->set_text( $text);
+#$element->set_att( currency => 'EUR');
+  return 1;
+}
+############################
 
 sub parse_line {
   my ($file) = @_;
@@ -314,48 +468,72 @@ sub parse_line {
 
   while (my $line = <$in>) {
       chomp $line;
-
       $line_count++;
-      #my @pieces = split(m/\s+/,$line);
-      #$pieces_count += scalar @pieces;
-
-      my $NFC_line = NFC($line);
-
-      my @graphemes = $NFC_line =~ m/(\X)/g;
-      for my $grapheme ( @graphemes) {
-          $grapheme_frequency->{$grapheme}++;
-          $grapheme_count++;
-      }
+      #my $NFC_line = NFC($line);
+      $line = NFC($line);
 
       for my $char ( split(//,$line) ) {
           $char_frequency->{$char}++;
           $char_count++;
       }
 
+      my @words = $line
+          =~ m/(
+          		 (?[ \p{Word} - \p{Digit} + ['`´’] ])
+                 (?[ \p{Word} - \p{Digit} + ['`´’=⸗‒—-] + [\.] ])+
+             )/xg;
 
-      for my $word ( split(/[^\w’'⸗-]+/,$line) ) {
-      #for my $word ( split(/\s+/,$line) ) {
+      if (@words && $last_word && ($last_word =~ m/[=⸗‒—-]$/) && $words[0]
+          && $words[0] !~ m/^(und|oder)/ ) {
+
+          my $temp = shift @words;
+          if ($temp =~ m/^[\p{Changes_When_Uppercased}]/) {
+              $last_word =~ s/[=⸗‒—-]$//;
+              my $new_word = $last_word . $temp;
+              unshift @words, $new_word;
+          }
+          else {
+              unshift @words, ($last_word . $temp);
+          }
+      }
+      elsif ($last_word) { unshift @words, $last_word; }
+      $last_word = '';
+      if ( @words && $words[$#words] =~ m/[=⸗‒—-]$/
+      		&& $words[$#words] =~ m/(?[ \p{Word} - \p{Digit} ])/xg
+      ) { $last_word = pop @words; }
+
+      for my $word ( @words ) {
+      # for my $word ( split(/[^\w’'⸗-]+/,$line) ) {
+      # for my $word ( split(/\s+/,$line) ) {
           $word_count++;
           $word_frequency->{$word}++;
-
           $length_frequency->{word_length($word)}++;
-
           $alphabet_frequency->{alphabet_size($word)}++;
-
           for my $bigram ( bigrams($word) ) {
               $char_bigram_frequency->{$bigram}++;
               $bigram_count++;
           }
-
           for my $trigram ( trigrams($word) ) {
               $char_trigram_frequency->{$trigram}++;
               $trigram_count++;
           }
       }
-
    }
-
    close $in;
+}
+
+sub page2line_name {
+  my ($Page_imageFilename, $TL_id) = @_;
+
+  my $page_name = $Page_imageFilename;
+  $page_name =~ s/\.(xml|pdf|txt|tif|tiff|jpg|jpeg|png)$//i;
+
+  my $sub_dir   = $current_dir;
+  $sub_dir      =~ s/page/line/; # page_(eval|train)
+  my $dir       = $config->{'line_dir'} . $config->{$sub_dir} . '/' . $page_name . '/';
+  my $line_file = $dir . $Page_imageFilename . '_' . $TL_id . '.gt.txt';
+
+  return $line_file;
 }
 
 
