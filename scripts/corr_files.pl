@@ -7,9 +7,10 @@ use utf8;
 use 5.010;
 
 use Time::HiRes qw( time );
+
 #use Sys::Hostname;
 
-use Getopt::Long  '2.32';
+use Getopt::Long '2.32';
 use Pod::Usage;
 
 #use XML::Twig;
@@ -25,31 +26,25 @@ use Data::Dumper;
 
 our $VERSION = '0.01';
 
-binmode(STDIN,":encoding(UTF-8)");
-binmode(STDOUT,":encoding(UTF-8)");
-binmode(STDERR,":encoding(UTF-8)");
+binmode(STDIN,  ":encoding(UTF-8)");
+binmode(STDOUT, ":encoding(UTF-8)");
+binmode(STDERR, ":encoding(UTF-8)");
 
 #######################
 
 our $options = {
-  'update'      => 0,
-  'help'        => 0,
-  'man'         => 0,
-  'quiet'       => 0,
-  'verbose'     => 1, # TODO
+    'update'  => 0,
+    'help'    => 0,
+    'man'     => 0,
+    'quiet'   => 0,
+    'verbose' => 1,    # TODO
 };
 
-GetOptions(
-  $options,
-  'update|u',
-  'help|h',
-  'man',
-  'quiet|q',
-  'verbose|v',
-)
-or pod2usage(2);
+GetOptions($options, 'update|u', 'help|h', 'man', 'quiet|q', 'verbose|v',)
+    or pod2usage(2);
 pod2usage(1) if $options->{'help'};
 pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
+
 # or die("Error in command line arguments\n");
 
 #######################
@@ -62,11 +57,13 @@ pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
 
 
 our $config = {
+
     #'gtdir'      => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
     #'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/',
-    'page_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+    'page_dir' => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'line_dir' => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+
+   #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
     'page_train' => 'TrainingSet_ONB_Newseye_GT_M1+',
     'page_eval'  => 'ValidationSet_ONB_Newseye_GT_M1+',
     'line_train' => 'gt/train',
@@ -74,8 +71,8 @@ our $config = {
     'lang_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/lang/',
     'corr_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/corr/',
 
-    'pdftoppm'  => '/usr/local/bin/pdftoppm',  # pdftoppm version 0.71.0
-    'tesseract' => '/usr/local/bin/tesseract', # tesseract 5.0.0-alpha
+    'pdftoppm'  => '/usr/local/bin/pdftoppm',     # pdftoppm version 0.71.0
+    'tesseract' => '/usr/local/bin/tesseract',    # tesseract 5.0.0-alpha
     'pdftotext' => '/usr/local/bin/pdftotext',
     'tessdata'  => '/usr/local/share/tessdata',
     'convert'   => '/usr/local/bin/convert',
@@ -83,29 +80,28 @@ our $config = {
 
 my $corr_file = $config->{'corr_dir'} . 'corr.txt';
 
-open(my $in,"<:encoding(UTF-8)",$corr_file) or die "cannot open $corr_file: $!";
+open(my $in, "<:encoding(UTF-8)", $corr_file) or die "cannot open $corr_file: $!";
 
 while (my $line = <$in>) {
-      chomp $line;
-      # ONB_nfp_19110701_006.tif_tl_14.gt.txt:
-      if ($line =~ m/^([^:]+):(.*)$/) {
-           my $outfile = $1;
-           my $text = $2;
+    chomp $line;
 
-           $outfile = $config->{'corr_dir'} . $outfile;
+    # ONB_nfp_19110701_006.tif_tl_14.gt.txt:
+    if ($line =~ m/^([^:]+):(.*)$/) {
+        my $outfile = $1;
+        my $text    = $2;
 
-           print STDERR 'write ', $outfile,,"\n" if ($options->{'verbose'} >= 2);
+        $outfile = $config->{'corr_dir'} . $outfile;
 
-           open(my $out,">:encoding(UTF-8)",$outfile) or die "cannot open $outfile: $!";
-           print $out $text,"\n";
-           close $out;
+        print STDERR 'write ', $outfile,, "\n" if ($options->{'verbose'} >= 2);
 
-      }
-}
+        open(my $out, ">:encoding(UTF-8)", $outfile) or die "cannot open $outfile: $!";
+        print $out $text, "\n";
+        close $out;
+
+    } ## end if ($line =~ m/^([^:]+):(.*)$/)
+} ## end while (my $line = <$in>)
 
 close $in;
-
-
 
 
 =pod

@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use utf8;
+
 #use utf8::all;
 
 use 5.010;
@@ -10,41 +11,36 @@ use 5.010;
 use Time::HiRes qw( time );
 use Sys::Hostname;
 
-use Getopt::Long  '2.32';
+use Getopt::Long '2.32';
 use Pod::Usage;
 
 use XML::Twig;
+
 #use JSON::MaybeXS qw(JSON);
 
 use Data::Dumper;
 
 our $VERSION = '0.01';
 
-binmode(STDIN, ":encoding(UTF-8)");
-binmode(STDOUT,":encoding(UTF-8)");
-binmode(STDERR,":encoding(UTF-8)");
+binmode(STDIN,  ":encoding(UTF-8)");
+binmode(STDOUT, ":encoding(UTF-8)");
+binmode(STDERR, ":encoding(UTF-8)");
 
 #######################
 
 our $options = {
-  'update'      => 0,
-  'help'        => 0,
-  'man'         => 0,
-  'quiet'       => 0,
-  'verbose'     => 0, # TODO
+    'update'  => 0,
+    'help'    => 0,
+    'man'     => 0,
+    'quiet'   => 0,
+    'verbose' => 0,    # TODO
 };
 
-GetOptions(
-  $options,
-  'update|u',
-  'help|h',
-  'man',
-  'quiet|q',
-  'verbose|v',
-)
-or pod2usage(2);
+GetOptions($options, 'update|u', 'help|h', 'man', 'quiet|q', 'verbose|v',)
+    or pod2usage(2);
 pod2usage(1) if $options->{'help'};
 pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
+
 # or die("Error in command line arguments\n");
 
 #######################
@@ -57,17 +53,18 @@ pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
 
 
 our $config = {
+
     #'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/',
 
     ### dir of github/[wollmers|UB-Mannheim]/AustrianNewspapers
     #'gtdir'      => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    'page_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'page_dir' => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'line_dir' => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
 
     ### dir for tests
-    #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
-    #'page_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
-    #'line_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+   #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+   #'page_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+   #'line_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
 
     ### subdirs
     'page_train' => 'TrainingSet_ONB_Newseye_GT_M1+',
@@ -78,13 +75,14 @@ our $config = {
 
 our $stats = {
     'pages_total'     => 0,
-    'pages_different' => {}, # ->{$pagename}++;
+    'pages_different' => {},    # ->{$pagename}++;
     'lines_total'     => 0,
     'lines_different' => 0,
 };
 
 our $current_file = '';
 our $current_dir  = '';
+
 #our @files;
 my $file_count = 0;
 my $file_limit = 0;
@@ -104,54 +102,54 @@ for my $dir (qw(page_train page_eval)) {
 
         $current_file = $dir_name . '/' . $file;
         print STDERR 'current XML-file: ', $current_file, "\n"
-    		    if ($options->{'verbose'} >= 1);
+            if ($options->{'verbose'} >= 1);
         parse($current_file);
-    }
-}
+    } ## end for my $file (@files)
+} ## end for my $dir (qw(page_train page_eval))
 
 print_stats();
 
 ############################
 
 sub print_stats {
+
     #my ($stats) = @_;
 
     print STDERR 'Pages total:     ', $stats->{'pages_total'}, "\n";
     print STDERR 'Pages different: ', scalar(keys %{$stats->{'pages_different'}}), "\n";
-    print STDERR 'Lines total:     ', $stats->{'lines_total'}, "\n";
+    print STDERR 'Lines total:     ', $stats->{'lines_total'},     "\n";
     print STDERR 'Lines different: ', $stats->{'lines_different'}, "\n";
 
-}
+} ## end sub print_stats
 
 sub parse {
     my ($XMLFILE) = @_;
 
     # /PcGts/Page/TextRegion
     my $twig = XML::Twig->new(
-        pretty_print => 'indented',
+        pretty_print    => 'indented',
         keep_atts_order => 1,
         output_encoding => 'UTF-8',
+
         #remove_cdata => 1,
-        TwigHandlers => {
-  	        '/PcGts/Page' => \&page,
-        },
+        TwigHandlers => {'/PcGts/Page' => \&page,},
     );
 
-    eval { $twig->parsefile_inplace( $XMLFILE, '.bak' ); };
+    eval { $twig->parsefile_inplace($XMLFILE, '.bak'); };
 
     if ($@) {
         print STDERR "XML PARSE ERROR: " . $@;
-        print STDERR 'file: ',$current_file, ' dir: ',$current_dir ,"\n";
+        print STDERR 'file: ', $current_file, ' dir: ', $current_dir, "\n";
+
         #die "XML PARSE ERROR: " . $@;
     }
 
-    open(my $xml_out,">:encoding(UTF-8)",$XMLFILE)
-            or die "cannot open $XMLFILE: $!";
-    $twig->flush( $xml_out);
-    close( $xml_out );
+    open(my $xml_out, ">:encoding(UTF-8)", $XMLFILE) or die "cannot open $XMLFILE: $!";
+    $twig->flush($xml_out);
+    close($xml_out);
 
     return;
-}
+} ## end sub parse
 
 # <TextRegion type="paragraph" id="r_1_3" custom="readingOrder {index:2;}">
 #sub text_region {
@@ -161,122 +159,127 @@ sub page {
     # /PcGts
     # <Page imageFilename="ONB_ibn_18640702_006.tif"
     my $Page_imageFilename = $Page->att('imageFilename');
-    print STDERR '$Page_imageFilename: ',
-  	    $Page_imageFilename,"\n" if ($options->{'verbose'} >= 2);
+    print STDERR '$Page_imageFilename: ', $Page_imageFilename, "\n"
+        if ($options->{'verbose'} >= 2);
 
-    my @TextRegions = $Page->children( 'TextRegion');
+    my @TextRegions = $Page->children('TextRegion');
 
 TR: for my $TextRegion (@TextRegions) {
 
-  # <TextEquiv>
-  #   <Unicode>Provinz (inklusive Porto) 5 kr.
-  #     Abendblatt 5 kr.</Unicode>
-  my $TextEquiv = $TextRegion->first_child( 'TextEquiv');
+        # <TextEquiv>
+        #   <Unicode>Provinz (inklusive Porto) 5 kr.
+        #     Abendblatt 5 kr.</Unicode>
+        my $TextEquiv = $TextRegion->first_child('TextEquiv');
 
-  if (!defined $TextEquiv) {
-    print STDERR 'WARN $TextEquiv not defined, skipped: ', $Page_imageFilename,
-      ' TextRegion_id=',$TextRegion->att('id'),"\n";
-      #return 0;
-      next TR;
-  }
-  my $TextEquiv_unicode = $TextEquiv->first_child('Unicode');
-  if (!defined $TextEquiv_unicode) {
-    print STDERR 'WARN $TextEquiv_unicode not defined, skipped: ', $Page_imageFilename,
-      ' TextRegion_id=',$TextRegion->att('id'),"\n";
-      #return 0;
-      next TR;
-  }
-  my $TextEquiv_text    = $TextEquiv_unicode->text();
-  my @TextEquiv_text    = split("\n",$TextEquiv_text); # assumes Unix(LF) line endings
+        if (!defined $TextEquiv) {
+            print STDERR 'WARN $TextEquiv not defined, skipped: ', $Page_imageFilename,
+                ' TextRegion_id=', $TextRegion->att('id'), "\n";
 
-  print STDERR '@TE_text: ', "\n  ",join("\n  ",@TextEquiv_text),"\n"
-  	if ($options->{'verbose'} >= 2);
+            #return 0;
+            next TR;
+        }
+        my $TextEquiv_unicode = $TextEquiv->first_child('Unicode');
+        if (!defined $TextEquiv_unicode) {
+            print STDERR 'WARN $TextEquiv_unicode not defined, skipped: ',
+                $Page_imageFilename, ' TextRegion_id=', $TextRegion->att('id'), "\n";
+
+            #return 0;
+            next TR;
+        }
+        my $TextEquiv_text = $TextEquiv_unicode->text();
+        my @TextEquiv_text = split("\n", $TextEquiv_text);    # assumes Unix(LF) line endings
+
+        print STDERR '@TE_text: ', "\n  ", join("\n  ", @TextEquiv_text), "\n"
+            if ($options->{'verbose'} >= 2);
 
 
-  # <TextLine id="tl_3" primaryLanguage="German" custom="readingOrder {index:0;}">
-  #   <TextEquiv>
-  #     <Unicode>Provinz (inklusive Porto) 5 kr.</Unicode>
-  my @TextLines = $TextRegion->children( 'TextLine');
-  print STDERR '@TextLines: ', Dumper(\@TextLines), "\n"
-  	if ($options->{'verbose'} >= 3);
+        # <TextLine id="tl_3" primaryLanguage="German" custom="readingOrder {index:0;}">
+        #   <TextEquiv>
+        #     <Unicode>Provinz (inklusive Porto) 5 kr.</Unicode>
+        my @TextLines = $TextRegion->children('TextLine');
+        print STDERR '@TextLines: ', Dumper(\@TextLines), "\n"
+            if ($options->{'verbose'} >= 3);
 
-  if (scalar(@TextEquiv_text) != scalar(@TextLines)) {
-    print STDERR 'WARN: line count differs TextEquiv <=> TextLine(s)',
-      ' in file: ', $current_file, ' TextRegion id=', $TextRegion->att( 'id'),"\n"
-        if ($options->{'verbose'} >= 1);
-  }
-
-  my $textlines = {}; # collect textlines from line_files
-
-  for my $TextLine (@TextLines) {
-
-	my $TL_id      = $TextLine->att( 'id');
-  	my $custom     = $TextLine->att( 'custom');
-  	my $TL_unicode = $TextLine->first_child( 'TextEquiv')->first_child('Unicode');
-    	my $TL_text    = $TL_unicode->text();
-
-    	print STDERR '$TL_id: ', $TL_id, ' $custom: ', $custom,
-    		"\n", ' $TL_text: ', $TL_text, "\n"
-     	if ($options->{'verbose'} >= 2);
-
-	$stats->{'lines_total'}++;
-
-	my $readingOrder;
-	if ($custom =~ m/readingOrder\s*\{\s*index\s*:\s*(\d+)\s*;\s*\}/) {
-   		$readingOrder = $1;
-    		print STDERR '$readingOrder: ', $readingOrder, "\n"
-    			if ($options->{'verbose'} >= 2);
-   	}
-
-    if (defined($readingOrder) && defined($TextEquiv_text[$readingOrder])
-            && $TL_text ne $TextEquiv_text[$readingOrder]) {
-          print STDERR 'DIFF line text different: ',
-              "\n", ' $TL_text: ', $TL_text,
-              "\n", ' $TextEquiv_text: ', $TextEquiv_text[$readingOrder], "\n"
+        if (scalar(@TextEquiv_text) != scalar(@TextLines)) {
+            print STDERR 'WARN: line count differs TextEquiv <=> TextLine(s)',
+                ' in file: ', $current_file, ' TextRegion id=', $TextRegion->att('id'),
+                "\n"
                 if ($options->{'verbose'} >= 1);
-    }
-	my $line_file = page2line_name($Page_imageFilename, $TL_id);
+        }
 
-	if (-f $line_file) {
-   		print STDERR '$line_file: ', $line_file, "\n" if ($options->{'verbose'} >= 2);
+        my $textlines = {};    # collect textlines from line_files
 
-      	open(my $line_fh,"<:encoding(UTF-8)",$line_file)
-            or die "cannot open $line_file: $!";
+        for my $TextLine (@TextLines) {
 
-     	LINE: while (my $line = <$line_fh>) {
-        		chomp $line;
-        		$textlines->{$readingOrder} = $line;
+            my $TL_id      = $TextLine->att('id');
+            my $custom     = $TextLine->att('custom');
+            my $TL_unicode = $TextLine->first_child('TextEquiv')->first_child('Unicode');
+            my $TL_text    = $TL_unicode->text();
 
-            if ($line ne $TL_text) {
+            print STDERR '$TL_id: ', $TL_id, ' $custom: ', $custom, "\n", ' $TL_text: ',
+                $TL_text, "\n"
+                if ($options->{'verbose'} >= 2);
 
-              $TL_unicode->set_text( $line );
+            $stats->{'lines_total'}++;
 
-              print STDERR 'DIFF line text different: ',
-                $Page_imageFilename,' TL_id=', $TL_id,
-                "\n", ' TL_text:   ', $TL_text,
-                "\n", ' line file: ', $line, "\n"
-                    if ($options->{'verbose'} >= 1);
-
-                $stats->{'pages_different'}->{$Page_imageFilename}++;
-                $stats->{'lines_different'}++;
-              last LINE;
+            my $readingOrder;
+            if ($custom =~ m/readingOrder\s*\{\s*index\s*:\s*(\d+)\s*;\s*\}/) {
+                $readingOrder = $1;
+                print STDERR '$readingOrder: ', $readingOrder, "\n"
+                    if ($options->{'verbose'} >= 2);
             }
-     	}
-    		close $line_fh;
-    }
-    my @new_lines = ();
-    for my $textline (sort { $a <=> $b }keys %$textlines) {
-      push @new_lines, $textlines->{$textline};
-    }
-    my $new_lines_text = join("\n",@new_lines);
-    $new_lines_text //= '';
-    $TextEquiv_unicode->set_text( $new_lines_text );
-  }
-}
-  #$Page->print;
-  #$Page->purge;
-  return 1;
-}
+
+            if (   defined($readingOrder)
+                && defined($TextEquiv_text[$readingOrder])
+                && $TL_text ne $TextEquiv_text[$readingOrder])
+            {
+                print STDERR 'DIFF line text different: ', "\n", ' $TL_text: ', $TL_text,
+                    "\n", ' $TextEquiv_text: ', $TextEquiv_text[$readingOrder], "\n"
+                    if ($options->{'verbose'} >= 1);
+            }
+            my $line_file = page2line_name($Page_imageFilename, $TL_id);
+
+            if (-f $line_file) {
+                print STDERR '$line_file: ', $line_file, "\n"
+                    if ($options->{'verbose'} >= 2);
+
+                open(my $line_fh, "<:encoding(UTF-8)", $line_file)
+                    or die "cannot open $line_file: $!";
+
+            LINE: while (my $line = <$line_fh>) {
+                    chomp $line;
+                    $textlines->{$readingOrder} = $line;
+
+                    if ($line ne $TL_text) {
+
+                        $TL_unicode->set_text($line);
+
+                        print STDERR 'DIFF line text different: ', $Page_imageFilename,
+                            ' TL_id=', $TL_id, "\n", ' TL_text:   ', $TL_text, "\n",
+                            ' line file: ', $line, "\n"
+                            if ($options->{'verbose'} >= 1);
+
+                        $stats->{'pages_different'}->{$Page_imageFilename}++;
+                        $stats->{'lines_different'}++;
+                        last LINE;
+                    } ## end if ($line ne $TL_text)
+                } ## end LINE: while (my $line = <$line_fh>)
+                close $line_fh;
+            } ## end if (-f $line_file)
+            my @new_lines = ();
+            for my $textline (sort { $a <=> $b } keys %$textlines) {
+                push @new_lines, $textlines->{$textline};
+            }
+            my $new_lines_text = join("\n", @new_lines);
+            $new_lines_text //= '';
+            $TextEquiv_unicode->set_text($new_lines_text);
+        } ## end for my $TextLine (@TextLines)
+    } ## end TR: for my $TextRegion (@TextRegions)
+
+    #$Page->print;
+    #$Page->purge;
+    return 1;
+} ## end sub page
 
 # ONB_aze_18950706_1.xml
 # $page_name =~ s/\.(xml|pdf|txt|tif|tiff|jpg|jpeg|png)$//i;
@@ -298,13 +301,13 @@ sub page2line_name {
     my $page_name = $Page_imageFilename;
     $page_name =~ s/\.(xml|pdf|txt|tif|tiff|jpg|jpeg|png)$//i;
 
-    my $sub_dir   = $current_dir;
-    $sub_dir      =~ s/page/line/; # page_(eval|train)
+    my $sub_dir = $current_dir;
+    $sub_dir =~ s/page/line/;    # page_(eval|train)
     my $dir       = $config->{'line_dir'} . $config->{$sub_dir} . '/' . $page_name . '/';
     my $line_file = $dir . $Page_imageFilename . '_' . $TL_id . '.gt.txt';
 
     return $line_file;
-}
+} ## end sub page2line_name
 
 __END__
 

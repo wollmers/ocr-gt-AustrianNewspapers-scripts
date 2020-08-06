@@ -7,9 +7,10 @@ use utf8;
 use 5.010;
 
 use Time::HiRes qw( time );
+
 #use Sys::Hostname;
 
-use Getopt::Long  '2.32';
+use Getopt::Long '2.32';
 use Pod::Usage;
 
 use File::Copy qw(move);
@@ -18,31 +19,25 @@ use File::Copy qw(move);
 
 our $VERSION = '0.01';
 
-binmode(STDIN,":encoding(UTF-8)");
-binmode(STDOUT,":encoding(UTF-8)");
-binmode(STDERR,":encoding(UTF-8)");
+binmode(STDIN,  ":encoding(UTF-8)");
+binmode(STDOUT, ":encoding(UTF-8)");
+binmode(STDERR, ":encoding(UTF-8)");
 
 #######################
 
 our $options = {
-  'update'      => 0,
-  'help'        => 0,
-  'man'         => 0,
-  'quiet'       => 0,
-  'verbose'     => 1, # TODO
+    'update'  => 0,
+    'help'    => 0,
+    'man'     => 0,
+    'quiet'   => 0,
+    'verbose' => 1,    # TODO
 };
 
-GetOptions(
-  $options,
-  'update|u',
-  'help|h',
-  'man',
-  'quiet|q',
-  'verbose|v',
-)
-or pod2usage(2);
+GetOptions($options, 'update|u', 'help|h', 'man', 'quiet|q', 'verbose|v',)
+    or pod2usage(2);
 pod2usage(1) if $options->{'help'};
 pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
+
 # or die("Error in command line arguments\n");
 
 #######################
@@ -55,11 +50,13 @@ pod2usage(-exitval => 0, -verbose => 2) if $options->{'man'};
 
 
 our $config = {
+
     #'gtdir'      => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
     #'page_dir'   => '/Users/helmut/github/ocr-gt/ONB_newseye/',
-    'page_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    'line_dir'   => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
-    #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
+    'page_dir' => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+    'line_dir' => '/Users/helmut/github/ocr-gt/AustrianNewspapers/',
+
+   #'gtdir'      => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/data/',
     'page_train' => 'TrainingSet_ONB_Newseye_GT_M1+',
     'page_eval'  => 'ValidationSet_ONB_Newseye_GT_M1+',
     'line_train' => 'gt/train',
@@ -67,23 +64,24 @@ our $config = {
     'lang_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/lang/',
     'corr_dir'   => '/Users/helmut/github/ocr-hw/ocr-gt-AustrianNewspapers-scripts/corr/',
 
-    'pdftoppm'  => '/usr/local/bin/pdftoppm',  # pdftoppm version 0.71.0
-    'tesseract' => '/usr/local/bin/tesseract', # tesseract 5.0.0-alpha
+    'pdftoppm'  => '/usr/local/bin/pdftoppm',     # pdftoppm version 0.71.0
+    'tesseract' => '/usr/local/bin/tesseract',    # tesseract 5.0.0-alpha
     'pdftotext' => '/usr/local/bin/pdftotext',
     'tessdata'  => '/usr/local/share/tessdata',
     'convert'   => '/usr/local/bin/convert',
 };
 
 our $stats = {
-  'pages_total'     => 0,
-  'pages_different' => {}, # ->{$pagename}++;
-  'lines_total'     => 0,
-  'lines_different' => 0,
+    'pages_total'     => 0,
+    'pages_different' => {},                      # ->{$pagename}++;
+    'lines_total'     => 0,
+    'lines_different' => 0,
 };
 
 our $target_page  = 'ONB_nfp_19110701_028';
 our $current_file = '';
 our $current_dir  = '';
+
 #our @files;
 my $file_count = 0;
 my $file_skip  = 0;
@@ -103,26 +101,28 @@ for my $dir (qw(line_train line_eval)) {
     closedir $dir_dh;
 
     # ONB_aze_18950706_4
-    SUBDIR: for my $subdir (@subdirs) {
+SUBDIR: for my $subdir (@subdirs) {
         next SUBDIR unless ($target_page eq $subdir);
         my $document = $subdir;
-        $document =~ s/_\d+$//; # remove page number
+        $document =~ s/_\d+$//;    # remove page number
         my $subdir_name = $config->{'line_dir'} . $config->{$dir} . '/' . $subdir;
         opendir(my $subdir_dh, "$subdir_name") || die "Can't opendir $subdir_name: $!";
-        my @files = grep { /^[^._]/ && /\.txt$/i && -f "$subdir_name/$_" } readdir($subdir_dh);
+        my @files
+            = grep { /^[^._]/ && /\.txt$/i && -f "$subdir_name/$_" } readdir($subdir_dh);
         closedir $subdir_dh;
 
-        FILE: for my $file (@files) {
+    FILE: for my $file (@files) {
             $file_count++;
             last if ($file_limit && $file_count > $file_limit);
             next FILE if ($file_skip >= $file_count);
 
             $current_file = $subdir_name . '/' . $file;
-            print STDERR 'current TXT-file: ', $current_file, "\n" if ($options->{'verbose'} >= 3);
+            print STDERR 'current TXT-file: ', $current_file, "\n"
+                if ($options->{'verbose'} >= 3);
             parse_line($current_file);
-        }
-    }
-}
+        } ## end FILE: for my $file (@files)
+    } ## end SUBDIR: for my $subdir (@subdirs)
+} ## end for my $dir (qw(line_train line_eval))
 
 print STDERR '$matched_count: ', $matched_count, "\n" if ($options->{'verbose'} >= 3);
 
@@ -130,47 +130,47 @@ print STDERR '$matched_count: ', $matched_count, "\n" if ($options->{'verbose'} 
 ############################
 
 sub parse_line {
-  my ($file) = @_;
+    my ($file) = @_;
 
-  #my $pattern = qr/^s/;
-  #my $pattern = qr/ s/;
-  #my $pattern = qr/st/;
-  #my $pattern = qr/s[pks]/;
-  #my $pattern = qr/rc\./;
-  #my $pattern = qr/m2/;
-  #my $pattern = qr/[=-]/;
+    #my $pattern = qr/^s/;
+    #my $pattern = qr/ s/;
+    #my $pattern = qr/st/;
+    #my $pattern = qr/s[pks]/;
+    #my $pattern = qr/rc\./;
+    #my $pattern = qr/m2/;
+    #my $pattern = qr/[=-]/;
 
-  open(my $in,"<:encoding(UTF-8)",$file) or die "cannot open $file: $!";
+    open(my $in, "<:encoding(UTF-8)", $file) or die "cannot open $file: $!";
 
-  my $line = <$in>;
-  chomp $line;
+    my $line = <$in>;
+    chomp $line;
 
-  close($in);
+    close($in);
 
-  if ($line =~ m/^([1]?[0-9])([0-5][0-9])$/) {
-      $matched_count++;
+    if ($line =~ m/^([1]?[0-9])([0-5][0-9])$/) {
+        $matched_count++;
 
-      my $hour    = $1;
-      my $minutes = $2;
-      $minutes    =~ tr/0123456789/⁰¹²³⁴⁵⁶⁷⁸⁹/;
+        my $hour    = $1;
+        my $minutes = $2;
+        $minutes =~ tr/0123456789/⁰¹²³⁴⁵⁶⁷⁸⁹/;
 
-      my $newline = $hour . $minutes;
+        my $newline = $hour . $minutes;
 
-      print STDERR 'matches: ', $file,
-              "\n", '$matched_count: [',$matched_count,'/',$file_count, '] $line: ',
-              	$line,' => ', $newline,"\n" if ($options->{'verbose'} >= 1);
+        print STDERR 'matches: ', $file, "\n", '$matched_count: [', $matched_count, '/',
+            $file_count, '] $line: ', $line, ' => ', $newline, "\n"
+            if ($options->{'verbose'} >= 1);
 
-      if (1) {
-      		my $bakfile = $file . '.bak';
-      		move $file,$bakfile;
+        if (1) {
+            my $bakfile = $file . '.bak';
+            move $file, $bakfile;
 
-      		open(my $out,">:encoding(UTF-8)",$file) or die "cannot open $file: $!";
+            open(my $out, ">:encoding(UTF-8)", $file) or die "cannot open $file: $!";
 
-      		print $out $newline;
-      		close($out);
-      }
-  }
-}
+            print $out $newline;
+            close($out);
+        }
+    } ## end if ($line =~ m/^([1]?[0-9])([0-5][0-9])$/)
+} ## end sub parse_line
 
 =pod
 
